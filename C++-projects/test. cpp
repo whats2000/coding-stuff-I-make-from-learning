@@ -1,0 +1,14 @@
+#include <iostream>
+#include <math.h>
+#include <string>
+#include <iomanip>
+#include <algorithm>
+#include <vector>
+#include <cassert>
+#define DegToRad pi / 180
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+	
+}
