@@ -1,0 +1,8 @@
+﻿  Source.cpp
+C:\Users\user\source\repos\計算機程式\計算機程式\Source.cpp(54,9): warning C4101: 'intput': 未參考的區域變數
+C:\Users\user\source\repos\計算機程式\計算機程式\Source.cpp(115,20): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\user\source\repos\計算機程式\計算機程式\Source.cpp(305,29): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\user\source\repos\計算機程式\計算機程式\Source.cpp(306,35): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\user\source\repos\計算機程式\計算機程式\Source.cpp(323,44): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\user\source\repos\計算機程式\計算機程式\Source.cpp(323,34): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  計算機程式.vcxproj -> C:\Users\user\source\repos\計算機程式\x64\Debug\計算機程式.exe
