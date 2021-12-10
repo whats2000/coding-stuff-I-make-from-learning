@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 // 輸入驗證器
-int verfy_num(char dec[40], int min, int max) {
+int verify_num(char dec[40], int min, int max) {
  int num = 0; /* num = 要的返回數字 */
  int check = 0; /* check = 驗證器檢驗 */
 
@@ -35,12 +35,12 @@ int main()
  int height = 0, width = 0; /* height = 高度, width = 寬度 */
  int i = 0, j = 0, k = 0; /* for迴圈便量 兼容舊版c99前編譯器用 */
 
- option = verfy_num("Input mode. Mode 0 = rectangle; Mode 1 = triangle; Input", 0, 1); /* 輸入模式，僅限0 or 1 */
+ option = verify_num("Input mode. Mode 0 = rectangle; Mode 1 = triangle; Input", 0, 1); /* 輸入模式，僅限0 or 1 */
 
  switch (option) {
  case 0:
-  height = verfy_num("Input rectangle height", 0, -1); /* 輸入高度，限制大於0，上限不限 (設為比min小int) */
-  width = verfy_num("Input rectangle width", 0, -1); /* 輸入寬度，限制大於0，上限不限 (設為比min小int) */
+  height = verify_num("Input rectangle height", 0, -1); /* 輸入高度，限制大於0，上限不限 (設為比min小int) */
+  width = verify_num("Input rectangle width", 0, -1); /* 輸入寬度，限制大於0，上限不限 (設為比min小int) */
 
   for (i = 1; i <= height; i++) { /* 高度迴圈從 (高度 = 1) 到 (高度 = height) */
    for (j = 1; j <= width; j++) { /* 寬度迴圈從 (寬度 = 1) 到 (寬度 = width) */
@@ -53,7 +53,7 @@ int main()
   break;
 
  case 1:
-  height = verfy_num("Input triangle height", 0, -1); /* 輸入高度，限制大於0，上限不限 (設為比min小int) */
+  height = verify_num("Input triangle height", 0, -1); /* 輸入高度，限制大於0，上限不限 (設為比min小int) */
 
   for (i = 1; i <= height; i++) { /* 一層一層做 從 (層數 = 第一層) 到 (層數 = 高度) */
    //第 i 層空格共需要 (height - i) 個
