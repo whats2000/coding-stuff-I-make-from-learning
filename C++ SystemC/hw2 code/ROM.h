@@ -18,7 +18,7 @@ SC_MODULE( ROM ) {
 	SC_CTOR( ROM )
 	{
 		// vvvvv change the path of input file here vvvvv
-		fin.open( "C:\\Users\\eddie\\Desktop\\B104020009_HW2\\B104020009_HW2\\code\\input.txt", ios::in );
+		fin.open( "input.txt", ios::in );
 		for ( int i = 0 ; i < 110 ; i++ )
 			fin >> rom_M[i];
 			
