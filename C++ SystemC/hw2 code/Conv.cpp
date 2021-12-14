@@ -14,11 +14,11 @@ void Conv::run() {
   for (int i = 0; i < 9; i++)
    kernel[i] = 0;
 
-  for (int i = 0; i < 100; i++)
+  for (int i = 0; i < 30; i++)
    data[i] = 0;
  }
  else {
-  // 0 ~ 10 週期緩存 kernel 及 bias
+  // 0 ~ 10 cycles store data of kernel and located the address of bias
   if (clock_cycle >= 0 && clock_cycle <= 9) {
    if (clock_cycle <= 8)
     rom_addr.write(101 + clock_cycle);
@@ -28,38 +28,38 @@ void Conv::run() {
    if (clock_cycle <= 9)
     kernel[clock_cycle - 1] = data_in.read();
   }
-  // 11 ~ 111 週期讀取圖片資料
+  // 10 ~ 110 cycles read data from rom ,calculate and output
   else if (clock_cycle >= 10 && clock_cycle <= 110) {
-   // 10~108 週期請求讀取記憶體
+   // 10~108 cycles located the address of data
    if (clock_cycle <= 108)
     rom_addr.write(clock_cycle - 9);
    else
     rom_rd.write(false);
 
-   // 10 週期緩存 bais
+   // 10 cycle store bais
    if (clock_cycle == 10)
     bias = data_in.read();
    else
-    data[clock_cycle - 11] = data_in.read();
+    data[(clock_cycle - 11) % 30] = data_in.read();
    
-   // 33~110 週期運算並輸出
+   // 33~110 cycles read data from ram and calculate
    if (clock_cycle >= 33 && clock_cycle <= 110) {
     temp_sum = 0;
 
-    // 只做8次矩陣運算
+    // To only read the data 8 times
     if ((clock_cycle - 33) % 10 <= 7) {
      data_out_signal.write(true);
 
-     // 矩陣運算
+     // Calculate the vector
      for (int j = 0; j < 3; j++)
       for (int i = 0; i < 3; i++) 
-       temp_sum += data[clock_cycle - 33 + i + 10 * j] * kernel[i + 3 * j];
+       temp_sum += data[(clock_cycle - 33 + i + 10 * j) % 30] * kernel[i + 3 * j];
 
-     temp_sum += bias; /* 加上偏移值 */
+     temp_sum += bias;/* Add bias */
 
-     temp_sum >= 0 ? temp_sum : temp_sum = 0; /* ReLU函數 */
+     temp_sum >= 0 ? temp_sum : temp_sum = 0; /* ReLU function  */
 
-     data_out.write(temp_sum); /* 輸出 */
+     data_out.write(temp_sum); /* output */
     }
     else 
      data_out_signal.write(false);
