@@ -20,7 +20,7 @@ SC_MODULE(Conv) {
  float bias = 0.0;
  float kernel[9] = {};
 
- float data[30]; /* Only store the data which need to calculate */
+ float data[30] = {}; /* Only store the data which need to calculate */
  float temp_sum = 0.0; 
  // ^^^^^ put your code here ^^^^^
 
