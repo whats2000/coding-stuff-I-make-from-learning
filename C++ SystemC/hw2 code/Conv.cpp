@@ -18,7 +18,7 @@ void Conv::run() {
    data[i] = 0;
  }
  else {
-  // 0 ~ 10 cycles store data of kernel and located the address of bias
+  // 0 ~ 9 cycles store data of kernel and located the address of bias
   if (clock_cycle >= 0 && clock_cycle <= 9) {
    if (clock_cycle <= 8)
     rom_addr.write(101 + clock_cycle);
