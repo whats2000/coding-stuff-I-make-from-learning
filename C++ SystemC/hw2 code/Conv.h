@@ -17,11 +17,13 @@ SC_MODULE(Conv) {
 
  // vvvvv put your code here vvvvv
  int clock_cycle = 0;
+ 
  float bias = 0.0;
- float kernel[9] = {};
-
- float data[30] = {}; /* Only store the data which need to calculate */
  float temp_sum = 0.0; 
+ 
+ float kernel[9] = {};
+ float data[30] = {}; /* Only store the data which need to calculate */
+ 
  // ^^^^^ put your code here ^^^^^
 
  SC_CTOR(Conv)
