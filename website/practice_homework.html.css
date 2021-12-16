@@ -1,0 +1,497 @@
+/*CSS reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline: 0;
+ font-size: 100%;
+ vertical-align: baseline;
+ background: transparent;
+}
+
+body {
+ line-height: 1;
+}
+
+ol, ul {
+ list-style: none;
+}
+
+blockquote, q {
+ quotes: none;
+}
+
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+  content: '';
+  content: none;
+ }
+
+/* remember to define focus styles! */
+:focus {
+ outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+ text-decoration: none;
+}
+
+del {
+ text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+/*main css module*/
+
+h1 {
+ font-size: 2em;
+ text-align: center;
+ padding: 10px 0px 10px 0px;
+}
+
+h2 {
+ font-size: 1.5em;
+}
+
+h3 {
+ font-size: 1.5em;
+ margin: 15px 0px 15px 0px;
+}
+
+p {
+ line-height: 20px;
+}
+
+.row {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.col {
+ flex-grow: 1;
+ margin: 1px;
+ text-align: center;
+}
+
+.tooltip {
+ position: relative;
+ display: inline-block;
+ border-bottom: 1px dotted #F1F1F1;
+}
+
+ .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #045e91;
+  color: #F1F1F1;
+  text-align: center;
+  border-radius: 6px;
+  border: solid 1px #045e91;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 250%;
+  left: 50%;
+  margin-left: -60px;
+ }
+
+  .tooltip .tooltiptext::after {
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   margin-left: -5px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: #045e91 transparent transparent transparent;
+  }
+
+ .tooltip:hover .tooltiptext {
+  visibility: visible;
+ }
+
+.block {
+ text-align: center;
+ background: #F1F1F1;
+ opacity: 0.9;
+ margin: 16px 10% 16px 10%;
+ padding: 16px;
+ border-bottom: 10px solid #045e91;
+}
+
+/*css class*/
+
+.class-main {
+ margin: 0px auto;
+ background-color: #F1F1F1;
+}
+
+.class-navigation {
+ list-style-type: none;
+ overflow: hidden;
+ background-color: #045e91;
+ position: fixed;
+ margin: auto;
+ margin: auto;
+ padding: 0;
+ width: 100%;
+ Z-index: 999;
+}
+
+@media screen and (min-width : 450px) {
+ .class-navigation-row {
+  padding: 0px 40px 0px 40px;
+ }
+}
+
+
+.class-navigation-col-0-0 {
+ margin: 5px 0px 0px 0px;
+}
+
+
+
+@media screen and (min-width : 1300px) {
+ .class-navigation-row-0-1-0 {
+  float: right;
+  margin: 5px 0px 0px 45%;
+ }
+}
+
+@media screen and (max-width : 1300px) {
+ .class-navigation-row-0-1-0 {
+  float: right;
+  margin: 5px 0px 0px 0px;
+ }
+}
+
+
+@media screen and (min-width : 800px) {
+ .class-navigation-col-0-1 {
+  padding: 0px 16px 0px 0px;
+  margin: auto;
+  width: 200px;
+ }
+}
+
+@media screen and (max-width : 800px) {
+ .class-navigation-col-0-1 {
+  display: none;
+ }
+}
+
+@media screen and (min-width : 800px) {
+ .class-navigation-col-0-2 {
+  display: none;
+ }
+}
+
+@media screen and (max-width : 800px) {
+ .class-navigation-col-0-2 {
+  color: #F1F1F1;
+  float: right;
+  display: inline;
+ }
+
+ .class-navigation-row-0-2-0 {
+  float: right;
+  margin: 27.4px 5px 0px 0px;
+ }
+
+ .class-navigation-search-button {
+  border: none;
+  background-color: transparent;
+  color: #F1F1F1;
+  display: inline;
+  float: inline-end;
+ }
+
+ .fa-search {
+  font-size: 1.5em;
+ }
+
+ .fa-align-justify {
+  font-size: 1.5em;
+ }
+
+ .class-navigation-dropdown-menu {
+  display: inline;
+  float: inline-start;
+ }
+
+  .class-navigation-dropdown-menu > ul {
+   position: fixed;
+   right: 0px;
+   margin-top: 31px;
+   z-index: 999;
+   visibility: hidden;
+   transition: visibility 0.5s;
+   opacity: 0;
+  }
+
+ .class-navigation-dropdown-menu-li {
+  color: #F1F1F1;
+  padding: 5px;
+  border: 2px solid #045e91;
+  width: 100px;
+ }
+
+  .class-navigation-dropdown-menu-li a {
+   color: #045e91;
+   text-decoration: none;
+  }
+
+  .class-navigation-dropdown-menu-li:hover {
+   color: #045e91;
+   padding: 5px;
+   border: 2px solid #F1F1F1;
+   width: 100px;
+   background-color: #045e91;
+  }
+
+   .class-navigation-dropdown-menu-li:hover a {
+    color: #F1F1F1;
+    text-decoration: none;
+   }
+
+ .class-navigation-dropdown-menu > span:focus ~ ul {
+  visibility: visible;
+  background-color: #c0daeb;
+  opacity: 1;
+ }
+}
+
+.class-navigation-button-move-to-start {
+ color: #F1F1F1;
+ margin: 0px 5px 0px 0px;
+ padding: 0px 2px 0px 2px;
+ text-decoration: none;
+}
+
+ .class-navigation-button-move-to-start:hover {
+  color: #045e91;
+  background-color: #F1F1F1;
+  margin: 0px 5px 0px 0px;
+  border-radius: 5px;
+ }
+
+.class-navigation-search-input {
+ width: 120px;
+}
+
+ .class-navigation-search-input input {
+  border: 0px;
+  border-radius: 5px;
+  background: #F1F1F1;
+  width: 80px;
+ }
+
+ .class-navigation-search-input button {
+  border: none;
+  background-color: transparent;
+  color: #F1F1F1;
+  width: auto;
+  margin: auto;
+ }
+
+  .class-navigation-search-input button:hover {
+   border-radius: 5px;
+   font-size: 13px;
+   color: #045e91;
+   background-color: #F1F1F1;
+  }
+
+  .class-navigation-search-input button:active {
+   border-radius: 50%;
+   font-size: 13px;
+   color: #045e91;
+   background-color: #c0daeb;
+  }
+
+.class-navigation-search-icon {
+ padding-top: 3px;
+}
+
+.class-navigation-gate {
+ display: block;
+ background-color: #c0daeb;
+ border: none;
+ border-radius: 5px;
+ color: #045e91;
+ float: right;
+ margin-left: 5px;
+ font-size: 0.83em;
+ padding: 2.5px 10px 2.5px 10px;
+ text-decoration: none;
+ text-align: center;
+}
+
+ .class-navigation-gate:hover {
+  background-color: transparent;
+  color: #c0daeb;
+  border: 1px solid #c0daeb;
+  padding: 1.5px 9px 1.5px 9px;
+ }
+
+.class-navigation-gate-list {
+ border-right: 1px solid #F1F1F1;
+ color: #F1F1F1;
+ text-decoration: none;
+ padding: 2.5px 5px 2.5px 5px;
+}
+
+@media screen and (min-width : 800px) {
+ .class-navigation-col-1-0 {
+  margin-bottom: 0px;
+ }
+}
+
+@media screen and (max-width : 800px) {
+ .class-navigation-col-1-0 {
+  display: none;
+ }
+}
+
+.class-navigation-list {
+ float: left;
+}
+
+.class-navigation-list-photo {
+ display: block;
+ color: #F1F1F1;
+ text-align: center;
+ padding: 10px 16px;
+ text-decoration: none;
+}
+
+@media screen and (max-width : 350px) {
+ .class-navigation-list-photo {
+  padding: 10px 0px;
+ }
+}
+
+.class-navigation-list-a {
+ display: flex;
+ justify-content: center;
+ color: #F1F1F1;
+ text-align: center;
+ padding: 10px 16px;
+ text-decoration: none;
+ position: center;
+ font-size: 1.25em;
+ font-weight: 800;
+ vertical-align: middle;
+ border-radius: 5px 5px 0px 0px;
+}
+
+ .class-navigation-list-a:hover {
+  color: #045e91;
+  background-color: #F1F1F1
+ }
+
+.class-back-to-top {
+ position: fixed;
+ right: 40px;
+ bottom: 35px;
+ z-index: 1000;
+}
+
+.class-back-to-top-main {
+ background-color: #F1F1F1;
+ color: #045e91;
+ cursor: pointer;
+ padding: 10px 15px 15px 15px;
+ border: 1px solid #045e91;
+ border-radius: 10px;
+}
+
+ .class-back-to-top-main:hover {
+  background-color: #045e91;
+  color: #F1F1F1;
+ }
+
+@media screen and (min-width : 800px) {
+ .class-main-content {
+  padding-top: 120px;
+ }
+}
+
+@media screen and (max-width : 800px) {
+ .class-main-content {
+  padding-top: 82.5px;
+ }
+}
+
+.class-header-photo {
+ width: 100%;
+ height: 100%;
+ position: fixed;
+ opacity: 0.5;
+ z-index: -999;
+}
+
+.class-department-li {
+ text-align: center;
+}
+
+.class-department-name {
+ margin: 5px;
+ font-size: 1.5em;
+}
+
+.class-footer {
+ text-align: center;
+ width: 100%;
+ background-repeat: no-repeat;
+}
+
+.class-footer-background {
+ z-index: 1;
+ position: relative;
+ background: rgb(2, 37, 57, .01) url(https://ips.nsysu.edu.tw/assets/images/2021/03/1615548082f9d8046c071f4a3c.png);
+ background-size: cover;
+ transition: background-color 1s;
+}
+
+ .class-footer-background:hover {
+  background-color: rgb(2, 37, 57, .2);
+ }
+
+ .class-footer-background:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: inherit;
+  content: ' ';
+ }
+
+.class-footer-text {
+ z-index: 999;
+ padding-bottom: 200px;
+}
+
+.class-footer-p {
+ text-align: center;
+ margin: 10px 30% 10px 30%;
+ color: #045e91;
+ font-weight: 800;
+}

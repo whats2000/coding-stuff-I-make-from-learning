@@ -1,8 +1,31 @@
-/* 第一個C程式 */
 #include <stdio.h>
-#include <stdlib.h>
-int main()
+
+int main(void)
 {
-	printf("%d%d=%d,2,3,2*3");
-	system("Pause");
-	}
+
+ int height, min;
+
+ printf("Please input the height of the pyramid:");
+ scanf("%d", &height);
+
+ printf("Please input the min star:");
+ scanf("%d", &min);
+
+ for (int i = 1; i <= height; i++)
+ {
+
+		while (height - i)
+		{
+			printf(" ");
+		}
+
+		while (i <= min + 2 * (i - 1))
+		{
+			printf("*");
+		}
+
+		printf("\n");
+ }
+
+ return 0;
+}

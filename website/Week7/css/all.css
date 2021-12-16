@@ -1,0 +1,217 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: 'Noto Sans TC', sans-serif;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+header {
+  background: #0B3C5D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 10px;
+  height: 90px;
+}
+
+.aacsb {
+  width: 100px;
+  height: auto;
+}
+
+.card_container {
+  padding: 10px 0px;
+  /* for padding sections */
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  /* border-bottom: gray 1px solid; */
+  border-left: #F3C677 15px solid;
+  padding: 10px 10px;
+  margin-left: 10px;
+  /* outline: white 2px solid; */
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .card {
+    display: table;
+    margin: auto;
+    padding: 20px;
+  }
+}
+
+.card li {
+  margin: 0 5px;
+  border: 2px solid #E2E2E2;
+}
+
+.card li .image-main {
+  border: 2px #333 solid;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 2px 2px #fff;
+          box-shadow: 1px 2px 2px #fff;
+}
+
+.card li .image-special {
+  border: 2px #333 solid;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 2px 2px #333;
+          box-shadow: 1px 2px 2px #333;
+}
+
+.card li:hover {
+  -webkit-box-shadow: 0 0 10px gray;
+          box-shadow: 0 0 10px gray;
+}
+
+.card figcaption {
+  border-top: none;
+  padding: 10px;
+}
+
+.divide-line {
+  background: gray;
+  margin: 5px 10px 5px 30px;
+  border: 1px solid gray;
+}
+
+#second_section {
+  background: #0B3C5D;
+  padding: 10px 0 20px 0;
+}
+
+#second_section .title {
+  color: white;
+}
+
+#second_section .divide-line {
+  background: white;
+  /* margin: 5px 10px 5px 30px; */
+  border: 1px solid white;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content li {
+  width: 220px;
+  /* height: 100px; */
+  background-color: #fff;
+  margin: 7.5px;
+  text-align: center;
+  padding: 30px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  line-height: 20px;
+  font-size: 18px;
+  color: #0B3C5D;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.content li:hover {
+  -webkit-filter: brightness(1.5);
+          filter: brightness(1.5);
+}
+
+#third_section ul {
+  margin: 10px 0 10px 30px;
+  line-height: 20px;
+  font-size: 16px;
+  padding-right: 25px;
+}
+
+footer {
+  background: #0B3C5D;
+  padding: 10px 0 0px 10px;
+}
+
+footer img {
+  height: 50px;
+}
+
+footer p {
+  margin-top: 20px;
+  color: white;
+}
+/*# sourceMappingURL=all.css.map */

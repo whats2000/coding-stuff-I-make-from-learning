@@ -1,44 +1,57 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 int main()
-{	
-	int score=0;
-	int sum=0;
-	int p=0;
-	int t=0;
-	int max=0;
-	int min=0;
-	printf("½Ğ¿é¤J¤H¼Æ\n");
-	scanf("%d",&p);
-	for(t=1;t<=p;t++)
+{
+	int score = 0;
+	int sum = 0;
+	int p = 0;
+	int t = 0;
+	int max = 0;
+	int min = 0;
+
+	printf("è«‹è¼¸å…¥äººæ•¸ : ");
+	while (scanf("%d", &p) == 1)
 	{
-		printf("½Ğ¿é¤J²Ä%dªº¦¨ÁZ:",t);
-		scanf("%d",&score);
-		if(score>=0 && score<=100)
+		if (p > 0)
+			break;
+
+		printf("error\nè«‹é‡æ–°è¼¸å…¥\nè«‹è¼¸å…¥äººæ•¸ : ");
+	}
+
+	for (int t = 1; t <= p; t++)
+	{
+		printf("è«‹è¼¸å…¥ç¬¬ %d çš„æˆç¸¾ : ", t);
+		scanf("%d", &score);
+
+		if (score >= 0 && score <= 100)
 		{
-			sum = sum +score;
-			if(min>score||t==1)
+			sum += score;
+
+			if (t == 1)
 			{
-				min=score;
+				min = score;
+				max = score;
 			}
-			else if(max<score||t==1)
-			{
-				max=score;
-			}
+			else if (min > score)
+				min = score;
+			else if (max < score)
+				max = score;
 		}
 		else
 		{
-		printf("error\n");
-		t=t-1;
+			printf("error\nè«‹é‡æ–°è¼¸å…¥\n");
+			t = t - 1;
 		}
 	}
+
 	printf("============================================\n");
-	printf("³Ì°ª¤À¬°%d\n",max);
-	printf("³Ì§C¤À¬°%d\n",min);
-	printf("Á`¦¨ÁZ¬°%d\n",sum);
-	printf("¥­§¡¬°%.2f\n",(float)sum/p);
-	printf("¥ş¶Z¬°%d\n",max-min);
+	printf("æœ€é«˜åˆ†ç‚º%d\n", max);
+	printf("æœ€ä½åˆ†ç‚º%d\n", min);
+	printf("ç¸½æˆç¸¾ç‚º%d\n", sum);
+	printf("å¹³å‡ç‚º%.2f\n", (float)sum / p);
+	printf("å…¨è·ç‚º%d\n", max - min);
+
 	system("Pause");
+
 	return 0;
 }
-

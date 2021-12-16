@@ -1,0 +1,12 @@
+// 設定筆電的斷點
+@mixin pad {
+ @media(max-width:1200px) {
+  @content;
+ }
+}
+// 設定手機的斷點
+@mixin mobile {
+ @media(max-width:768px) {
+  @content;
+ }
+}
