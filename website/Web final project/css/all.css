@@ -43,6 +43,12 @@
   padding-top: 200px;
  }
 
+ .btn-primary {
+ background-color: #455A47;
+ border-radius: 20px;
+ margin-bottom: 100px;
+}
+
 .color2 {
  color: white;
 }
