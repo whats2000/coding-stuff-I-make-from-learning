@@ -1,0 +1,48 @@
+.header-inner {
+ padding: 15px;
+ height: 80px;
+}
+
+.header-photo {
+ width: 126px; height:auto;
+}
+
+.header-inner p {
+ margin: 0 auto;
+}
+
+.main-top-photo-0-background:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: inherit;
+  content: ' ';
+ }
+
+.main-top-photo-0-background {
+ z-index: 1;
+ position: relative;
+ background: rgba(0, 0, 0, 0.3) url(https://moa.ie/wp-content/uploads/2021/08/Hero_home_1-scaledV2-1.jpg);
+ background-size: cover;
+ transition: background-color 1s;
+}
+
+ 
+
+ .motto-text {
+  padding-top: 150px;
+ }
+
+ .title {
+  padding-top: 20px;
+ }
+
+ .warp {
+  padding-top: 200px;
+ }
+
+.color2 {
+ color: white;
+}
