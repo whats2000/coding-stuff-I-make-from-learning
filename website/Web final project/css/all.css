@@ -29,7 +29,10 @@
  transition: background-color 1s;
 }
 
- 
+.main a {
+ color: black;
+ font-weight:bold;
+}
 
  .motto-text {
   padding-top: 150px;
@@ -47,6 +50,79 @@
  background-color: #455A47;
  border-radius: 20px;
  margin-bottom: 100px;
+}
+
+.footer {
+ background-color: #455A47;
+}
+
+.footer-top {
+ padding: 60px 20px;
+}
+
+.logo-footer {
+ width: 126px;
+}
+
+.caption {
+ margin-bottom: 20px;
+}
+
+.input-email {
+ width: 696px;
+ border-bottom: 1px solid #979797;
+}
+
+.form-control {
+background-color: #455A47;
+border: none;
+}
+
+.input-email .btn {
+ border: none;
+}
+
+.checkbox-item a {
+ color: #fff;
+}
+
+.checkbox span {
+ padding-left: 10px;
+}
+
+.row-info {
+ margin-top: 50px;
+}
+
+.row-info a {
+ color: #fff;
+ text-decoration: none;
+ font-size: 10px;
+}
+
+.row-info ul {
+ list-style-type:none;
+ padding-left: 0;
+}
+
+.footer-link {
+ padding: 15px 0px;
+}
+
+.footer-bottom {
+ border-top: 1px solid #979797;
+ color: #979797;
+ padding: 24px 0px;
+ font-size: 12px;
+}
+
+.footer-bottom a {
+ color: #979797;
+ text-decoration: none;
+}
+
+.footer-bottom p {
+ margin: 0px;
 }
 
 .color2 {
