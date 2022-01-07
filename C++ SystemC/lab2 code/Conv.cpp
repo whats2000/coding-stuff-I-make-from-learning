@@ -18,7 +18,7 @@ void Conv::run() {
  else {
   rom_rd = true;
 
-  // 0 ~ 9¶g´Á ½w¦s kernel
+  // 0 ~ 9é€±æœŸ ç·©å­˜ kernel
   if (clock_cycle <= 9) {
    if (clock_cycle != 9)
     rom_addr.write(clock_cycle + 9);
@@ -28,7 +28,7 @@ void Conv::run() {
    if (clock_cycle >= 1)
     kernel[clock_cycle - 1] = data_in.read();
   }
-  // 10 ~ 18¶g´Á ¨ú±o data ¨Ã°µ¹Bºâ
+  // 10 ~ 18é€±æœŸ å–å¾— data ä¸¦åšé‹ç®—
   else if (10 <= clock_cycle && clock_cycle <= 18) {
    if (clock_cycle != 18)
     rom_addr.write(clock_cycle - 9);
@@ -40,8 +40,8 @@ void Conv::run() {
    data[count] = data_in.read();
 
    count++;
-  } // 19¶g´Á¿é¥X
-  // 19¶g´Á¿é¥X
+  } // 19é€±æœŸè¼¸å‡º
+  // 19é€±æœŸè¼¸å‡º
   else if (clock_cycle == 19) {
    sum += data_in.read();
 
