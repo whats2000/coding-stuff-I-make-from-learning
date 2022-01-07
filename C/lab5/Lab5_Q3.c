@@ -12,16 +12,17 @@ void list_sum_of_two_sqrt(int num) {
  short is_found = 0; /* is_found = 紀錄是否找到 */
 
  // 從所有可能值尋找 第一層 只須找到 根號(num)
- for (int i = 0; i * i <= num; i++)
-  // 第二層只須找到比 i 值小位置
-  for (int j = 0; j <= i; j++) 
-   // 判定是否符合 i^2 + j^2 = num
-   if (i * i + j * j == num) {
-    printf("x = %d y = %d, %d^2 + %d^2 = %d\n",j ,i , j, i, num);
+ for (int i = 1; i * i <= num; i++)
+  // 第二層只須找到比 i 值小位置  
+  for (int j = 1; j < i; j++) 
+   if (i != j)
+    // 判定是否符合 i^2 + j^2 = num
+    if (i * i + j * j == num) {
+     printf("x = %d y = %d, %d^2 + %d^2 = %d\n",j ,i , j, i, num);
 
-    if(!is_found) 
-     is_found = 1;
-   }
+     if(!is_found) 
+      is_found = 1;
+    }
   
   if(!is_found)
    printf("No found\n");
