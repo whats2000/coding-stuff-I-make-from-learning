@@ -1,29 +1,223 @@
 <!DOCTYPE html>
 <html>
-<!-- 給瀏覽器讀的，不會顯示在頁面上 -->
- <head> 
-  <!-- 標題 -->
-  <title>最喜歡的電影</title>
- </head>
- <!-- 顯示的內容 -->
- <body>
-  <h1>吳憲列車</h1>
-  <h2>八大行業台</h2>
-  <h3>劇照</h3>
-  <img src="https://i.imgur.com/CnP7C0M.jpg" height="169" width="118">
-  <h3>大綱</h3>
-  <P>
-   講述一位藝人因為任務搭上火車，而發生一系列綜藝搞笑情懷，最後其中一位藝人因拍攝事故身亡，導致男主爆發自己潛力，獲得新希望。
-  </P>
-  <p>
-   其中牽扯到與影藏行業的激鬥過程，畫面十分優美。
-  </P>
-  <h3>心得</h3>
-  <ol>
-   <li>搞笑</li>
-   <li>正向</li>
-   <li>戰鬥</li>
-  </ol>
-  <a href="https://youtu.be/dQw4w9WgXcQ">點我線上看</a>
- </body>
+<head>
+ <!--網頁名稱-->
+ <title>管理學院</title>
+
+ <!--CSS連結來源-->
+ <link rel="stylesheet" href="practice_homework.html.css" />
+
+ <meta name="viewport" content="within = device-within, initial-scale = 1" />
+
+ <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+</head>
+<body class="class-main">
+
+ <!--回到頁頂-->
+ <div class="class-back-to-top">
+  <!--回到頁頂 / 提示-->
+  <div class="tooltip">
+   <a href="#top" class="class-back-to-top-main">︽</a>
+
+   <span class="tooltiptext">
+    回到頂部
+   </span>
+  </div>
+ </div>
+
+ <!--導航列表-->
+ <nav class="class-navigation">
+  <div class="row class-navigation-row">
+   <div class="col class-navigation-col-0-0">
+    <div class="class-navigation-list">
+     <a class="class-navigation-list-photo" href="https://www.nsysu.edu.tw/">
+      <img src="https://www.nsysu.edu.tw/var/file/0/1000/img/526/logo.png" alt="" />
+     </a>
+    </div>
+   </div>
+
+   <div class="col class-navigation-col-0-1">
+    <div class="row class-navigation-row-0-1-0">
+     <div class="col" style="display: flex;">
+      <a class="class-navigation-button-move-to-start" href="#top" id="header">:::</a>
+
+      <!--搜索框-->
+      <div class="class-navigation-search-input">
+       <form style="display: inline;">
+        <input onblur="this.placeholder = " onfocus="this.placeholder =" placeholder="全站搜尋" size="20" type="text" />
+
+        <button type="submit"><i class="fa fa-search"></i></button>
+       </form>
+      </div>
+
+      <a class="class-navigation-gate" href="https://sso.nsysu.edu.tw/">單一路口</a>
+
+      <a class="class-navigation-gate" href="https://email.nsysu.edu.tw/app/home.php">網路郵件</a>
+     </div>
+    </div>
+
+    <div class="row class-navigation-row-0-1-0">
+     <div class="col" style="display: flex;">
+      <a class="class-navigation-gate-list" href="#">網站導覽</a>
+     </div>
+
+     <div class="col" style="display: flex;">
+      <a class="class-navigation-gate-list" href="#">系所介紹</a>
+     </div>
+
+     <div class="col" style="display: flex;">
+      <a class="class-navigation-gate-list" href="#">系友</a>
+     </div>
+
+     <div class="col" style="display: flex;">
+      <a class="class-navigation-gate-list" href="#">教職員</a>
+     </div>
+
+     <div class="col" style="display: flex;">
+      <a class="class-navigation-gate-list" href="#" style="border: none">訪客</a>
+     </div>
+    </div>
+   </div>
+
+   <!--手機端列表-->
+   <div class="col class-navigation-col-0-2">
+
+    <div class="row class-navigation-row-0-2-0">
+     <!--搜尋按鈕-->
+     <button class="class-navigation-search-button" type="button" name="search_button" id="search_button"><i class="fa fa-search"></i></button>
+
+     <!--下拉式選單-->
+     <div class="class-navigation-dropdown-menu">
+      <span class="" tabindex="0"><i class="fas fa-align-justify"></i></span>
+
+      <ul>
+       <li class="class-navigation-dropdown-menu-li"><a href="https://sso.nsysu.edu.tw/">單一路口</a></li>
+
+       <li class="class-navigation-dropdown-menu-li"><a href="https://email.nsysu.edu.tw/app/home.php">網路郵件</a></li>
+
+       <li class="class-navigation-dropdown-menu-li"><a href="#">網站導覽</a></li>
+
+       <li class="class-navigation-dropdown-menu-li"><a href="#">系所介紹</a></li>
+
+       <li class="class-navigation-dropdown-menu-li"><a href="#企管系">企管系</a></li>
+
+       <li class="class-navigation-dropdown-menu-li"><a href="#資管系">資管系</a></li>
+
+       <li class="class-navigation-dropdown-menu-li"><a href="#財管系">財管系</a></li>
+
+       <li class="class-navigation-dropdown-menu-li"><a href="#">系友</a></li>
+
+       <li class="class-navigation-dropdown-menu-li"><a href="#">教職員</a></li>
+
+       <li class="class-navigation-dropdown-menu-li"><a href="#">訪客</a></li>
+
+       <li class="class-navigation-dropdown-menu-li"><a href="#top">回到頂部</a></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+
+  <div class="row class-navigation-row">
+   <div class="col class-navigation-col-1-0">
+    <ul>
+     <li class="class-navigation-list"><a class="class-navigation-list-a" href="#企管系">企管系</a></li>
+
+     <li class="class-navigation-list"><a class="class-navigation-list-a" href="#資管系">資管系</a></li>
+
+     <li class="class-navigation-list"><a class="class-navigation-list-a" href="#財管系">財管系</a></li>
+
+     <li class="class-navigation-list" style="float: right;"><a class="class-navigation-list-a" href="#top">回到頂端</a></li>
+    </ul>
+   </div>
+  </div>
+ </nav>
+
+ <div class="class-main-content">
+
+  <!--頁頭-->
+  <header>
+   <img class="class-header-photo" src="https://i.imgur.com/Bo5dB1Q.png" alt="" />
+
+   <div class="block">
+    <h1>管理學院介紹</h1>
+   </div>
+  </header>
+
+  <!--內文-->
+  <main>
+   <div class="block class-department">
+    <ul class="row">
+     <li class="col" id="資管系">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRybqXi2_y--YDcDBAAEkryIsYIsUOMeBn02BQne8vkx-tYUf8gaFSTcMysaS20I6E6AR4&usqp=CAU"
+           alt="" />
+      <p class="class-department-name">資管系</p>
+      <p>資管系就是要管資訊哦</p>
+     </li>
+     <li class="col" id="企管系">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRybqXi2_y--YDcDBAAEkryIsYIsUOMeBn02BQne8vkx-tYUf8gaFSTcMysaS20I6E6AR4&usqp=CAU"
+           alt="" />
+      <p class="class-department-name">企管系</p>
+      <p>企管系就是要管企業哦</p>
+     </li>
+     <li class="col" id="財管系">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRybqXi2_y--YDcDBAAEkryIsYIsUOMeBn02BQne8vkx-tYUf8gaFSTcMysaS20I6E6AR4&usqp=CAU"
+           alt="" />
+      <p class="class-department-name">財管系</p>
+      <p>財管系就是要管財務哦</p>
+     </li>
+    </ul>
+   </div>
+
+   <div class="block">
+    <h2>關於本次作業</h2>
+   </div>
+
+   <div class="block">
+    <h3>待辦事項</h3>
+    <p>底部文字遮擋問題</p>
+    <p>搜尋引擎待引入</p>
+
+    <h3>學到東西</h3>
+    <p>下拉選單</p>
+    <p>自響應布局</p>
+    <p>淡出式頁腳</p>
+
+    <h3>發現好用快捷鍵</h3>
+    <p>crtl+a+k+f 自動整理全部程式</p>
+    <p>crtl+z 回到上一步驟</p>
+    <p>ctrl+y 回到下一步驟</p>
+   </div>
+  </main>
+
+ </div>
+ <!--頁腳-->
+ <footer class="class-footer-background class-footer" id="footer">
+  <div class="row">
+   <div class="col">
+    <a class="class-navigation-button-move-to-start" style="color: #045e91;" href="#footer">:::</a>
+
+    <p class="class-footer-p">國立中山大學網路設計研究社 版權所有</p>
+
+    <p class="class-footer-p" style="border-bottom: 2px solid #045e91;">地址：80424高雄市鼓山區蓮海路70號 總機電話：07-5252-000</p>
+
+    <p class="class-footer-p">校園安全24小時緊急聯絡電話:</p>
+
+    <ul>
+     <li class="class-footer-p">校內分機 6666、6667、專線 07-5256666(值班室)</li>
+
+     <li class="class-footer-p">校安緊急通報：0911-705-999</li>
+
+     <li class="class-footer-p">宿舍服務中心專線：07-5256001、校內分機5936、5937</li>
+
+     <li class="class-footer-p">生命線協談輔導：1995；張老師專線：1980</li>
+    </ul>
+
+    <a href="https://www.facebook.com/" target="_blank"><img src="https://img.icons8.com/color/48/000000/facebook.png" /></a>
+
+    <a href="https://www.instagram.com" target="_blank"><img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" /></a>
+   </div>
+  </div>
+ </footer>
+</body>
 </html>
