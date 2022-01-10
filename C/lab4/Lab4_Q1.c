@@ -42,7 +42,7 @@ void verify_num(int* num_arr, char dec[40], int min, int max, int exec) {
 }
 
 int main(int argc, char* argv[]) {
- int num[2] = {}; /* num = 驗證數字 */
+ int num[2] = {0}; /* num = 驗證數字 */
 
  while (num[0] != -1 && num[1] != -1) {
   // 驗證輸入種類驗證 陣列: num; 種類: int; 長度: 10; 範圍: 0~2147483647; 特殊命令: -1;

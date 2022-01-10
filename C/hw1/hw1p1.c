@@ -3,7 +3,7 @@
 
 int main()
 {
- int num[3] = {}; /* num = 輸入數字 */
+ int num[3] = {0}; /* num = 輸入數字 */
  int check = 0;  /* check = 驗證器檢驗 */
  int i = 0, t = 0; /* 兼容c99以下版本 */
 
