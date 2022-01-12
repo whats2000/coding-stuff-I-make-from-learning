@@ -43,7 +43,7 @@ void verify_num(int* num, int min, int max, int count) {
 }
 
 int main(int argc, char* argv[]) {
- long int matrix[3][MAX_MATRIX_SIZE][MAX_MATRIX_SIZE] = {
+ int matrix[3][MAX_MATRIX_SIZE][MAX_MATRIX_SIZE] = {
      0}; /* matrix [0: a矩陣; 1: b矩陣; 2: c矩陣:] [row] [col] */
  int matrix_size[3][2] = {
      0}; /* matrix_size [0: a矩陣; 1: b矩陣; 2: c矩陣:] [0: row; 1: col;] */
