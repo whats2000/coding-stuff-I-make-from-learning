@@ -1,4 +1,3 @@
-#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -42,7 +41,7 @@ int letter_to_int(char str[], size_t len) {
 }
 
 int main(int argc, char* argv[]) {
- char letter[10]; /* letter = 輸入資料 */
+ char letter[10] = {' '}; /* letter = 輸入資料 */
 
  printf("Enter a word: ");
 
