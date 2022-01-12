@@ -24,7 +24,7 @@ void compare_str(char c1[], char c2[]) {
 }
 
 int main(int argc, char *argv[]) {
- char str[2][SIZE] = {}; /* str = 輸入字串 */
+ char str[2][SIZE] = {{' '}}; /* str = 輸入字串 */
  
  while ((str[0][0] != '-' || str[0][1] != '1') && 
         (str[1][0] != '-' || str[1][1] != '1')

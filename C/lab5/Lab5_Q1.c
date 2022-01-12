@@ -20,7 +20,7 @@ char* transform_string(char s[]) {
 }
 
 int main(int argc, char *argv[]) {
- char str[SIZE] = {}; /* str = 輸入字串 */
+ char str[SIZE] = {' '}; /* str = 輸入字串 */
  
  while (str[0] != '-' || str[1] != '1') {
   // 輸入

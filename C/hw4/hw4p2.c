@@ -37,7 +37,7 @@ int verify_num(int* num, int min, int max) {
 }
 
 int main(int argc, char* argv[]) {
- int arr[2][5] = {0}; /* arr = 輸入資料 */
+ int arr[2][5] = {{0}}; /* arr = 輸入資料 */
  int inter[5] = {0};  /* inter = 一樣的數字暫存 */
 
  short count = 0; /* count = 紀錄共有幾個一樣 */
