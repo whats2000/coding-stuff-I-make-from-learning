@@ -9,12 +9,11 @@
 #define INT_MAX 2147483647
 #endif
 
-int verify_num(int* num, int min, int max);
+void verify_num(int* num, int min, int max);
 
 // 輸入驗證器
-int verify_num(int* num, int min, int max) {
+void verify_num(int* num, int min, int max) {
  int check = 0; /* check = 驗證器檢驗 */
- short i;       /* i = 向下兼容c99以下 */
 
  do {
   check = scanf("%d", num); /* 輸入數字 */
