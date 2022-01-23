@@ -49,9 +49,9 @@ int main(int argc, char* argv[]) {
 
  // 判定是否為 traingle number
  if (is_triangle_num(letter_to_int(letter, 10)))
-  printf("%s is a triangle word\n");
+  printf("%s is a triangle word\n", letter);
  else
-  printf("%s is not a triangle word\n");
+  printf("%s is not a triangle word\n", letter);
 
  // 保持顯示輸出
  system("Pause");
