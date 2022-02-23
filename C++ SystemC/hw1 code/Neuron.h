@@ -4,17 +4,16 @@
 #include "systemc.h"
 
 SC_MODULE(Neuron) {
+    sc_in<float> input1, input2;
+    sc_out<float> output;
+    float w1, w2, b, y;
+    float output_temp;
 
- sc_in < float > input1, input2;
- sc_out < float > output;
- float w1, w2, b, y;
- float output_temp;
+    void neuron();
 
- void neuron();
-
- SC_CTOR(Neuron) {
-  SC_METHOD(neuron);
-  sensitive << input1 << input2;
- }
+    SC_CTOR(Neuron) {
+        SC_METHOD(neuron);
+        sensitive << input1 << input2;
+    }
 };
 #endif
