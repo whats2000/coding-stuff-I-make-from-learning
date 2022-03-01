@@ -7,12 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        echo "hi";
-        $var1 = "123";
-    ?>
-    <p><?=$var1?></p>
+    <table>
+        <?php
+            $arr2[0] = "apple";
+            $arr2[1] = "banana";
+            $arr2[2] = "pear";
 
-    
+            
+        ?>
+    </table>
 </body>
 </html>
