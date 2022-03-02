@@ -1,3 +1,11 @@
+<?php
+    $drink_id = array(
+        1=>array("name"=>"金萱雙Q", "price"=>35),
+        2=>array("name"=>"胭脂紅茶", "price"=>40),
+        3=>array("name"=>"胭脂多多", "price"=>50)
+    );
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,93 +21,46 @@
     <div class="row justify-content-center">
         <div class="col-sm-4">
             <form action="week2_pact_act.php" method="post">
-                <p>金萱雙Q 價格：35</p>
-                <label for="num1">請填寫數量</label>
-                <input type="number"  min="0" max="10" value="0" id="num1" name="num1">
+                <?php
+                    session_start();
+
+                    $_SESSION['drink_id'] = $drink_id;
+
+                    for ($i = 1; $i < 4; $i++) { ?>
+                        <p><?=$drink_id[$i]["name"]?> 價格 : <?=$drink_id[$i]["price"]?></p>
+
+                        <label for="num<?=$i?>">請填寫數量</label>
+                        <input type="number"  min="0" max="10" value="0" id="num<?=$i?>" name="num<?=$i?>">
+
+                        <br>
+                        <br>
+
+                        <div class="mb-3">
+                            <select name="sugar<?=$i?>" class="form-select form-select mb-3" aria-label=".form-select ">
+                                <option selected>請選擇甜度</option>
+                                <option value="多糖">多糖</option>
+                                <option value="正常糖">正常糖</option>
+                                <option value="少糖">少糖</option>
+                                <option value="半糖">半糖</option>
+                                <option value="微糖">微糖</option>
+                                <option value="無糖">無糖</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <select name="ice<?=$i?>" class="form-select form-select mb-3" aria-label=".form-select ">
+                                <option selected>請選擇冰塊</option>
+                                <option value="多冰">多冰</option>
+                                <option value="正常冰">正常冰</option>
+                                <option value="少冰">少冰</option>
+                                <option value="微冰">微冰</option>
+                                <option value="去冰">去冰</option>
+                            </select>
+                        </div>
+                    <?php
+                    } ?>
 
                 <br>
-                <br>
-
-                <div class="mb-3">
-                    <select name="sugar1" class="form-select form-select mb-3" aria-label=".form-select ">
-                        <option selected>請選擇甜度</option>
-                        <option value="多糖">多糖</option>
-                        <option value="正常糖">正常糖</option>
-                        <option value="少糖">少糖</option>
-                        <option value="半糖">半糖</option>
-                        <option value="微糖">微糖</option>
-                        <option value="無糖">無糖</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <select name="ice1" class="form-select form-select mb-3" aria-label=".form-select ">
-                        <option selected>請選擇冰塊</option>
-                        <option value="多冰">多冰</option>
-                        <option value="正常冰">正常冰</option>
-                        <option value="少冰">少冰</option>
-                        <option value="微冰">微冰</option>
-                        <option value="去冰">去冰</option>
-                    </select>
-                </div>
-
-                <p>胭脂紅茶 價格：40</p>
-                <label for="num2">請填寫數量</label>
-                <input type="number"  min="0" max="10" value="0" id="num2" name="num2">
-
-                <br>
-                <br>
-
-                <div class="mb-3">
-                    <select name="sugar2" class="form-select form-select mb-3" aria-label=".form-select ">
-                        <option selected>請選擇甜度</option>
-                        <option value="多糖">多糖</option>
-                        <option value="正常糖">正常糖</option>
-                        <option value="少糖">少糖</option>
-                        <option value="半糖">半糖</option>
-                        <option value="微糖">微糖</option>
-                        <option value="無糖">無糖</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <select name="ice2" class="form-select form-select mb-3" aria-label=".form-select ">
-                        <option selected>請選擇冰塊</option>
-                        <option value="多冰">多冰</option>
-                        <option value="正常冰">正常冰</option>
-                        <option value="少冰">少冰</option>
-                        <option value="微冰">微冰</option>
-                        <option value="去冰">去冰</option>
-                    </select>
-                </div>
-
-                <p>胭脂多多 價格：50</p>
-                <label for="num3">請填寫數量</label>
-                <input type="number"  min="0" max="10" value="0" id="num3" name="num3">
-
-                <br>
-                <br>
-
-                <div class="mb-3">
-                    <select name="sugar3" class="form-select form-select mb-3" aria-label=".form-select ">
-                        <option selected>請選擇甜度</option>
-                        <option value="多糖">多糖</option>
-                        <option value="正常糖">正常糖</option>
-                        <option value="少糖">少糖</option>
-                        <option value="半糖">半糖</option>
-                        <option value="微糖">微糖</option>
-                        <option value="無糖">無糖</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <select name="ice3" class="form-select form-select mb-3" aria-label=".form-select ">
-                        <option selected>請選擇冰塊</option>
-                        <option value="多冰">多冰</option>
-                        <option value="正常冰">正常冰</option>
-                        <option value="少冰">少冰</option>
-                        <option value="微冰">微冰</option>
-                        <option value="去冰">去冰</option>
-                    </select>
-                </div>
-
+                
                 <div class="mb-3 ">
                     <label for="name">姓名</label>
                     <input type="text" name="name" id="name">
