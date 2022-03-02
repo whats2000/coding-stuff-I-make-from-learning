@@ -2,7 +2,8 @@
     $drink_id = array(
         1=>array("name"=>"金萱雙Q", "price"=>35),
         2=>array("name"=>"胭脂紅茶", "price"=>40),
-        3=>array("name"=>"胭脂多多", "price"=>50)
+        3=>array("name"=>"胭脂多多", "price"=>50),
+        4=>array("name"=>"百箱爽響炮", "price"=>60)
     );
 ?>
 
@@ -26,8 +27,8 @@
 
                     $_SESSION['drink_id'] = $drink_id;
 
-                    for ($i = 1; $i < 4; $i++) { ?>
-                        <p><?=$drink_id[$i]["name"]?> 價格 : <?=$drink_id[$i]["price"]?></p>
+                    foreach ($drink_id as $i => $drink) { ?>
+                        <p><?=$drink["name"]?> 價格 : <?=$drink["price"]?></p>
 
                         <label for="num<?=$i?>">請填寫數量</label>
                         <input type="number"  min="0" max="10" value="0" id="num<?=$i?>" name="num<?=$i?>">

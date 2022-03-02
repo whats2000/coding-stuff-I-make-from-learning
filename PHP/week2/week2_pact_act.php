@@ -13,12 +13,12 @@
         $drink_id = $_SESSION['drink_id'];
 
         if (!empty($_POST)) {
-            for ($i = 1; $i < 4; $i++) {
+            foreach ($drink_id as $i => $drink) {
                 if ($_POST["num".strval($i)] > 0) { ?>
                     <h4>
-                        <?=$drink_id[$i]["name"]?> 
+                        <?=$drink["name"]?> 
                         數量 : <?=$_POST["num".strval($i)]?> 
-                        價格 : <?=$drink_id[$i]["price"] * $_POST["num".strval($i)]?>
+                        價格 : <?=$drink["price"] * $_POST["num".strval($i)]?>
                     </h4>
 
                     <p>冰度 : <?=$_POST["ice".strval($i)]?> </p>
