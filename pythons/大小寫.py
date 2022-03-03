@@ -2,12 +2,14 @@ import string
 
 lowercase = string.ascii_lowercase
 
+
 def crack_caesar_cypher(text):
     for i in range(26):
         key_table = lowercase[-i:] + lowercase[:-i]
         print(substitution(text, key_table)[:12], '| shift is ', i, )
 
-def substitution(text, key_table):                
+
+def substitution(text, key_table):
     text = text.lower()
     result = ''
     for l in text:
@@ -18,12 +20,15 @@ def substitution(text, key_table):
             result += key_table[i]
     return result
 
+
 def caesar_cypher_encrypt(text, shift):
     key_table = lowercase[shift:] + lowercase[:shift]
     return substitution(text, key_table)
 
+
 def caesar_cypher_decrypt(text, shift):
     return caesar_cypher_encrypt(text, -shift)
+
 
 txt = """Ornhgvshy vf orggre guna htyl.
 Rkcyvpvg vf orggre guna vzcyvpvg.
@@ -43,4 +48,5 @@ Nygubhtu arire vf bsgra orggre guna *evtug* abj.
 Vs gur vzcyrzragngvba vf uneq gb rkcynva, vg'f n onq vqrn.
 Vs gur vzcyrzragngvba vf rnfl gb rkcynva, vg znl or n tbbq vqrn.
 Anzrfcnprf ner bar ubaxvat terng vqrn -- yrg'f qb zber bs gubfr!"""
+
 crack_caesar_cypher(txt)

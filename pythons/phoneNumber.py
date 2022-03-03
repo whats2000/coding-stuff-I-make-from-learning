@@ -4,6 +4,6 @@ import re
 rawPhoneNum = r"^(1|8|9)[0-9]{7,7}$"
 
 if re.match(rawPhoneNum, input()):
-    print("valid")
+    print('valid')
 else:
-    print("Invalid")
+    print('Invalid')

@@ -7,6 +7,7 @@ int main(int argc, char* argv) {
     // input number
     scanf("%d", &num);
 
+    // 將地一次及第二次獨立計算此外，其餘計算皆為將兩者合存於a後a, b交換
     for (int i = 1; i <= num; i++) {
         if (i == 1)
             printf("F1 = 1\n");

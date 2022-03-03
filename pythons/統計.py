@@ -1,21 +1,23 @@
 import numpy as np
 
-def isInt(s,minNum,maxNum):
-  while True :  
-    try :
-      int(s) 
-      break
-    except  ValueError:
-      print("錯誤 未知字元 請重新輸入")
-      s = input()
-  return int(s)
-			
+
+def is_int(s):
+    while True:
+        try:
+            int(s)
+            break
+        except ValueError:
+            print("錯誤 未知字元 請重新輸入")
+            s = input()
+    return int(s)
+
+
 data = []
 
-times = isInt(input("請輸入資料數目 : "))
+times = is_int(input("請輸入資料數目 : "))
 
 for t in range(times):
-	data.append(isInt(input("請輸入第 "+str(t+1)+" 個數據 : ")))
+    data.append(is_int(input("請輸入第 " + str(t + 1) + " 個數據 : ")))
 
 print("平均值 : ", np.mean(data))
 print("中位數 : ", np.median(data))

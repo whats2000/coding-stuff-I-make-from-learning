@@ -4,7 +4,7 @@ class Juice:
         self.capacity = capacity
 
     def __str__(self):
-        return (self.name + ' ('+str(self.capacity)+'L)')
+        return self.name + ' (' + str(self.capacity) + 'L)'
         
     def __add__(self,other):
         return Juice(self.name+"&"+other.name,self.capacity+other.capacity)

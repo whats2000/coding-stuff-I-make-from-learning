@@ -13,7 +13,7 @@ int main(int argc, char* argv) {
         b = t;
     }
 
-    // process functinative
+    // process functinative 利用%做出連續相減
     while (b != 0) {
         int t = b;
 
