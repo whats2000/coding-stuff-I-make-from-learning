@@ -37,14 +37,14 @@ if (!($result)) {
         while ($row = mysqli_fetch_assoc($result)) {
             // 運用while迴圈去取得每一筆資料，返回值為array?>
             <tr>
-            <td><?=$row['STUID']?>
-            <td><?=$row['name']?>
-            <td><?=$row['birthdate']?>
-            <td>
-                <a href="week4_update.php?status=update&stuid=<?=$row['STUID']?>">更新</a>
-                /
-                <a href="week4_update.php?status=del&stuid=<?=$row['STUID']?>">刪除</a>
-            </td>
+                <td><?=$row['STUID']?>
+                <td><?=$row['name']?>
+                <td><?=$row['birthdate']?>
+                <td>
+                    <a href="week4_update.php?status=update&stuid=<?=$row['STUID']?>">更新</a>
+                    /
+                    <a href="week4_update.php?status=del&stuid=<?=$row['STUID']?>">刪除</a>
+                </td>
         <?php
         }
         ?>

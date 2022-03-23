@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+</head>
+
+<body>
+    <label for="acc">測試事件</label>
+    <input type="text" name="acc" id="acc">
+
+    <img src="" alt="">
+
+
+    <script>
+        $("#acc").on("change", function () {
+            alert("觸發change事件");
+        })
+
+        $("input[name=acc]").on("click", function () {
+            alert("觸發click事件")
+        })
+
+        $("img").attr({
+            src: "./like.png",
+            title: "按讚",
+            alt: "按讚",
+            width: "32px",
+            id: "like"
+        })
+
+        $("#like").on("click", function () {
+            if ($("#like").attr("src") == "./like.png")
+                $("#like").attr("src", "./like_black.png");
+            else
+                $("#like").attr("src", "./like.png");
+        })
+    </script>
+</body>
+
+</html>
+
+<!-- like icons PNG Designed By IYIKON from <a href="https://pngtree.com"> Pngtree.com</a> -->
