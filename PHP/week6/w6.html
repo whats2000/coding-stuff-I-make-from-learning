@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <title>week6實作</title>
+</head>
+
+<body>
+    <p class="text">這是第一行</p>
+    <p class="text">這是第二行</p>
+    <p class="text">這是第三行</p>
+
+    <script>
+        $(".text").on("click", function () {
+            // 取得使用者點擊的物件屬性
+            var this_object = $(this)
+            // 取得該物件的index
+            var index = $(".text").index(this_object);
+            // 取得該物件的內文
+            var text = $(".text").eq(index).html();
+
+            console.log(text);
+        })
+    </script>
+</body>
+
+</html>

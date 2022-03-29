@@ -12,7 +12,7 @@ print_r($_SESSION);
     <title>session使用</title>
 </head>
 <body>
-    <?php if(!isset($_SESSION["acc"])){?>
+    <?php if (!isset($_SESSION["acc"])) {?>
     <form action="week4_hw_act.php" method="post">
         <label for="acc">帳號</label>
         <input type="text" name="acc" id="acc">
@@ -26,7 +26,7 @@ print_r($_SESSION);
     </form>
     <?php }?>  
 
-    <?php if(isset($_SESSION["acc"])){?>
+    <?php if (isset($_SESSION["acc"])) {?>
         <p><?=$_SESSION["acc"]?>，您好</p>
 
         <button><a href="week4_hw_act.php">登出</a></button>

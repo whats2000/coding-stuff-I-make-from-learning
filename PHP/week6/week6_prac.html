@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <title>week6實作</title>
+</head>
+
+<body>
+    <form action="week6_prac_act.php" method="post" id="myform">
+        <label for="acc">欲查詢帳號名稱</label>
+        <input type="text" name="acc" id="acc">
+
+        <button type="button" id="submit">提交</button>
+    </form>
+
+    <div id="response"></div>
+
+    <script>
+        $("#submit").on("click", function () {
+            var form = $("#myform")
+            var url = form.attr("action")
+
+            $.ajax({
+                type: form.attr("method"),
+                url: url,
+                data: form.serialize(),
+                dataType: "text",
+                success: function (text) {
+                    $("#response").html(text)
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    console.log(XMLHttpRequest.readyState)
+                    console.log(XMLHttpRequest.status)
+                    console.log(XMLHttpRequest.responseText)
+                    console.log(textStatus)
+                    console.log(errorThrown)
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

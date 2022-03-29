@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <title>week6實作</title>
+</head>
+
+<body>
+    <form action="week6_act.php" method="post" id="myform">
+        <input type="text" name="name" id="name">
+        <input type="text" name="acc" id="acc">
+        <button type="button" id="submit">提交</button>
+    </form>
+
+    <p></p>
+
+    <script>
+        $("#submit").on("click", function () {
+            var form = $("#myform")
+            var url = form.attr("action")
+
+            $.ajax({
+                type: form.attr("method"),
+                url: url,
+                data: form.serialize(),
+                success: function (text) {
+                    $("p").html(text)
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    console.log(XMLHttpRequest.readyState)
+                    console.log(XMLHttpRequest.status)
+                    console.log(XMLHttpRequest.responseText)
+                    console.log(textStatus)
+                    console.log(errorThrown)
+                }
+            })
+        })
+
+
+        /* $("#submit").on("click", function(){
+            var form = $("#myform")
+            var url = form.attr("action")
+
+            $.ajax({
+                type: form.attr("method"),
+                url: url,
+                data : form.serialize(),
+                dataType: 'json'
+            }).done(function (data) {
+                $("p").html("表單已提交："+ JSON.stringify(data))
+
+            }).fail(function (XMLHttpRequest, textStatus, errorThrown) {
+                console.log(XMLHttpRequest.readyState)
+                console.log(XMLHttpRequest.status)
+                console.log(XMLHttpRequest.responseText)
+                console.log(textStatus) 
+                console.log(errorThrown)
+            })
+        }) */
+    </script>
+</body>
+
+</html>
