@@ -1,2 +1,7 @@
 
+pythons/test.py
+C++-projects/test.cpp
+pythons/box_conv.png
 pythons/box_detect.png
+pythons/model/chinese.pth
+pythons/model/craft_mlt_25k.pth
