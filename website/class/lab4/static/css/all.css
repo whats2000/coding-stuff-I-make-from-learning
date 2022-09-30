@@ -1,0 +1,40 @@
+body {
+  font-family: "Roboto";
+}
+body h1 {
+  font-family: Georgia;
+}
+body img.my-photo {
+  height: 300px;
+}
+body p a:hover {
+  color: orange;
+}
+body blockquote {
+  font-family: "Courier New";
+  font-weight: bold;
+}
+body h3 {
+  text-decoration: underline;
+}
+body ul {
+  list-style-type: lower-alpha;
+}
+body ul > li {
+  padding: 3px;
+}
+body ul > li.li-highlight {
+  background: yellowgreen;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+body table tr > th {
+  text-align: left;
+  background-color: lightgray;
+  padding: 10px;
+}
+body table tr > td {
+  text-align: left;
+  padding: 3px 0px 0px 10px;
+}/*# sourceMappingURL=all.css.map */
