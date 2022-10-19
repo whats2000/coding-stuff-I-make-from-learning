@@ -1,10 +1,15 @@
+:root {
+    --main-dark-color: #0B3C5D;
+    --main-light-color: #F4EFEA;
+}
+
 .whole {
-    background-color: #F4EFEA;
+    background-color: var(--main-light-color);
 }
 
 .whole h2 {
-    color: #0B3C5D;
-    border-bottom: 2px solid #0B3C5D;
+    color: var(--main-dark-color);
+    border-bottom: 2px solid var(--main-dark-color);
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -44,7 +49,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 1px 10px;
-    background-color: #0B3C5D;
+    background-color: var(--main-dark-color);
 }
 
 .navbar>ul>li {
@@ -55,7 +60,7 @@ body {
 
 .navbar>ul>li:hover {
     background-color: white;
-    color: #0B3C5D;
+    color: var(--main-dark-color);
 }
 
 .focus_news {
@@ -95,7 +100,7 @@ body {
 }
 
 .program {
-    background-color: #0B3C5D;
+    background-color: var(--main-dark-color);
     padding: 10px 0px 27px;
 }
 
@@ -111,9 +116,9 @@ body {
 }
 
 .program>ul>li {
-    color: #0B3C5D;
+    color: var(--main-dark-color);
     width: 281px;
-    border-bottom: 10px solid #0B3C5D;
+    border-bottom: 10px solid var(--main-dark-color);
     outline: 2px solid white;
     background-color: white;
     margin: 7px 12px;
@@ -165,7 +170,7 @@ body {
 
 .footer {
     padding: 12px 30px;
-    background-color: #0B3C5D;
+    background-color: var(--main-dark-color);
 }
 
 .footer>img {
