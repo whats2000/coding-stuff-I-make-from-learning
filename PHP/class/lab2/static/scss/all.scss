@@ -1,0 +1,80 @@
+body {
+    font-family: "Roboto";
+
+    h1 {
+        font-family: Georgia;
+    }
+
+    img {
+        height: 300px;
+    }
+
+    div#login {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;
+        border: 1px solid black;
+        padding: 30px;
+        margin: 30px;
+
+        input {
+            margin-bottom: 20px;
+        }
+    }
+
+    div.flex-box {
+        display: flex;
+        align-items: flex-end;
+
+        p {
+            margin: 0;
+        }
+
+        img.my-photo {
+            height: 300px;
+            margin-right: 10px;
+        }
+    }
+
+    p a:hover {
+        color: orange;
+    }
+
+    blockquote {
+        font-family: "Courier New";
+        font-weight: bold;
+    }
+
+    h3 {
+        text-decoration: underline;
+    }
+
+    ul {
+        list-style-type: lower-alpha;
+
+        >li {
+            padding: 3px;
+
+            &.li-highlight {
+                background: yellowgreen;
+                max-width: max-content;
+            }
+        }
+    }
+
+    table {
+        tr {
+            >th {
+                text-align: left;
+                background-color: lightgray;
+                padding: 10px;
+            }
+
+            >td {
+                text-align: left;
+                padding: 3px 0px 0px 10px;
+            }
+        }
+    }
+}

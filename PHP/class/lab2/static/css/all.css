@@ -1,0 +1,63 @@
+body {
+  font-family: "Roboto";
+}
+body h1 {
+  font-family: Georgia;
+}
+body img {
+  height: 300px;
+}
+body div#login {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 30px;
+}
+body div#login input {
+  margin-bottom: 20px;
+}
+body div.flex-box {
+  display: flex;
+  align-items: flex-end;
+}
+body div.flex-box p {
+  margin: 0;
+}
+body div.flex-box img.my-photo {
+  height: 300px;
+  margin-right: 10px;
+}
+body p a:hover {
+  color: orange;
+}
+body blockquote {
+  font-family: "Courier New";
+  font-weight: bold;
+}
+body h3 {
+  text-decoration: underline;
+}
+body ul {
+  list-style-type: lower-alpha;
+}
+body ul > li {
+  padding: 3px;
+}
+body ul > li.li-highlight {
+  background: yellowgreen;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+body table tr > th {
+  text-align: left;
+  background-color: lightgray;
+  padding: 10px;
+}
+body table tr > td {
+  text-align: left;
+  padding: 3px 0px 0px 10px;
+}/*# sourceMappingURL=all.css.map */
