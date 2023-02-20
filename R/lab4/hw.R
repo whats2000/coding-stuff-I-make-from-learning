@@ -90,8 +90,9 @@ text(
 )
 
 # Add income data to compare
+# Data source from https://www.kaggle.com/datasets/uciml/adult-census-income
 
-income <- read.csv("income.csv")
+income <- read.csv("Income.csv")
 
 income_hsgrad <- income %>%
     filter(education == "HS-grad")
