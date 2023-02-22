@@ -11,12 +11,21 @@ diam_fair <- data %>%
     filter(cut == "Fair")
 diam_fair
 
+# 設置圖片分布
 par(mfrow = c(1, 1))
+
+# 設置 Margin
+par(mar = c(7, 6, 5, 5))
+
 # 直接分布圖
 hist(diam_fair$price,
     main = "Distribution of diamond in Fair",
     xlab = "Price value of diamond",
-    col = "cadetblue"
+    col = "cadetblue",
+    cex.lab = 3,
+    cex.axis = 2,
+    cex.main = 3,
+    cex.sub = 2,
 )
 
 # 抽樣分布
@@ -32,7 +41,11 @@ for (i in 1:10000) {
 hist(dist_of_mean_1,
     main = "Sampling size 50",
     xlab = "Price value of diamond",
-    col = "cadetblue"
+    col = "cadetblue",
+    cex.lab = 3,
+    cex.axis = 2,
+    cex.main = 3,
+    cex.sub = 2
 )
 
 # 抽樣 n = 250
@@ -46,7 +59,11 @@ for (i in 1:10000) {
 hist(dist_of_mean_2,
     main = "Sampling size 250",
     xlab = "Price value of diamond",
-    col = "cadetblue"
+    col = "cadetblue",
+    cex.lab = 3,
+    cex.axis = 2,
+    cex.main = 3,
+    cex.sub = 2
 )
 
 # 抽樣 n = 500
@@ -60,7 +77,11 @@ for (i in 1:10000) {
 hist(dist_of_mean_3,
     main = "Sampling size 500",
     xlab = "Price value of diamond",
-    col = "cadetblue"
+    col = "cadetblue",
+    cex.lab = 3,
+    cex.axis = 2,
+    cex.main = 3,
+    cex.sub = 2
 )
 
 par(mfrow = c(1, 1))
@@ -72,7 +93,11 @@ boxplot(
     dist_of_mean_3,
     main = "Distribution of diamond in Fair and sample",
     xlab = "Price value of diamond",
-    col = "cadetblue"
+    col = "cadetblue",
+    cex.lab = 3,
+    cex.axis = 2,
+    cex.main = 3,
+    cex.sub = 2
 )
 
 means <- c(
@@ -81,12 +106,17 @@ means <- c(
     mean(dist_of_mean_2),
     mean(dist_of_mean_3)
 )
-points(means, col = "red", pch = 18)
+points(means,
+    col = "red",
+    pch = 20,
+    cex = seq(2.5, 3, 0.1)
+)
 text(
     x = 1:4, # Add text to plot
-    y = means - 200,
-    labels = paste("Mean:", round(means, 1)),
-    col = "red"
+    y = means - 500,
+    labels = round(means, 1),
+    col = "red",
+    cex = seq(2.5, 3, 0.1)
 )
 
 # Add income data to compare
@@ -104,8 +134,12 @@ par(mfrow = c(1, 1))
 # 直接分布圖
 hist(income_hsgrad$fnlwgt,
     main = "Distribution of wight in education with HS-grad",
-    xlab = "final weight",
+    xlab = "Final weight",
     col = "cadetblue",
+    cex.lab = 3,
+    cex.axis = 2,
+    cex.main = 3,
+    cex.sub = 2
 )
 
 
@@ -122,8 +156,16 @@ for (i in 1:10000) {
 ### Creating a histogram of the distribution of the sample mean
 hist(dist_of_mean_1,
     main = "Sampling size 50",
-    xlab = "final weight",
-    col = "cadetblue"
+    xlab = "Final weight",
+    col = "cadetblue",
+    cex.lab = 3,
+    cex.axis = 2,
+    cex.main = 3,
+    cex.sub = 2,
+    cex.lab = 3,
+    cex.axis = 2,
+    cex.main = 3,
+    cex.sub = 2
 )
 
 # 抽樣 n = 250
@@ -139,8 +181,12 @@ for (i in 1:10000) {
 ### Creating a histogram of the distribution of the sample mean
 hist(dist_of_mean_2,
     main = "Sampling size 250",
-    xlab = "final weight",
-    col = "cadetblue"
+    xlab = "Final weight",
+    col = "cadetblue",
+    cex.lab = 3,
+    cex.axis = 2,
+    cex.main = 3,
+    cex.sub = 2
 )
 
 # 抽樣 n = 500
@@ -153,8 +199,12 @@ for (i in 1:10000) {
 ### Creating a histogram of the distribution of the sample mean
 hist(dist_of_mean_3,
     main = "Sampling size 500",
-    xlab = "final weight",
-    col = "cadetblue"
+    xlab = "Final weight",
+    col = "cadetblue",
+    cex.lab = 3,
+    cex.axis = 2,
+    cex.main = 3,
+    cex.sub = 2
 )
 
 
@@ -166,9 +216,13 @@ boxplot(
     dist_of_mean_2,
     dist_of_mean_3,
     main = "Distribution of final weight in education of HS_grad",
-    xlab = "Price value of diamond",
+    xlab = "Final weight",
     col = "cadetblue",
-    ylim = c(35000, 500000)
+    ylim = c(35000, 500000),
+    cex.lab = 3,
+    cex.axis = 2,
+    cex.main = 2.5,
+    cex.sub = 2
 )
 
 means <- c(
@@ -177,10 +231,15 @@ means <- c(
     mean(dist_of_mean_2),
     mean(dist_of_mean_3)
 )
-points(means, col = "red", pch = 18)
+points(means,
+    col = "red",
+    pch = 20,
+    cex = seq(2.5, 3, 0.1)
+)
 text(
     x = 1:4, # Add text to plot
-    y = means - 6000,
-    labels = paste("Mean:", round(means, 1)),
-    col = "red"
+    y = means - 12000,
+    labels = round(means, 1),
+    col = "red",
+    cex = seq(2.5, 3, 0.1)
 )
