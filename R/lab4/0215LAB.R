@@ -27,7 +27,7 @@ diam_cut_clarity
 diam_good_vs1 <- data %>%
     filter(cut == "Good", clarity == "VS1") %>%
     select(price)
-diam_good_vs1
+# diam_good_vs1
 
 ### Plot the population distribution (5%)
 hist(diam_good_vs1$price,
