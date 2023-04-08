@@ -11,6 +11,7 @@ diam_fair <- data %>%
     filter(cut == "Fair")
 diam_fair
 
+
 # 設置圖片分布
 par(mfrow = c(1, 1))
 
