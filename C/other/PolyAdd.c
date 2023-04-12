@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct PolyNode {
+typedef struct node {
     int coefficient;
     int exponent;
-    struct PolyNode* next;
+    struct node* next;
 } PolyNode;
 
 void insert(PolyNode** head, int coefficient, int exponent) {
