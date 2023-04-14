@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>租屋及買賣房屋首頁</title>
+    <!-- 引入 Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">房屋租售</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">首頁</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">租屋</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">買屋</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main id="app" class="container">
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="position-sticky" style="top: 2rem;">
+                    <!-- Search bar -->
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="搜尋房屋">
+                    </div>
+
+                    <!-- Filters -->
+                    <div class="card">
+                        <div class="card-header">
+                            篩選條件
+                        </div>
+                        <div class="card-body">
+                            <!-- Filter options -->
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="buy" id="buy"
+                                    @change="disableType" checked>
+                                <label class="form-check-label" for="rent">
+                                    租屋
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="rent" id="rent"
+                                    @change="disableType" checked>
+                                <label class="form-check-label" for="buy">
+                                    買屋
+                                </label>
+                            </div>
+                            <!-- More filter options -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <!-- Properties list -->
+                <div class="card-deck">
+                    <div class="w-100" v-for="property in paginatedProperties" :key="property.id">
+                        <div class="card mb-5" v-if="property.type.indexOf(filterType)">
+                            <img class="card-img-top" :src="property.image" alt="物件圖片">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ property.name }}</h5>
+                                <p class="card-text">{{ property.description }}</p>
+                                <p class="card-text">{{ property.type }}</p>
+                                <a :href="'/properties/' + property.id" class="btn btn-primary">詳細資訊</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pagination -->
+                <nav aria-label=" 分頁">
+                    <ul class="pagination justify-content-center mt-4">
+                        <li class="page-item" :class="{'disabled': currentPage === 1}">
+                            <a class="page-link" href="#" aria-label="Previous" @click.prevent="prevPage()">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item" v-for="page in pages" :key="page"
+                            :class="{'active': currentPage === page}">
+                            <a class="page-link" href="#" @click.prevent="setPage(page)">{{ page }}</a>
+                        </li>
+                        <li class="page-item" :class="{'disabled': currentPage === totalPages}">
+                            <a class="page-link" href="#" aria-label="Next" @click.prevent="nextPage()">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </main>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top mx-5">
+        <p class="col-md-4 mb-0 text-body-secondary">&copy; 2023 Company, Inc</p>
+
+        <a href="/"
+            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap" />
+            </svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">首頁</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">租屋</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">買屋</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">常見問答</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
+<!-- Vue.js app -->
+<script src="https://unpkg.com/vue@3.2.47/dist/vue.global.js"></script>
+
+<script>
+const app = Vue.createApp({
+    data() {
+        return {
+            properties: [{
+                    id: 1,
+                    name: '測試物件 1',
+                    description: '這是一個測試物件。',
+                    image: 'https://via.placeholder.com/300x200',
+                    type: 'rent'
+                },
+                {
+                    id: 2,
+                    name: '測試物件 2',
+                    description: '這是一個測試物件。',
+                    image: 'https://via.placeholder.com/300x200',
+                    type: 'buy'
+                },
+                {
+                    id: 3,
+                    name: '測試物件 3',
+                    description: '這是一個測試物件。',
+                    image: 'https://via.placeholder.com/300x200',
+                    type: 'rent'
+                },
+                {
+                    id: 4,
+                    name: '測試物件 4',
+                    description: '這是一個測試物件。',
+                    image: 'https://via.placeholder.com/300x200',
+                    type: 'buy'
+                },
+                {
+                    id: 5,
+                    name: '測試物件 5',
+                    description: '這是一個測試物件。',
+                    image: 'https://via.placeholder.com/300x200',
+                    type: 'rent'
+                },
+                {
+                    id: 6,
+                    name: '測試物件 6',
+                    description: '這是一個測試物件。',
+                    image: 'https://via.placeholder.com/300x200',
+                    type: 'buy'
+                },
+                {
+                    id: 7,
+                    name: '測試物件 7',
+                    description: '這是一個測試物件。',
+                    image: 'https://via.placeholder.com/300x200',
+                    type: 'rent'
+                },
+                {
+                    id: 8,
+                    name: '測試物件 8',
+                    description: '這是一個測試物件。',
+                    image: 'https://via.placeholder.com/300x200',
+                    type: 'buy'
+                }
+            ],
+            perPage: 4,
+            currentPage: 1,
+            pages: [],
+            filterType: ['buy', 'rent'],
+            searchQuery: ''
+        }
+    },
+    methods: {
+        setPage(page) {
+            this.currentPage = page;
+        },
+        prevPage() {
+            if (this.currentPage > 1) {
+                this.currentPage--;
+            }
+        },
+        nextPage() {
+            if (this.currentPage < this.totalPages) {
+                this.currentPage++;
+            }
+        },
+        disableType() {
+            let selectedTypes = [];
+            if (document.getElementById('rent').checked) {
+                selectedTypes.push('rent');
+            }
+            if (document.getElementById('buy').checked) {
+                selectedTypes.push('buy');
+            }
+            this.filterType = selectedTypes;
+            this.currentPage = 1;
+        },
+    },
+
+    computed: {
+        totalProperties() {
+            return this.properties.length;
+        },
+        totalPages() {
+            return Math.ceil(this.totalProperties / this.perPage);
+        },
+        paginatedProperties() {
+            var startIndex = (this.currentPage - 1) * this.perPage;
+            var endIndex = startIndex + this.perPage;
+            return this.properties.slice(startIndex, endIndex);
+        }
+    },
+
+    created() {
+        for (var i = 1; i <= this.totalPages; i++) {
+            this.pages.push(i);
+        }
+    }
+});
+
+app.mount('#app');
+</script>
