@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "*.rmd": "markdown",
+        "stdio.h": "c"
+    }
+}
