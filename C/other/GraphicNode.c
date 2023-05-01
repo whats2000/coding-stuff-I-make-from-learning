@@ -38,29 +38,42 @@ int main() {
     GraphNode* graph[MAX_VERTICES] = {NULL};
     int vertex_in_use = 0;
 
+    add_edge(graph, 0, 1);
+    add_edge(graph, 0, 2);
+    add_edge(graph, 0, 7);
+
     add_edge(graph, 1, 2);
+
+    add_edge(graph, 2, 7);
     add_edge(graph, 2, 3);
+
     add_edge(graph, 3, 4);
-    add_edge(graph, 4, 1);
-    add_edge(graph, 1, 3);
-    add_edge(graph, 2, 4);
+    add_edge(graph, 3, 5);
+    add_edge(graph, 3, 7);
+
+    add_edge(graph, 4, 5);
+
     add_edge(graph, 5, 6);
+
     add_edge(graph, 6, 7);
-    add_edge(graph, 7, 5);
     /*
-    1 --- 2
-    |\   /|
-    | \ / |
-    |  3  |
-    | / \ |
-    |/   \|
-    4 --- 5 --- 6
-          |     |
-          |     |
-          7 ----
+    1 ----
+    |     |
+    |     |
+    0 --- 2
+    |    /|
+    |   / |
+    |  /  |
+    | /   |
+    |/    |
+    7 --- 3 ---
+    |     |     |
+    |     |     |
+    6 --- 5 --- 4
 
     */
-    vertex_in_use = 7;
+    vertex_in_use = 8;
+
     print_graph(graph, vertex_in_use);
     return 0;
 }
