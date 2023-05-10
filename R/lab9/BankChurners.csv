@@ -1,0 +1,1020 @@
+CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Marital_Status,Income_Category,Card_Category,Months_on_book,Total_Relationship_Count,Contacts_Count_12_mon,Credit_Limit,Total_Revolving_Bal,Total_Trans_Amt,Total_Trans_Ct
+818906208,Existing Customer,32,M,0,High School,Unknown,$60K - $80K,Silver,27,2,2,29081,1396,1538,36
+713901108,Existing Customer,37,M,2,High School,Single,$60K - $80K,Blue,29,6,4,14575,0,3444,80
+709513458,Existing Customer,49,M,3,High School,Unknown,$60K - $80K,Blue,36,3,2,9551,1833,3213,52
+711421233,Existing Customer,51,M,3,High School,Single,$60K - $80K,Blue,43,5,3,7119,1513,4969,84
+714037308,Existing Customer,54,M,2,High School,Married,$60K - $80K,Blue,50,3,3,2210,1002,4798,86
+708568983,Existing Customer,40,M,3,High School,Married,$60K - $80K,Blue,28,2,1,11476,2365,8110,113
+716004258,Existing Customer,45,M,4,High School,Single,$60K - $80K,Blue,35,1,3,8449,2092,17634,120
+818770008,Existing Customer,49,F,5,Graduate,Single,Less than $40K,Blue,44,6,2,8256,864,1291,33
+814995933,Existing Customer,58,F,3,Graduate,Married,Less than $40K,Blue,53,5,2,5798,1794,1724,45
+787599258,Existing Customer,55,F,3,Graduate,Single,Less than $40K,Blue,29,6,2,7361,1309,1175,34
+711466533,Existing Customer,43,F,2,Graduate,Married,Less than $40K,Blue,33,5,2,3933,852,1489,45
+788701608,Existing Customer,42,F,4,Graduate,Single,Less than $40K,Blue,26,5,3,2950,1705,1260,32
+708098133,Existing Customer,32,F,0,Graduate,Married,Less than $40K,Blue,19,6,0,2834,1418,1598,39
+770937183,Existing Customer,40,F,4,Graduate,Single,Less than $40K,Silver,27,3,2,10745,2084,3502,87
+720580383,Existing Customer,50,F,3,Graduate,Married,Less than $40K,Blue,37,3,4,1438.3,0,3637,80
+719655258,Existing Customer,64,M,0,Graduate,Single,Less than $40K,Blue,36,3,4,3196,0,3412,72
+720527058,Existing Customer,39,F,1,Graduate,Single,Less than $40K,Blue,24,4,3,2310,1306,4343,74
+721522533,Existing Customer,48,F,4,Graduate,Single,Less than $40K,Blue,35,6,2,2005,1143,4311,70
+794653983,Existing Customer,44,F,3,Graduate,Married,Less than $40K,Blue,27,3,4,1480,1017,5245,80
+779447358,Existing Customer,50,F,2,Graduate,Married,Less than $40K,Blue,32,3,4,2884,2104,4486,93
+719849958,Existing Customer,44,F,4,Graduate,Single,Less than $40K,Blue,36,4,3,2658,1884,4779,83
+710555433,Attrited Customer,42,F,4,Graduate,Single,Less than $40K,Blue,36,6,2,2803,0,2216,40
+716313858,Existing Customer,53,F,3,Graduate,Married,Less than $40K,Blue,36,6,0,3319,913,4560,84
+780222408,Existing Customer,49,F,5,Graduate,Unknown,Less than $40K,Blue,36,1,2,3272,2085,4444,83
+771546708,Existing Customer,46,F,2,Graduate,Single,Less than $40K,Blue,34,2,1,1438.3,0,5013,81
+710260983,Existing Customer,51,F,4,Graduate,Divorced,Less than $40K,Blue,36,2,2,2984,2512,8296,91
+767695083,Existing Customer,50,M,2,Graduate,Married,$80K - $120K,Blue,44,3,0,4589,0,1590,37
+710043408,Existing Customer,49,M,3,Graduate,Married,$80K - $120K,Blue,37,4,4,15610,2048,1916,58
+719688408,Existing Customer,45,M,3,Graduate,Married,$80K - $120K,Silver,36,6,3,34516,0,3530,68
+772031733,Existing Customer,40,M,4,Graduate,Single,$80K - $120K,Blue,29,5,2,14315,690,2603,56
+771196083,Existing Customer,47,M,4,Graduate,Married,$80K - $120K,Blue,34,6,3,18178,0,1837,37
+814776033,Existing Customer,34,M,2,Graduate,Single,$80K - $120K,Blue,29,3,3,13395,1678,2650,69
+826068183,Existing Customer,36,M,1,Graduate,Married,$80K - $120K,Blue,32,4,3,15488,1463,2916,50
+827049558,Existing Customer,47,M,2,Graduate,Unknown,$80K - $120K,Blue,43,3,2,2158,1170,4421,89
+787593558,Existing Customer,42,M,3,Graduate,Married,$80K - $120K,Blue,34,6,0,4562,2258,3740,55
+710413533,Existing Customer,56,M,2,Graduate,Married,$80K - $120K,Blue,51,3,3,12186,1080,4785,66
+711953358,Existing Customer,51,M,2,Graduate,Married,$80K - $120K,Blue,35,4,2,6205,2264,4605,88
+788687133,Existing Customer,42,M,2,Graduate,Married,$80K - $120K,Blue,31,2,1,16433,0,13678,125
+721294533,Existing Customer,48,M,4,Graduate,Married,$80K - $120K,Blue,34,1,1,34516,738,15143,121
+718225683,Existing Customer,56,M,1,Graduate,Single,$80K - $120K,Silver,49,5,2,34516,1091,15274,108
+811898133,Existing Customer,40,F,3,High School,Divorced,Less than $40K,Blue,35,3,3,2555,2117,1334,32
+714363858,Existing Customer,54,F,4,High School,Married,Less than $40K,Blue,36,3,3,1594,1411,1459,35
+719318583,Attrited Customer,37,M,3,High School,Married,Less than $40K,Blue,26,3,4,6866,2389,862,13
+715822008,Existing Customer,32,M,1,High School,Married,Less than $40K,Blue,14,4,2,3568,2175,1913,35
+708238833,Existing Customer,57,F,3,High School,Married,Less than $40K,Blue,36,6,3,3032,2215,1387,30
+712141683,Existing Customer,48,F,3,High School,Single,Less than $40K,Blue,28,4,1,2944,753,3457,61
+717986058,Existing Customer,29,F,0,High School,Single,Less than $40K,Blue,13,6,5,5240,1608,2712,64
+718358808,Existing Customer,57,F,2,High School,Divorced,Less than $40K,Blue,50,5,5,3276,0,3758,61
+823635033,Existing Customer,49,F,2,High School,Married,Less than $40K,Blue,45,6,5,8353,1535,4200,83
+778839108,Existing Customer,50,F,3,High School,Married,Less than $40K,Blue,31,3,4,6292,0,3687,74
+789097833,Existing Customer,39,F,0,High School,Single,Less than $40K,Blue,27,4,3,3927,720,4230,93
+708515358,Existing Customer,40,F,1,High School,Married,Less than $40K,Blue,36,6,2,4712,0,4216,82
+789396783,Existing Customer,30,F,0,High School,Single,Less than $40K,Blue,20,3,4,2112,1109,4729,78
+719742108,Attrited Customer,38,F,1,High School,Single,Less than $40K,Blue,26,5,4,3554,0,2372,44
+715009833,Existing Customer,51,F,1,High School,Married,Less than $40K,Blue,36,3,2,1857,1033,5149,90
+716961033,Existing Customer,48,F,3,High School,Single,Less than $40K,Blue,40,1,3,3520,2149,3630,78
+772364358,Existing Customer,54,F,2,High School,Unknown,Less than $40K,Blue,44,1,1,2691,811,4413,80
+708340758,Attrited Customer,41,M,4,High School,Married,Less than $40K,Blue,32,2,3,7769,0,8109,74
+717806133,Existing Customer,40,M,2,Uneducated,Divorced,$60K - $80K,Blue,29,5,0,23603,0,1382,31
+712890408,Existing Customer,45,M,2,Uneducated,Married,$60K - $80K,Blue,36,5,2,2221,1343,1338,30
+787464408,Existing Customer,53,M,2,Uneducated,Single,$60K - $80K,Blue,40,5,2,19116,0,1184,29
+809976033,Existing Customer,49,M,2,Uneducated,Married,$60K - $80K,Blue,44,6,0,7819,1560,1582,25
+711857733,Existing Customer,49,M,3,Uneducated,Single,$60K - $80K,Blue,32,3,2,18584,2517,1330,34
+710801133,Existing Customer,34,M,2,Uneducated,Married,$60K - $80K,Blue,36,6,2,8581,2326,2513,63
+783387783,Existing Customer,55,M,2,Uneducated,Divorced,$60K - $80K,Blue,49,4,3,10127,1873,1647,53
+712730583,Existing Customer,29,M,0,Uneducated,Married,$60K - $80K,Blue,20,5,3,8592,1201,1842,50
+715055433,Existing Customer,36,M,3,Uneducated,Married,$60K - $80K,Blue,22,6,4,2224,1772,2004,44
+717038733,Existing Customer,56,M,3,Uneducated,Married,$60K - $80K,Blue,36,5,3,2253,1375,1324,38
+719273733,Existing Customer,37,M,2,Uneducated,Married,$60K - $80K,Blue,36,5,5,7959,998,1855,29
+719484408,Existing Customer,39,M,3,Uneducated,Married,$60K - $80K,Blue,36,6,4,4759,1459,2903,57
+801989733,Existing Customer,55,M,2,Uneducated,Single,$60K - $80K,Blue,48,6,2,7667,1193,3915,76
+778386033,Existing Customer,38,M,3,Uneducated,Married,$60K - $80K,Blue,18,6,4,3417,1749,2068,34
+716037708,Existing Customer,50,M,0,Uneducated,Divorced,$60K - $80K,Blue,39,6,3,9474,1021,3240,54
+818903583,Existing Customer,44,M,5,Uneducated,Divorced,$60K - $80K,Blue,39,5,0,16034,1597,3628,59
+772472208,Existing Customer,50,M,1,Uneducated,Married,$60K - $80K,Blue,40,6,4,4092,996,2298,48
+710871108,Existing Customer,45,M,5,Uneducated,Divorced,$60K - $80K,Silver,36,4,4,31756,1459,4759,70
+712606158,Existing Customer,47,M,4,Uneducated,Married,$60K - $80K,Blue,42,4,2,5715,1214,3685,63
+719219883,Existing Customer,47,M,2,Uneducated,Married,$60K - $80K,Blue,36,4,2,9300,769,3651,67
+828288333,Existing Customer,50,M,0,Uneducated,Married,$60K - $80K,Blue,46,4,3,3640,659,3756,70
+713333433,Attrited Customer,49,M,3,Uneducated,Unknown,$60K - $80K,Blue,41,3,4,18075,0,1477,30
+711655683,Existing Customer,55,M,1,Uneducated,Single,$60K - $80K,Silver,46,4,4,25991,0,2996,62
+715776033,Existing Customer,46,M,5,Uneducated,Single,$60K - $80K,Blue,33,4,3,3135,0,4116,68
+710674533,Attrited Customer,46,M,1,Uneducated,Married,$60K - $80K,Blue,34,3,4,15060,0,1611,42
+717450633,Attrited Customer,47,M,3,Uneducated,Single,$60K - $80K,Blue,36,3,4,1659,1544,1920,39
+719756133,Attrited Customer,34,M,4,Uneducated,Single,$60K - $80K,Blue,20,3,6,3940,1384,3257,53
+771928608,Existing Customer,34,M,1,Uneducated,Single,$60K - $80K,Blue,23,6,1,2033,1832,4110,74
+712829808,Attrited Customer,39,M,3,Uneducated,Married,$60K - $80K,Blue,29,4,4,2187,0,2031,40
+718320933,Existing Customer,47,M,3,Uneducated,Married,$60K - $80K,Blue,36,2,1,11919,2347,8257,96
+772725408,Existing Customer,40,M,3,Uneducated,Divorced,$60K - $80K,Blue,30,2,2,24499,2517,7667,84
+718728108,Existing Customer,43,M,4,Uneducated,Married,$60K - $80K,Silver,30,1,1,29856,1576,14887,119
+720512433,Attrited Customer,56,M,1,Uneducated,Single,$60K - $80K,Blue,36,6,3,15219,2281,7625,78
+779082633,Existing Customer,30,M,2,Uneducated,Single,$60K - $80K,Blue,13,3,3,4107,979,14596,104
+779692608,Existing Customer,36,M,1,Uneducated,Married,$60K - $80K,Blue,19,6,5,9764,0,15097,115
+709382958,Existing Customer,55,F,2,Graduate,Married,$40K - $60K,Blue,46,6,4,2894,2077,1017,25
+718011783,Existing Customer,55,M,3,Graduate,Married,$40K - $60K,Blue,36,3,3,2205,1337,1591,38
+712826208,Existing Customer,39,F,2,Graduate,Married,$40K - $60K,Blue,26,5,2,2575,1424,1487,33
+713237958,Existing Customer,34,M,0,Graduate,Married,$40K - $60K,Blue,17,4,4,2638,2092,1868,43
+708151008,Existing Customer,49,F,4,Graduate,Married,$40K - $60K,Blue,41,5,2,6250,644,2433,41
+717983058,Existing Customer,41,F,3,Graduate,Married,$40K - $60K,Blue,29,5,3,1982,1068,3058,58
+756989583,Existing Customer,41,M,4,Graduate,Unknown,$40K - $60K,Blue,24,4,2,1605,0,4418,68
+769053033,Attrited Customer,44,F,1,Graduate,Single,$40K - $60K,Blue,38,3,5,4142,2517,2104,44
+714673833,Existing Customer,59,F,1,Graduate,Single,$40K - $60K,Blue,36,3,1,1528,0,4411,77
+710758683,Existing Customer,61,F,1,Graduate,Unknown,$40K - $60K,Silver,48,2,3,15698,2000,12980,82
+792139308,Existing Customer,48,F,3,Graduate,Single,$40K - $60K,Blue,42,1,3,9215,639,13345,114
+710799783,Existing Customer,35,M,2,Unknown,Married,$120K +,Blue,36,4,4,15202,1779,3143,60
+718665933,Existing Customer,43,M,3,Unknown,Divorced,$120K +,Blue,30,3,2,34516,2517,7437,86
+711436983,Existing Customer,57,M,3,Unknown,Single,$120K +,Silver,49,1,1,34516,2517,8596,102
+714199008,Attrited Customer,50,M,2,Unknown,Married,$120K +,Blue,36,6,2,16081,492,6100,61
+719336583,Existing Customer,55,M,2,Uneducated,Married,$120K +,Blue,44,3,3,27745,1300,1525,21
+811035483,Attrited Customer,47,M,3,Uneducated,Divorced,$120K +,Silver,42,2,5,34516,0,1641,35
+827695683,Existing Customer,40,M,3,Uneducated,Single,$120K +,Blue,36,4,5,34516,1329,3906,77
+789339633,Existing Customer,51,M,2,Uneducated,Divorced,$120K +,Blue,41,4,3,30560,0,3736,55
+768661758,Existing Customer,53,M,0,Uneducated,Divorced,$120K +,Blue,47,5,1,26129,1752,4919,75
+716922633,Attrited Customer,38,M,2,Uneducated,Single,$120K +,Blue,30,6,4,4043,2517,2600,47
+717684858,Existing Customer,50,M,3,Uneducated,Single,$120K +,Blue,38,6,3,22304,1333,5002,60
+811705233,Existing Customer,45,M,2,Unknown,Single,$40K - $60K,Blue,40,6,3,7037,0,4099,71
+714253983,Existing Customer,44,M,3,Unknown,Married,$40K - $60K,Blue,36,4,3,9465,0,3675,59
+719504433,Existing Customer,63,M,0,Unknown,Single,$40K - $60K,Silver,54,4,3,18064,1695,3434,71
+708703308,Attrited Customer,35,F,1,Unknown,Married,$40K - $60K,Blue,26,6,4,2045,1707,2183,39
+796196733,Existing Customer,52,F,2,Unknown,Single,$40K - $60K,Blue,46,4,3,4259,0,4389,80
+798783858,Existing Customer,48,F,3,Unknown,Unknown,$40K - $60K,Blue,42,2,1,9742,2517,13082,92
+815353083,Attrited Customer,44,M,1,College,Divorced,$80K - $120K,Silver,39,2,2,34516,2361,1853,36
+770667408,Existing Customer,47,M,4,College,Married,$80K - $120K,Blue,33,3,3,8854,2382,4768,81
+815308683,Existing Customer,46,M,3,College,Married,$80K - $120K,Blue,41,4,1,18927,887,3101,54
+718396533,Existing Customer,47,M,3,College,Single,$80K - $120K,Blue,38,5,3,8185,1556,4527,83
+779655183,Existing Customer,48,M,4,College,Single,$80K - $120K,Blue,31,6,3,5033,0,4054,82
+710822808,Existing Customer,51,M,0,College,Single,$80K - $120K,Blue,33,1,1,34516,1228,7854,89
+711318033,Existing Customer,47,M,3,Graduate,Single,$60K - $80K,Blue,36,4,2,2926,0,1304,24
+710027508,Existing Customer,61,M,0,Graduate,Married,$60K - $80K,Blue,54,3,0,1616,1047,1389,33
+715022133,Existing Customer,53,M,2,Graduate,Married,$60K - $80K,Blue,47,6,2,6363,1162,1256,26
+792402483,Existing Customer,46,M,4,Graduate,Single,$60K - $80K,Blue,40,5,1,12280,985,4263,70
+720568083,Existing Customer,40,M,2,Graduate,Divorced,$60K - $80K,Blue,36,5,4,8624,0,2428,53
+719530158,Existing Customer,57,M,1,Graduate,Single,$60K - $80K,Blue,44,3,2,9843,1273,3677,66
+711654558,Existing Customer,46,M,3,Graduate,Unknown,$60K - $80K,Blue,36,6,4,2179,1632,4025,69
+779327733,Existing Customer,43,M,1,Graduate,Divorced,$60K - $80K,Blue,25,4,3,1783,1014,3861,81
+709275558,Existing Customer,54,M,2,Graduate,Single,$60K - $80K,Blue,44,6,2,7866,0,4238,55
+818729208,Existing Customer,52,M,3,Graduate,Married,$60K - $80K,Blue,47,3,3,8185,941,4525,77
+708671733,Existing Customer,48,M,4,Graduate,Married,$60K - $80K,Blue,36,2,3,2072,1499,4091,71
+715908558,Existing Customer,44,M,0,Graduate,Unknown,$60K - $80K,Silver,36,1,1,29572,1584,7566,88
+819109308,Existing Customer,62,M,0,Graduate,Divorced,$60K - $80K,Blue,56,1,3,6103,2517,8080,92
+779293308,Existing Customer,51,M,4,Graduate,Married,$60K - $80K,Silver,33,1,3,25653,2059,8305,103
+710873583,Existing Customer,58,M,1,Graduate,Married,$60K - $80K,Blue,48,2,2,20724,2221,14215,109
+715474083,Existing Customer,51,M,3,Graduate,Single,$60K - $80K,Silver,36,3,2,29663,1743,14638,93
+816533733,Existing Customer,50,M,1,Unknown,Married,$80K - $120K,Blue,45,5,2,33951,0,1567,44
+788789658,Existing Customer,40,M,5,Unknown,Unknown,$80K - $120K,Blue,22,6,4,4042,1744,1471,37
+717261708,Existing Customer,53,M,1,Unknown,Married,$80K - $120K,Blue,36,4,3,13457,1248,1548,41
+716938383,Existing Customer,41,M,4,Unknown,Married,$80K - $120K,Blue,28,3,3,34516,0,3811,61
+711184983,Existing Customer,41,M,5,Unknown,Unknown,$80K - $120K,Blue,29,6,1,11191,0,3839,73
+714125883,Existing Customer,47,M,2,Unknown,Married,$80K - $120K,Blue,36,6,1,2514,1845,3696,71
+712602708,Attrited Customer,36,M,3,Unknown,Unknown,$80K - $120K,Blue,36,4,2,1815,0,2039,34
+719437908,Existing Customer,44,M,3,Post-Graduate,Divorced,$80K - $120K,Blue,36,6,2,17965,1644,1767,50
+708820308,Existing Customer,47,M,3,Post-Graduate,Unknown,$80K - $120K,Blue,36,6,2,13399,2505,1326,31
+710677608,Existing Customer,53,M,2,Post-Graduate,Unknown,$80K - $120K,Blue,36,4,0,29205,1208,1556,43
+720267033,Existing Customer,34,M,4,Post-Graduate,Single,$80K - $120K,Blue,26,3,2,5100,1786,2375,63
+772782708,Existing Customer,50,M,3,Post-Graduate,Single,$80K - $120K,Blue,40,5,2,31383,1688,1721,56
+709224858,Existing Customer,53,M,2,Post-Graduate,Married,$80K - $120K,Blue,36,5,2,3610,1629,1652,40
+796990908,Existing Customer,35,M,3,Post-Graduate,Single,$80K - $120K,Silver,29,5,2,34516,1872,2227,61
+712491108,Existing Customer,35,M,1,Post-Graduate,Married,$80K - $120K,Blue,20,6,4,13046,1177,2601,52
+772468983,Existing Customer,36,M,1,Post-Graduate,Married,$80K - $120K,Blue,26,3,2,21927,1291,1946,37
+711405333,Existing Customer,52,M,3,Post-Graduate,Married,$80K - $120K,Blue,43,5,2,6849,2126,1651,43
+787231233,Existing Customer,34,M,5,Post-Graduate,Single,$80K - $120K,Silver,28,3,2,34516,1731,2421,63
+794967408,Existing Customer,53,M,3,Post-Graduate,Married,$80K - $120K,Blue,47,5,1,9106,975,3863,74
+718611333,Existing Customer,55,M,3,Post-Graduate,Married,$80K - $120K,Blue,36,6,0,6400,1979,4475,91
+790108908,Existing Customer,44,M,2,Post-Graduate,Married,$80K - $120K,Blue,37,5,1,34058,0,4043,57
+779667408,Existing Customer,58,M,1,Post-Graduate,Single,$80K - $120K,Blue,41,4,1,2915,1494,4235,73
+708976908,Attrited Customer,40,M,3,Post-Graduate,Single,$80K - $120K,Blue,36,4,3,8958,0,2131,43
+719475633,Existing Customer,42,M,3,Post-Graduate,Married,$80K - $120K,Blue,30,6,3,13908,0,4319,81
+713894358,Existing Customer,51,M,2,Post-Graduate,Unknown,$80K - $120K,Gold,46,2,2,34516,814,7889,98
+771411408,Attrited Customer,50,M,1,Post-Graduate,Unknown,$80K - $120K,Blue,38,2,4,2673,0,4929,54
+788766933,Existing Customer,46,M,2,Post-Graduate,Married,$80K - $120K,Blue,26,1,1,34516,714,14279,97
+788779983,Existing Customer,58,M,2,Post-Graduate,Married,$80K - $120K,Blue,39,4,3,3742,2517,16401,121
+784725333,Existing Customer,41,M,3,High School,Married,$40K - $60K,Blue,33,4,1,4470,680,931,18
+785387883,Existing Customer,47,F,3,High School,Single,$40K - $60K,Blue,41,4,3,3788,1540,1594,47
+713539833,Existing Customer,48,F,4,High School,Single,$40K - $60K,Blue,38,6,3,8135,0,1716,29
+772390908,Attrited Customer,59,M,0,High School,Single,$40K - $60K,Blue,48,2,3,3616,1054,687,17
+773466258,Existing Customer,48,F,4,High School,Married,$40K - $60K,Blue,42,3,3,4206,1100,1144,22
+772047183,Existing Customer,45,M,4,High School,Married,$40K - $60K,Blue,34,6,3,3104,1766,1353,24
+721059033,Existing Customer,48,F,3,High School,Divorced,$40K - $60K,Blue,40,4,2,1919,774,1505,33
+712710708,Existing Customer,55,M,2,High School,Single,$40K - $60K,Blue,36,5,0,6244,2517,1445,40
+710429358,Existing Customer,57,M,1,High School,Married,$40K - $60K,Blue,48,5,3,2544,1927,1346,30
+708938508,Existing Customer,63,M,1,High School,Married,$40K - $60K,Blue,36,5,2,4559,1571,1870,35
+719068683,Existing Customer,52,F,1,High School,Married,$40K - $60K,Blue,36,5,2,3136,1864,1036,25
+712636308,Existing Customer,65,F,2,High School,Married,$40K - $60K,Blue,45,6,2,2658,1514,1627,26
+717412608,Attrited Customer,38,F,2,High School,Married,$40K - $60K,Blue,28,3,2,7225,0,738,16
+717141858,Existing Customer,56,F,2,High School,Single,$40K - $60K,Blue,36,4,2,13904,625,3151,67
+715760733,Existing Customer,58,M,4,High School,Married,$40K - $60K,Blue,47,6,4,7803,1885,1199,25
+713767383,Existing Customer,32,F,0,High School,Married,$40K - $60K,Blue,22,4,2,2062,1665,2397,41
+824789283,Existing Customer,36,M,2,High School,Single,$40K - $60K,Blue,32,3,2,2683,1533,2373,73
+711041508,Existing Customer,37,F,1,High School,Married,$40K - $60K,Blue,25,4,4,5865,2517,2623,47
+714093108,Existing Customer,58,F,2,High School,Single,$40K - $60K,Blue,36,3,3,7372,1210,1707,56
+820020258,Existing Customer,55,F,1,High School,Single,$40K - $60K,Blue,46,5,4,5379,962,1778,40
+780251658,Existing Customer,32,M,1,High School,Married,$40K - $60K,Blue,18,4,4,4583,1586,2395,57
+717085983,Existing Customer,44,F,2,High School,Single,$40K - $60K,Blue,25,6,3,3299,2517,4312,84
+710218233,Existing Customer,43,F,3,High School,Single,$40K - $60K,Blue,35,4,3,2297,1044,3161,65
+720964683,Existing Customer,60,M,0,High School,Single,$40K - $60K,Blue,36,5,2,5420,0,3477,60
+721028283,Existing Customer,40,F,4,High School,Married,$40K - $60K,Blue,28,4,3,11494,1160,3353,86
+712949733,Existing Customer,46,M,5,High School,Single,$40K - $60K,Blue,37,3,3,6340,1985,3536,61
+789109983,Existing Customer,40,F,3,High School,Divorced,$40K - $60K,Blue,28,4,4,4464,1418,3870,73
+766111383,Existing Customer,38,F,2,High School,Married,$40K - $60K,Blue,31,4,4,1593,1091,4136,67
+778372158,Existing Customer,49,F,5,High School,Married,$40K - $60K,Blue,33,6,2,2506,1549,4747,91
+714818058,Existing Customer,36,F,4,High School,Married,$40K - $60K,Blue,30,3,1,1438.3,0,4591,74
+819969933,Existing Customer,43,F,2,High School,Single,$40K - $60K,Blue,38,4,2,5070,0,4193,67
+719659758,Existing Customer,45,F,4,High School,Married,$40K - $60K,Blue,35,6,0,2919,1670,4194,72
+771058908,Existing Customer,55,F,3,High School,Single,$40K - $60K,Blue,42,3,2,2873,2455,4563,72
+720885558,Existing Customer,51,F,2,High School,Single,$40K - $60K,Blue,37,5,1,2621,2426,4885,74
+710086308,Existing Customer,46,F,4,High School,Unknown,$40K - $60K,Blue,38,6,0,3645,1179,4680,87
+710719683,Existing Customer,49,F,1,High School,Divorced,$40K - $60K,Blue,43,3,2,3054,845,4460,88
+718212633,Existing Customer,45,F,4,High School,Married,$40K - $60K,Blue,36,5,1,2948,2232,3635,79
+802867683,Existing Customer,53,F,2,High School,Single,$40K - $60K,Blue,47,5,3,1536,728,4133,78
+711893358,Existing Customer,46,M,5,High School,Married,$40K - $60K,Blue,37,6,1,2375,1196,4087,66
+711801933,Attrited Customer,54,F,4,High School,Single,$40K - $60K,Blue,36,3,4,1438.3,0,2092,42
+771518658,Existing Customer,58,F,1,High School,Married,$40K - $60K,Blue,46,5,1,1871,1339,4553,90
+789454683,Existing Customer,45,F,3,High School,Single,$40K - $60K,Blue,36,4,2,1912,1281,5046,79
+710436108,Existing Customer,41,M,4,High School,Unknown,$40K - $60K,Blue,29,5,2,3600,746,4184,61
+721093608,Existing Customer,44,M,2,High School,Single,$40K - $60K,Blue,31,5,1,2197,0,4548,64
+715516458,Attrited Customer,42,F,1,High School,Married,$40K - $60K,Blue,36,5,2,2705,2430,2602,43
+710487033,Existing Customer,44,F,2,High School,Married,$40K - $60K,Blue,28,2,3,1438.3,0,4445,78
+771067308,Existing Customer,38,F,3,High School,Single,$40K - $60K,Blue,25,1,2,3040,1908,5616,73
+718742808,Attrited Customer,55,F,1,High School,Married,$40K - $60K,Blue,46,2,3,4629,710,2877,49
+758168133,Existing Customer,50,F,0,High School,Married,$40K - $60K,Blue,43,2,1,4154,1060,4325,86
+712453308,Existing Customer,46,M,4,High School,Divorced,$40K - $60K,Silver,36,2,3,15034,1356,7737,84
+718292283,Existing Customer,52,F,1,High School,Single,$40K - $60K,Blue,42,1,1,3416,1970,8254,75
+789582483,Existing Customer,60,M,1,High School,Divorced,$40K - $60K,Blue,53,2,3,9369,1813,7699,101
+779037408,Existing Customer,38,M,1,High School,Single,$40K - $60K,Blue,19,2,3,3581,694,14637,109
+789890958,Existing Customer,53,F,4,High School,Divorced,$40K - $60K,Blue,43,3,2,10948,482,16230,111
+797228883,Existing Customer,46,M,2,High School,Married,$40K - $60K,Blue,40,3,0,3981,0,14340,114
+711427458,Existing Customer,44,F,5,Graduate,Married,Unknown,Blue,35,4,2,6273,978,1359,25
+755420433,Existing Customer,59,F,1,Graduate,Married,Unknown,Blue,52,2,3,10133,1417,1068,20
+714311583,Existing Customer,46,F,4,Graduate,Single,Unknown,Blue,36,4,2,17023,1084,1610,43
+710793783,Existing Customer,53,F,3,Graduate,Married,Unknown,Blue,40,6,1,12059,1978,1836,36
+710653158,Existing Customer,39,F,4,Graduate,Married,Unknown,Blue,21,6,4,5024,1613,1925,40
+715745508,Existing Customer,51,F,4,Graduate,Single,Unknown,Blue,34,3,2,11221,1279,1564,45
+715078383,Existing Customer,64,F,0,Graduate,Married,Unknown,Blue,36,3,3,7646,1010,1667,47
+714997683,Existing Customer,56,F,4,Graduate,Married,Unknown,Blue,49,5,3,14915,1111,1388,35
+789282333,Existing Customer,62,F,0,Graduate,Married,Unknown,Blue,51,3,3,10826,1274,1355,34
+816319008,Existing Customer,52,F,2,Graduate,Single,Unknown,Blue,47,6,3,13276,1917,1901,33
+708355683,Existing Customer,46,F,4,Graduate,Married,Unknown,Blue,38,3,3,16815,0,2976,65
+719184783,Existing Customer,51,F,1,Graduate,Single,Unknown,Blue,41,3,2,9352,1429,3536,71
+717461283,Attrited Customer,38,F,2,Graduate,Single,Unknown,Blue,24,3,3,2214,570,2066,45
+772095858,Existing Customer,38,F,2,Graduate,Single,Unknown,Blue,27,4,3,13429,1246,3929,66
+709131033,Existing Customer,65,F,0,Graduate,Unknown,Unknown,Blue,36,3,4,2025,1701,4056,71
+821339433,Existing Customer,45,F,3,Graduate,Married,Unknown,Blue,41,5,2,2777,2118,4442,64
+711245433,Attrited Customer,50,F,4,Graduate,Single,Unknown,Blue,41,5,3,2509,0,2281,41
+720784833,Attrited Customer,48,F,3,Graduate,Single,Unknown,Blue,36,3,1,1630,1243,1884,43
+709666908,Existing Customer,42,F,4,Graduate,Divorced,Unknown,Blue,36,3,1,2782,1782,4669,93
+709837308,Existing Customer,34,F,3,Graduate,Single,Unknown,Blue,19,6,2,7531,0,3833,71
+806428908,Existing Customer,60,F,1,Graduate,Single,Unknown,Blue,55,3,3,13397,0,5049,75
+768632958,Attrited Customer,59,F,1,Graduate,Single,Unknown,Blue,49,3,6,8708,1091,2508,49
+715040208,Existing Customer,49,F,2,Graduate,Single,Unknown,Blue,38,6,3,5076,871,4115,72
+717074283,Attrited Customer,45,F,3,Graduate,Divorced,Unknown,Blue,37,5,6,17678,0,2566,49
+709098108,Existing Customer,45,F,4,Graduate,Married,Unknown,Blue,35,4,2,2705,0,4749,80
+710476908,Existing Customer,39,F,3,Graduate,Married,Unknown,Blue,28,3,3,9371,1066,4754,78
+716513358,Existing Customer,51,F,2,Graduate,Divorced,Unknown,Blue,36,5,3,2069,1802,4402,91
+710637183,Existing Customer,48,F,4,Graduate,Single,Unknown,Blue,40,3,3,2300,1906,4538,71
+745853283,Existing Customer,38,F,1,Graduate,Married,Unknown,Blue,31,3,3,7234,0,5198,75
+779916408,Existing Customer,39,F,4,Graduate,Single,Unknown,Blue,23,1,2,1811,0,4934,70
+765755283,Existing Customer,48,F,2,Graduate,Married,Unknown,Blue,41,1,3,7884,745,4588,74
+773177358,Existing Customer,48,F,3,Graduate,Married,Unknown,Blue,41,1,2,8074,2426,5372,93
+714005508,Existing Customer,45,F,4,Graduate,Married,Unknown,Blue,36,2,2,4146,2027,4323,64
+716354883,Attrited Customer,59,F,0,Graduate,Unknown,Unknown,Blue,49,2,2,9076,0,3048,53
+788327358,Existing Customer,61,M,1,Graduate,Single,Unknown,Blue,54,1,3,9070,2097,8440,102
+714190983,Attrited Customer,51,F,2,Graduate,Single,Unknown,Platinum,32,2,3,34516,531,5418,65
+712990458,Existing Customer,44,F,3,Graduate,Married,Unknown,Silver,34,2,1,31699,1976,13653,113
+811793433,Existing Customer,50,F,3,Graduate,Divorced,Unknown,Silver,45,2,2,34516,2381,15071,103
+766649283,Existing Customer,49,F,3,Graduate,Divorced,Unknown,Blue,42,2,3,14072,1917,13432,107
+715249533,Existing Customer,49,F,3,Graduate,Single,Unknown,Blue,36,3,2,3375,0,13992,103
+819051183,Existing Customer,47,F,4,Graduate,Married,Unknown,Blue,42,4,3,16349,1925,16207,114
+714949758,Existing Customer,51,F,3,Graduate,Single,Unknown,Platinum,42,3,4,34516,1913,16712,123
+789172683,Existing Customer,56,M,2,Doctorate,Married,$60K - $80K,Blue,45,6,0,2283,1430,1741,27
+721074183,Existing Customer,49,M,1,Doctorate,Married,$60K - $80K,Blue,36,4,3,24159,1196,1111,24
+721022433,Existing Customer,44,M,2,Doctorate,Single,$60K - $80K,Blue,36,5,2,7577,2480,1409,35
+779078733,Existing Customer,55,M,2,Doctorate,Married,$60K - $80K,Blue,36,3,3,16427,1682,1579,36
+721333233,Existing Customer,40,M,4,Doctorate,Divorced,$60K - $80K,Blue,34,4,3,23138,1727,1612,39
+716027208,Existing Customer,47,M,4,Doctorate,Married,$60K - $80K,Blue,36,4,1,19665,706,1110,58
+715041333,Existing Customer,39,M,3,Doctorate,Married,$60K - $80K,Blue,29,3,3,3537,2517,1605,43
+780326883,Existing Customer,53,M,2,Doctorate,Married,$60K - $80K,Blue,40,3,3,11262,1435,2165,61
+712373208,Attrited Customer,43,M,3,Doctorate,Single,$60K - $80K,Blue,35,3,2,3312,0,647,19
+778971408,Existing Customer,36,M,4,Doctorate,Married,$60K - $80K,Blue,17,5,4,2803,1848,1968,64
+709426608,Existing Customer,56,M,1,Doctorate,Married,$60K - $80K,Blue,46,5,4,5248,1816,2305,45
+814833408,Existing Customer,56,M,2,Doctorate,Married,$60K - $80K,Blue,51,3,4,6036,1409,1741,45
+808750458,Existing Customer,32,M,1,Doctorate,Single,$60K - $80K,Blue,27,5,3,10029,606,2192,58
+719692983,Existing Customer,36,M,2,Doctorate,Married,$60K - $80K,Blue,30,3,4,4934,1504,2747,42
+769095558,Existing Customer,59,M,1,Doctorate,Single,$60K - $80K,Blue,53,3,2,9055,1560,1755,45
+790102008,Existing Customer,37,M,3,Doctorate,Single,$60K - $80K,Blue,30,6,3,5924,1023,3305,80
+774437583,Existing Customer,55,M,1,Doctorate,Married,$60K - $80K,Blue,49,6,4,4597,2442,1504,38
+778973658,Existing Customer,55,M,0,Doctorate,Married,$60K - $80K,Blue,36,4,4,4980,906,2273,66
+712060158,Existing Customer,35,M,0,Doctorate,Single,$60K - $80K,Blue,18,6,3,2598,1645,2483,59
+716154258,Existing Customer,48,M,4,Doctorate,Unknown,$60K - $80K,Silver,38,3,2,32658,1482,2023,37
+713687508,Existing Customer,59,M,1,Doctorate,Single,$60K - $80K,Blue,49,5,4,9944,1606,3159,69
+780715683,Existing Customer,41,M,3,Doctorate,Single,$60K - $80K,Blue,30,4,3,13602,0,3582,69
+716805408,Existing Customer,52,M,3,Doctorate,Married,$60K - $80K,Blue,40,6,2,5376,804,4511,74
+712751133,Attrited Customer,42,M,3,Doctorate,Single,$60K - $80K,Blue,35,3,3,11328,1369,1829,42
+714532158,Existing Customer,55,M,1,Doctorate,Single,$60K - $80K,Blue,36,3,3,15221,1166,3848,68
+714537258,Existing Customer,48,M,3,Doctorate,Married,$60K - $80K,Blue,36,3,1,8876,1132,3779,78
+793717608,Existing Customer,39,M,0,Doctorate,Single,$60K - $80K,Blue,33,6,0,10452,1120,3592,79
+711175083,Existing Customer,54,M,3,Doctorate,Single,$60K - $80K,Blue,41,4,3,9110,0,2999,75
+806995683,Existing Customer,61,M,0,Doctorate,Single,$60K - $80K,Blue,56,4,3,4783,2517,2870,50
+708705783,Attrited Customer,47,M,3,Doctorate,Married,$60K - $80K,Blue,36,6,1,1584,1214,2628,41
+712967508,Existing Customer,47,M,3,Doctorate,Unknown,$60K - $80K,Blue,36,4,2,2572,1093,5038,86
+720031908,Existing Customer,55,M,2,Doctorate,Married,$60K - $80K,Blue,36,5,1,4370,0,4326,74
+780086658,Attrited Customer,43,M,4,Doctorate,Unknown,$60K - $80K,Blue,28,3,4,18229,0,2060,39
+768167358,Existing Customer,37,M,4,Doctorate,Single,$60K - $80K,Blue,31,6,0,1702,1018,4301,86
+719042208,Existing Customer,43,M,4,Doctorate,Unknown,$60K - $80K,Blue,33,4,4,2067,1250,4565,65
+718471758,Existing Customer,49,M,4,Doctorate,Single,$60K - $80K,Silver,37,5,2,30976,2051,3193,69
+714046608,Existing Customer,49,M,0,Doctorate,Married,$60K - $80K,Blue,39,5,3,19719,1395,3572,73
+712942308,Existing Customer,42,M,3,Doctorate,Single,$60K - $80K,Blue,36,6,3,11535,1527,3730,67
+789487308,Existing Customer,48,M,2,Doctorate,Single,$60K - $80K,Blue,39,3,2,10033,0,4106,78
+721072908,Existing Customer,51,M,0,Doctorate,Single,$60K - $80K,Blue,36,6,3,3232,1346,5102,69
+809844108,Existing Customer,48,M,2,Doctorate,Single,$60K - $80K,Blue,43,2,1,8086,0,4775,78
+721041483,Attrited Customer,45,M,4,Doctorate,Married,$60K - $80K,Blue,37,1,2,13093,2517,2032,39
+719237058,Existing Customer,39,M,2,Doctorate,Single,$60K - $80K,Blue,36,2,1,1790,891,4498,96
+713537733,Existing Customer,46,M,4,Doctorate,Unknown,$60K - $80K,Gold,36,2,3,34516,1426,7582,95
+779349783,Existing Customer,46,M,3,Doctorate,Married,$60K - $80K,Blue,31,2,2,21161,1198,13119,104
+714003483,Existing Customer,37,M,1,Doctorate,Unknown,$60K - $80K,Blue,36,1,1,7539,0,15293,129
+715052583,Existing Customer,45,M,3,Doctorate,Single,$60K - $80K,Silver,34,3,1,27494,879,14375,112
+718665033,Attrited Customer,44,M,5,Doctorate,Single,$60K - $80K,Silver,36,2,4,34140,0,8177,76
+714791208,Existing Customer,47,F,4,Unknown,Divorced,Less than $40K,Blue,41,6,3,3482,2114,1039,24
+718464258,Existing Customer,51,F,3,Unknown,Unknown,Less than $40K,Blue,25,2,2,9512,1082,1007,22
+818942433,Existing Customer,54,F,4,Unknown,Divorced,Less than $40K,Blue,49,6,1,9376,1288,1562,33
+712159083,Attrited Customer,58,F,4,Unknown,Married,Less than $40K,Blue,46,2,3,2536,0,901,35
+718675158,Attrited Customer,55,F,1,Unknown,Married,Less than $40K,Blue,36,4,3,1438.3,361,850,22
+718206783,Existing Customer,45,F,4,Unknown,Single,Less than $40K,Gold,36,6,3,15987,1648,1436,36
+787595658,Existing Customer,57,F,3,Unknown,Single,Less than $40K,Blue,29,6,1,8801,1421,1104,31
+714414483,Existing Customer,54,F,0,Unknown,Married,Less than $40K,Blue,44,6,1,2945,2206,1503,35
+713670333,Existing Customer,60,M,1,Unknown,Single,Less than $40K,Blue,52,5,2,2486,1464,1378,27
+712240083,Attrited Customer,38,F,3,Unknown,Single,Less than $40K,Blue,30,6,2,3730,2517,858,22
+714790008,Existing Customer,38,F,1,Unknown,Single,Less than $40K,Blue,36,3,3,3764,0,1572,57
+812801958,Existing Customer,55,F,1,Unknown,Married,Less than $40K,Blue,50,5,4,3566,1401,2425,54
+716870583,Existing Customer,36,F,3,Unknown,Married,Less than $40K,Blue,36,6,3,2786,1628,2853,55
+713216883,Existing Customer,64,F,0,Unknown,Married,Less than $40K,Blue,55,4,4,3500,1904,2003,41
+712452033,Existing Customer,26,M,1,Unknown,Single,Less than $40K,Blue,13,6,3,2479,828,2225,44
+805261983,Existing Customer,35,F,4,Unknown,Married,Less than $40K,Blue,30,6,4,1626,979,2847,61
+710241858,Existing Customer,39,F,4,Unknown,Married,Less than $40K,Blue,31,6,4,2890,0,2040,36
+715499808,Existing Customer,63,F,0,Unknown,Married,Less than $40K,Blue,36,4,4,3552,2517,1342,26
+779474958,Existing Customer,35,F,3,Unknown,Single,Less than $40K,Blue,17,6,1,2956,1823,2144,58
+754671558,Existing Customer,50,F,3,Unknown,Single,Less than $40K,Blue,43,6,4,2999,1958,2073,48
+721385433,Existing Customer,64,M,0,Unknown,Married,Less than $40K,Blue,51,3,4,2787,1201,1662,39
+772401933,Existing Customer,36,F,1,Unknown,Single,Less than $40K,Blue,26,3,2,2517,0,3569,62
+720016308,Existing Customer,62,F,1,Unknown,Single,Less than $40K,Blue,54,4,2,1927,1319,4199,77
+772277508,Existing Customer,65,F,1,Unknown,Single,Less than $40K,Blue,54,4,2,2209,0,3292,52
+709562358,Existing Customer,55,F,2,Unknown,Single,Less than $40K,Blue,43,6,5,5353,1594,4456,79
+721493883,Existing Customer,49,F,4,Unknown,Single,Less than $40K,Blue,35,5,2,5195,0,3313,69
+710728458,Existing Customer,62,F,1,Unknown,Single,Less than $40K,Blue,36,3,2,7075,1396,4409,75
+712653183,Existing Customer,49,F,4,Unknown,Single,Less than $40K,Blue,36,4,4,1976,1694,3675,81
+714377058,Attrited Customer,63,F,1,Unknown,Single,Less than $40K,Blue,36,3,4,1896,0,2186,50
+712542258,Existing Customer,47,F,5,Unknown,Married,Less than $40K,Blue,40,5,3,2950,2000,4742,79
+772177308,Existing Customer,47,F,2,Unknown,Unknown,Less than $40K,Blue,36,4,2,1738,0,2572,62
+711393483,Existing Customer,49,F,4,Unknown,Divorced,Less than $40K,Blue,36,4,1,2432,0,4340,76
+719314683,Existing Customer,50,F,2,Unknown,Divorced,Less than $40K,Blue,36,3,4,2855,527,3645,69
+789025083,Existing Customer,40,M,4,Unknown,Unknown,Less than $40K,Blue,27,5,0,1438.3,860,4655,82
+717095733,Existing Customer,48,F,4,Unknown,Unknown,Less than $40K,Blue,29,6,4,3212,2517,4284,69
+713905608,Existing Customer,56,F,3,Unknown,Single,Less than $40K,Blue,50,5,2,8869,0,3270,63
+715406658,Attrited Customer,47,F,1,Unknown,Single,Less than $40K,Blue,37,4,1,2173,596,2738,45
+770942283,Existing Customer,46,F,2,Unknown,Single,Less than $40K,Blue,33,4,2,3670,0,4811,68
+716702358,Existing Customer,44,F,2,Unknown,Married,Less than $40K,Blue,33,5,2,2337,698,4048,83
+716739258,Existing Customer,43,F,4,Unknown,Single,Less than $40K,Blue,33,5,4,1438.3,0,3932,62
+720333783,Existing Customer,51,F,2,Unknown,Married,Less than $40K,Blue,33,3,4,4941,786,3822,50
+708681708,Attrited Customer,51,F,2,Unknown,Single,Less than $40K,Blue,43,5,2,3245,0,1977,29
+719325783,Attrited Customer,65,M,2,Unknown,Single,Less than $40K,Blue,36,4,3,2954,2517,1909,28
+715215108,Existing Customer,54,F,2,Unknown,Married,Less than $40K,Blue,46,4,3,2611,1573,4899,68
+709283358,Attrited Customer,43,F,4,Unknown,Married,Less than $40K,Blue,29,6,3,2895,0,2473,42
+803973483,Existing Customer,49,F,3,Unknown,Single,Less than $40K,Blue,44,4,4,1546,0,4496,83
+714614133,Attrited Customer,53,F,3,Unknown,Married,Less than $40K,Blue,36,3,3,2819,0,2128,39
+712242633,Existing Customer,42,F,2,Unknown,Single,Less than $40K,Blue,36,6,4,2677,2517,3911,76
+716251608,Existing Customer,45,F,4,Unknown,Married,Less than $40K,Blue,36,6,4,2051,0,4355,87
+712479633,Attrited Customer,31,F,1,Unknown,Single,Less than $40K,Blue,20,3,2,1695,0,2428,43
+773257233,Existing Customer,46,F,4,Unknown,Single,Less than $40K,Blue,39,4,3,7128,1457,3534,70
+719216508,Existing Customer,55,F,1,Unknown,Unknown,Less than $40K,Blue,36,5,1,3258,2517,4960,77
+715410783,Attrited Customer,55,F,1,Unknown,Single,Less than $40K,Blue,36,5,3,1836,572,2400,34
+708357183,Existing Customer,47,F,3,Unknown,Single,Less than $40K,Blue,38,4,3,1438.3,0,3511,64
+708989358,Existing Customer,37,F,2,Unknown,Married,Less than $40K,Blue,18,3,1,2023,1587,4391,79
+771723408,Attrited Customer,37,F,2,Unknown,Single,Less than $40K,Blue,25,3,4,1690,0,2645,60
+715029333,Existing Customer,52,F,2,Unknown,Divorced,Less than $40K,Blue,36,4,3,2111,0,4459,72
+710343783,Existing Customer,37,F,5,Unknown,Married,Less than $40K,Blue,29,6,2,2140,0,4610,65
+708621408,Existing Customer,39,F,1,Unknown,Single,Less than $40K,Blue,28,3,1,1438.3,0,4173,82
+718285308,Existing Customer,44,F,1,Unknown,Single,Less than $40K,Blue,31,6,1,1438.3,0,3576,55
+804344733,Existing Customer,46,F,3,Unknown,Single,Less than $40K,Blue,41,3,2,1937,916,4303,89
+815320383,Attrited Customer,46,F,3,Unknown,Unknown,Less than $40K,Blue,41,5,2,4710,0,2690,43
+716662683,Existing Customer,55,F,2,Unknown,Single,Less than $40K,Blue,45,6,3,3185,1820,5069,81
+713193408,Existing Customer,59,F,0,Unknown,Single,Less than $40K,Blue,52,3,3,2533,2076,3816,75
+720742083,Attrited Customer,48,F,4,Unknown,Married,Less than $40K,Blue,36,4,3,2740,2425,2431,46
+708244458,Existing Customer,47,F,2,Unknown,Married,Less than $40K,Blue,35,3,2,2793,1517,3485,72
+718702908,Existing Customer,53,F,2,Unknown,Single,Less than $40K,Blue,36,6,1,1543,1041,4312,84
+713891133,Attrited Customer,41,F,2,Unknown,Single,Less than $40K,Blue,36,3,2,1438.3,834,1890,43
+709243533,Existing Customer,49,F,2,Unknown,Single,Less than $40K,Blue,41,5,2,2555,1815,4552,75
+721449408,Existing Customer,40,F,4,Unknown,Single,Less than $40K,Blue,25,6,1,2812,2029,4763,74
+718178583,Existing Customer,42,F,2,Unknown,Married,Less than $40K,Blue,29,3,1,4710,1604,4663,78
+712733958,Attrited Customer,46,F,2,Unknown,Single,Less than $40K,Blue,36,6,3,1731,0,2304,46
+717219933,Attrited Customer,47,F,3,Unknown,Single,Less than $40K,Blue,35,4,6,2402,628,1930,48
+721480158,Attrited Customer,50,F,2,Unknown,Married,Less than $40K,Blue,43,3,2,1438.3,910,2370,44
+712673283,Existing Customer,36,F,4,Unknown,Single,Less than $40K,Blue,26,3,3,1438.3,0,4886,85
+713706258,Existing Customer,52,F,1,Unknown,Single,Less than $40K,Blue,43,6,1,1438.3,773,4890,63
+717211608,Existing Customer,45,F,3,Unknown,Single,Less than $40K,Blue,34,6,2,4975,1221,4776,68
+717125958,Existing Customer,49,F,3,Unknown,Married,Less than $40K,Blue,38,6,1,2652,1581,4747,80
+788835408,Attrited Customer,49,F,3,Unknown,Married,Less than $40K,Blue,33,6,3,2910,0,2648,41
+717878883,Existing Customer,45,F,3,Unknown,Single,Less than $40K,Blue,36,3,0,1438.3,0,4463,71
+711494208,Existing Customer,52,M,2,Unknown,Married,Less than $40K,Blue,36,3,3,2846,1606,5092,86
+713906508,Existing Customer,42,F,3,Unknown,Single,Less than $40K,Blue,36,6,3,2837,834,3892,69
+719373558,Existing Customer,42,F,3,Unknown,Single,Less than $40K,Blue,36,6,1,6275,0,4308,75
+721246833,Existing Customer,47,F,3,Unknown,Unknown,Less than $40K,Blue,36,6,3,1953,1089,4636,70
+789121233,Existing Customer,53,F,2,Unknown,Single,Less than $40K,Blue,41,5,3,2329,2290,4609,76
+711766758,Existing Customer,42,F,4,Unknown,Married,Less than $40K,Blue,30,3,1,1531,987,4373,67
+709432833,Existing Customer,53,F,1,Unknown,Married,Less than $40K,Blue,36,2,3,1472,1196,4859,73
+720823458,Existing Customer,59,F,2,Unknown,Married,Less than $40K,Blue,46,2,2,5218,1907,4658,85
+709810458,Existing Customer,56,F,0,Unknown,Single,Less than $40K,Blue,44,3,0,1579,768,4241,72
+711234783,Attrited Customer,44,F,4,Unknown,Married,Less than $40K,Blue,28,5,3,2020,0,2621,45
+714924483,Existing Customer,60,F,1,Unknown,Single,Less than $40K,Blue,46,2,2,4628,2327,4226,92
+717307158,Existing Customer,48,F,3,Unknown,Single,Less than $40K,Blue,36,2,3,1853,1314,5331,79
+715380483,Existing Customer,54,F,5,Unknown,Single,Less than $40K,Blue,49,2,2,1476,0,4462,75
+799717458,Existing Customer,42,F,3,Unknown,Married,Less than $40K,Blue,36,2,3,2515,1453,4025,74
+712874433,Existing Customer,45,M,3,Unknown,Single,Less than $40K,Blue,36,2,0,2326,642,5413,90
+812218908,Attrited Customer,46,F,2,Unknown,Married,Less than $40K,Blue,36,2,2,4065,2517,2899,51
+717008358,Existing Customer,40,F,1,Unknown,Married,Less than $40K,Blue,36,1,2,6540,0,7919,88
+716045508,Existing Customer,40,F,2,Unknown,Single,Less than $40K,Blue,36,2,3,3569,1054,7963,85
+709871658,Existing Customer,47,F,1,Unknown,Single,Less than $40K,Blue,36,2,3,7136,2345,7729,86
+788618208,Existing Customer,42,F,5,Unknown,Single,Less than $40K,Blue,30,2,3,8325,0,8198,90
+712984983,Existing Customer,43,F,2,Unknown,Married,Less than $40K,Blue,30,1,2,2248,1853,7739,101
+823848183,Existing Customer,39,F,1,Unknown,Single,Less than $40K,Platinum,35,1,3,15987,1494,8438,92
+716260833,Attrited Customer,56,F,5,Unknown,Single,Less than $40K,Blue,36,6,5,4668,2517,8331,63
+716430933,Existing Customer,46,F,4,Unknown,Single,Less than $40K,Blue,36,2,2,3973,0,13740,131
+708573933,Existing Customer,45,F,2,Unknown,Single,Less than $40K,Silver,36,2,3,13026,789,14747,100
+714128283,Existing Customer,49,F,1,Unknown,Married,Less than $40K,Silver,40,2,2,13411,1736,12493,113
+718758783,Existing Customer,44,F,4,Unknown,Single,Less than $40K,Silver,36,2,3,13067,1943,15172,118
+771292233,Existing Customer,48,F,1,Unknown,Single,Less than $40K,Blue,36,1,2,3918,813,15867,103
+756371058,Existing Customer,58,F,1,Unknown,Married,Less than $40K,Blue,40,1,3,3944,1006,15315,124
+721171008,Existing Customer,31,F,1,Unknown,Married,Less than $40K,Silver,36,2,1,10353,1520,15028,124
+815840283,Existing Customer,51,F,2,Unknown,Married,Less than $40K,Blue,46,1,3,7744,1893,16059,124
+719118708,Attrited Customer,49,F,3,Unknown,Single,Less than $40K,Blue,37,2,2,5855,0,9202,80
+771769383,Existing Customer,42,F,3,Unknown,Married,Less than $40K,Blue,31,2,2,2940,0,14792,120
+787621158,Existing Customer,33,M,2,Unknown,Married,$60K - $80K,Blue,25,6,3,6242,491,2187,59
+788485908,Existing Customer,44,M,3,Unknown,Married,$60K - $80K,Blue,37,3,3,6224,0,1463,34
+719999508,Existing Customer,37,M,3,Unknown,Married,$60K - $80K,Blue,24,3,2,11894,816,2438,45
+780078333,Existing Customer,56,M,2,Unknown,Married,$60K - $80K,Blue,41,3,2,5887,659,1193,26
+770764908,Existing Customer,39,M,2,Unknown,Married,$60K - $80K,Blue,25,5,3,3071,2517,1765,36
+716029158,Existing Customer,59,M,0,Unknown,Married,$60K - $80K,Blue,36,6,5,4230,1366,1480,35
+815838633,Existing Customer,34,M,1,Unknown,Married,$60K - $80K,Blue,29,3,3,3890,2286,1889,51
+780686358,Existing Customer,41,M,3,Unknown,Married,$60K - $80K,Blue,30,3,1,2888,1676,3798,58
+716645883,Existing Customer,47,M,2,Unknown,Unknown,$60K - $80K,Blue,36,3,2,13867,0,4297,68
+788159433,Existing Customer,53,M,2,Unknown,Single,$60K - $80K,Blue,45,5,2,22558,818,3855,70
+711220683,Existing Customer,48,M,1,Unknown,Married,$60K - $80K,Blue,36,4,3,11770,1813,3280,70
+714496083,Existing Customer,51,M,3,Unknown,Single,$60K - $80K,Blue,43,4,3,6649,1781,1609,28
+720578058,Existing Customer,53,M,4,Unknown,Single,$60K - $80K,Blue,42,3,4,8386,2375,4101,67
+717825033,Existing Customer,50,M,0,Unknown,Divorced,$60K - $80K,Blue,36,3,2,5444,2499,4509,80
+711646908,Attrited Customer,39,M,3,Unknown,Single,$60K - $80K,Blue,23,1,3,7821,2517,2010,43
+720575058,Existing Customer,47,M,3,Unknown,Single,$60K - $80K,Blue,36,3,1,2589,1693,4259,83
+770268933,Existing Customer,44,M,5,Unknown,Married,$60K - $80K,Silver,38,3,2,33521,928,4115,66
+807426033,Existing Customer,37,M,2,Unknown,Single,$60K - $80K,Blue,32,4,1,2865,1176,3462,61
+816850458,Attrited Customer,33,M,2,Unknown,Married,$60K - $80K,Blue,28,6,4,1698,0,2448,40
+721115733,Existing Customer,47,M,3,Unknown,Married,$60K - $80K,Blue,36,5,2,1591,894,3698,79
+716653758,Existing Customer,55,M,0,Unknown,Single,$60K - $80K,Blue,36,3,3,1467,0,4226,74
+713866308,Existing Customer,45,M,4,Unknown,Single,$60K - $80K,Blue,36,5,1,15100,2004,4135,76
+717915783,Attrited Customer,60,M,0,Unknown,Married,$60K - $80K,Blue,47,5,3,4541,1037,2829,44
+771872733,Existing Customer,38,M,0,Unknown,Married,$60K - $80K,Blue,26,5,1,3809,1521,4666,69
+715932708,Existing Customer,41,M,3,Unknown,Unknown,$60K - $80K,Blue,36,4,1,5813,1614,4365,75
+719123958,Attrited Customer,40,M,4,Unknown,Divorced,$60K - $80K,Blue,27,2,3,5051,0,2137,45
+750995508,Attrited Customer,41,M,3,Unknown,Single,$60K - $80K,Blue,32,1,3,4697,1046,1679,29
+778716783,Existing Customer,50,M,2,Unknown,Married,$60K - $80K,Blue,32,1,1,11552,1970,7180,96
+713236458,Existing Customer,55,M,4,Unknown,Single,$60K - $80K,Blue,48,2,3,18980,2517,8295,113
+708662583,Attrited Customer,41,M,3,Unknown,Married,$60K - $80K,Silver,29,1,4,27945,0,8345,70
+718692258,Existing Customer,43,M,3,Unknown,Married,$60K - $80K,Blue,34,1,1,3755,1591,14402,110
+719701383,Existing Customer,44,M,4,Unknown,Married,$60K - $80K,Blue,32,4,3,5175,0,14304,99
+767348733,Existing Customer,56,M,2,Unknown,Married,$60K - $80K,Blue,49,3,3,4058,793,15865,105
+721148358,Existing Customer,49,F,3,Uneducated,Single,Unknown,Blue,38,6,1,12860,0,1348,27
+710406633,Attrited Customer,51,F,3,Uneducated,Married,Unknown,Blue,36,3,2,3664,0,1168,31
+716375883,Existing Customer,53,F,3,Uneducated,Married,Unknown,Blue,36,6,2,2447,1558,1716,38
+708132783,Existing Customer,47,F,3,Uneducated,Single,Unknown,Blue,42,6,2,16411,1179,3929,71
+709563258,Attrited Customer,50,F,2,Uneducated,Single,Unknown,Blue,41,2,2,2751,2253,2108,40
+717200508,Existing Customer,40,F,4,Uneducated,Single,Unknown,Blue,32,3,3,3056,2038,4734,73
+709166883,Existing Customer,39,F,3,Uneducated,Single,Unknown,Blue,27,6,1,5363,0,4121,78
+709045683,Existing Customer,42,F,3,Uneducated,Married,Unknown,Blue,30,3,1,3549,0,3921,63
+718421808,Existing Customer,56,F,2,Uneducated,Married,Unknown,Blue,43,6,2,3068,1765,4611,73
+815908908,Attrited Customer,47,F,4,Uneducated,Single,Unknown,Blue,42,3,3,6263,2517,2613,50
+712410858,Existing Customer,50,F,4,Uneducated,Married,Unknown,Blue,40,4,3,2315,1336,4143,65
+720205608,Existing Customer,52,F,1,Uneducated,Married,Unknown,Blue,36,6,1,4222,0,4487,77
+718806783,Attrited Customer,46,F,3,Uneducated,Married,Unknown,Blue,36,2,1,2872,357,2629,41
+772271508,Attrited Customer,46,F,3,Uneducated,Single,Unknown,Blue,35,2,3,1706,0,2320,42
+709238358,Existing Customer,51,F,0,Uneducated,Married,Unknown,Blue,39,1,2,19387,810,7604,87
+712981383,Existing Customer,44,F,4,College,Married,Less than $40K,Silver,37,3,2,10790,1930,1052,16
+712024908,Existing Customer,56,F,1,College,Married,Less than $40K,Blue,36,6,3,2641,1257,1439,39
+709103358,Existing Customer,39,F,2,College,Single,Less than $40K,Blue,36,6,3,9476,0,1128,27
+778506633,Attrited Customer,43,F,4,College,Married,Less than $40K,Blue,23,6,3,7706,392,965,27
+779506158,Existing Customer,39,F,1,College,Married,Less than $40K,Blue,22,3,2,3214,2257,2516,42
+788915283,Existing Customer,43,F,2,College,Single,Less than $40K,Blue,29,5,2,2304,1589,1273,36
+720445533,Existing Customer,60,F,1,College,Married,Less than $40K,Blue,53,4,3,3346,922,1276,21
+708445608,Existing Customer,48,M,3,College,Married,Less than $40K,Blue,37,4,3,3305,2517,2027,57
+717843783,Existing Customer,33,F,1,College,Single,Less than $40K,Silver,17,4,2,13431,1583,2338,71
+712470033,Existing Customer,44,F,3,College,Single,Less than $40K,Blue,30,6,3,4539,2053,2960,67
+720921408,Existing Customer,46,F,2,College,Single,Less than $40K,Blue,36,6,4,1996,1544,3760,69
+717740658,Existing Customer,55,F,2,College,Married,Less than $40K,Blue,45,5,4,1850,942,4134,78
+720570333,Existing Customer,48,F,3,College,Married,Less than $40K,Blue,36,5,0,1912,1163,4786,81
+713263758,Existing Customer,53,F,1,College,Single,Less than $40K,Blue,45,3,2,2312,1997,5085,78
+812488608,Existing Customer,44,F,3,College,Unknown,Less than $40K,Blue,39,6,3,5024,2209,4908,73
+770753733,Existing Customer,42,F,5,College,Single,Less than $40K,Blue,28,4,2,3044,1865,4854,85
+715025208,Existing Customer,56,F,2,College,Married,Less than $40K,Blue,46,5,3,3119,1778,4168,63
+714533058,Existing Customer,53,F,3,College,Married,Less than $40K,Blue,43,4,3,1438.3,721,4606,86
+715737258,Existing Customer,41,F,1,College,Married,Less than $40K,Blue,32,6,3,2225,0,4917,84
+718670808,Existing Customer,59,F,0,College,Married,Less than $40K,Blue,51,6,0,1438.3,0,4817,81
+772073508,Attrited Customer,52,F,1,College,Single,Less than $40K,Blue,41,5,6,1764,0,2740,47
+709982658,Existing Customer,41,F,2,College,Married,Less than $40K,Blue,31,4,3,9759,2038,4226,77
+789692283,Existing Customer,47,F,5,College,Single,Less than $40K,Blue,34,4,2,5950,0,4655,66
+716028108,Existing Customer,35,F,2,College,Single,Less than $40K,Blue,18,6,0,2658,0,4667,83
+819351258,Existing Customer,42,F,3,College,Married,Less than $40K,Blue,37,5,2,2238,1693,5339,86
+718570158,Existing Customer,54,F,4,College,Single,Less than $40K,Blue,44,3,2,2901,2517,4731,83
+720357483,Existing Customer,46,F,1,College,Married,Less than $40K,Blue,23,5,1,1723,1010,4112,82
+718941183,Existing Customer,48,F,1,College,Married,Less than $40K,Blue,38,5,2,1832,748,4376,87
+756383283,Existing Customer,38,F,3,College,Married,Less than $40K,Blue,31,3,3,5523,2517,4170,80
+716229108,Existing Customer,55,F,3,College,Divorced,Less than $40K,Blue,46,2,3,3282,2262,4674,84
+771106458,Existing Customer,54,F,4,College,Married,Less than $40K,Blue,41,1,2,2444,1313,4609,61
+716365233,Existing Customer,53,F,1,College,Married,Less than $40K,Blue,36,1,3,1665,964,4881,75
+719953383,Existing Customer,38,F,4,College,Single,Less than $40K,Blue,27,2,3,1438.3,0,4564,79
+812794983,Existing Customer,41,F,3,College,Married,Less than $40K,Blue,31,2,2,4086,1974,7932,87
+711830433,Existing Customer,44,F,3,College,Single,Less than $40K,Blue,32,1,1,7926,1051,7677,87
+719694408,Attrited Customer,30,F,1,College,Single,Less than $40K,Blue,36,4,6,4541,0,7996,80
+708300483,Attrited Customer,66,F,0,Doctorate,Married,Unknown,Blue,56,5,3,7882,605,704,16
+770632758,Existing Customer,50,F,4,Doctorate,Single,Unknown,Blue,36,2,2,2521,1608,1328,33
+710665533,Existing Customer,42,F,5,Doctorate,Married,Unknown,Blue,23,4,2,24602,1660,1337,44
+715042608,Existing Customer,39,F,2,Doctorate,Married,Unknown,Blue,36,5,4,8058,791,2742,42
+718627458,Existing Customer,43,F,3,Doctorate,Married,Unknown,Blue,38,3,2,1947,0,2119,52
+789952158,Existing Customer,34,F,1,Doctorate,Married,Unknown,Blue,25,4,3,2318,2069,2689,57
+716823408,Existing Customer,65,M,0,Doctorate,Single,Unknown,Blue,56,3,2,28410,1608,2278,77
+773364483,Existing Customer,45,F,4,Doctorate,Unknown,Unknown,Silver,39,4,2,34516,1298,1906,39
+715468083,Existing Customer,40,F,2,Doctorate,Married,Unknown,Silver,36,3,4,34516,1686,3146,66
+716497908,Existing Customer,49,F,1,Doctorate,Married,Unknown,Blue,36,3,2,8519,0,3698,65
+715611933,Existing Customer,50,F,4,Doctorate,Married,Unknown,Blue,38,6,2,23692,2402,3632,62
+719929758,Existing Customer,50,F,1,Doctorate,Married,Unknown,Blue,37,6,3,4181,0,3057,54
+780203883,Existing Customer,43,F,3,Doctorate,Divorced,Unknown,Blue,33,6,2,5738,0,4375,73
+807600633,Existing Customer,44,F,2,Doctorate,Divorced,Unknown,Blue,39,6,1,9856,671,5408,83
+712229283,Attrited Customer,48,F,4,Doctorate,Unknown,Unknown,Blue,24,4,3,1438.3,0,2306,46
+779841483,Attrited Customer,55,F,1,Doctorate,Married,Unknown,Blue,39,1,3,12972,1424,2238,36
+817332483,Attrited Customer,63,M,0,Doctorate,Single,Unknown,Blue,47,6,3,7306,0,2445,43
+708402333,Existing Customer,48,F,2,Doctorate,Divorced,Unknown,Blue,37,6,0,4549,1313,4782,88
+710864358,Existing Customer,51,F,2,Doctorate,Married,Unknown,Blue,45,6,2,6501,0,5074,81
+712046808,Attrited Customer,49,F,3,Doctorate,Divorced,Unknown,Blue,42,1,3,3802,1558,2003,43
+719815383,Existing Customer,49,F,4,Doctorate,Married,Unknown,Blue,39,4,1,2333,1414,5137,89
+711540108,Attrited Customer,44,F,4,Doctorate,Unknown,Unknown,Blue,33,5,6,1438.3,0,2316,48
+716218908,Existing Customer,48,F,4,Doctorate,Single,Unknown,Blue,39,6,1,2845,919,2635,43
+715466133,Existing Customer,50,F,1,Doctorate,Married,Unknown,Blue,40,3,1,2492,1410,4374,75
+812671758,Attrited Customer,47,F,5,Doctorate,Married,Unknown,Blue,42,3,3,4345,2176,2458,44
+779034708,Existing Customer,60,F,0,Doctorate,Married,Unknown,Blue,41,1,1,10730,970,4939,71
+711102858,Attrited Customer,48,F,2,Doctorate,Single,Unknown,Blue,36,4,3,3137,860,1618,34
+718825908,Existing Customer,60,F,1,Doctorate,Single,Unknown,Blue,47,1,1,3803,1448,4575,78
+718152333,Attrited Customer,41,F,3,Doctorate,Single,Unknown,Blue,36,2,6,2246,0,3607,51
+824915208,Existing Customer,44,F,3,Doctorate,Married,Unknown,Blue,40,2,1,7212,1008,5169,82
+719368533,Existing Customer,41,F,2,Doctorate,Married,Unknown,Silver,28,1,3,32250,1289,15785,100
+754886958,Existing Customer,48,F,3,College,Divorced,$40K - $60K,Blue,41,4,3,9336,1672,1391,39
+712275108,Existing Customer,53,F,3,College,Married,$40K - $60K,Blue,33,4,3,5146,1618,1955,44
+716144058,Existing Customer,36,F,1,College,Single,$40K - $60K,Blue,25,6,3,1888,0,1886,66
+781923483,Existing Customer,53,F,1,College,Married,$40K - $60K,Blue,47,3,4,2459,1733,2309,62
+778511733,Existing Customer,42,F,3,College,Single,$40K - $60K,Blue,30,6,2,5424,1812,1634,44
+716612958,Existing Customer,35,F,2,College,Married,$40K - $60K,Blue,29,6,3,10980,1726,1830,36
+713574708,Existing Customer,39,M,3,College,Single,$40K - $60K,Blue,28,6,2,1640,1177,3124,66
+709042908,Existing Customer,51,F,1,College,Married,$40K - $60K,Blue,44,4,1,1438.3,0,2207,68
+710524533,Attrited Customer,38,F,4,College,Married,$40K - $60K,Blue,36,4,4,4913,2517,899,28
+716235783,Existing Customer,45,M,3,College,Married,$40K - $60K,Blue,39,3,4,7109,866,4047,75
+801373833,Existing Customer,49,M,4,College,Divorced,$40K - $60K,Blue,43,3,3,1922,710,2920,46
+773457558,Existing Customer,45,F,5,College,Single,$40K - $60K,Silver,39,3,2,15677,1227,3818,81
+711372258,Existing Customer,59,M,1,College,Single,$40K - $60K,Blue,51,4,2,5042,1002,2897,62
+772525308,Existing Customer,43,M,3,College,Single,$40K - $60K,Blue,33,5,4,10533,1689,3651,69
+712178883,Existing Customer,49,F,2,College,Single,$40K - $60K,Blue,36,3,1,6371,1946,3592,79
+820276908,Attrited Customer,42,F,4,College,Married,$40K - $60K,Blue,37,3,1,4139,0,2232,41
+788989083,Existing Customer,57,F,3,College,Single,$40K - $60K,Blue,44,3,2,2817,1864,4535,82
+789345408,Existing Customer,39,F,2,College,Married,$40K - $60K,Blue,29,5,2,1438.3,722,4983,53
+709596783,Existing Customer,46,M,3,College,Married,$40K - $60K,Blue,34,5,2,1611,0,4444,78
+818007783,Existing Customer,49,F,3,College,Married,$40K - $60K,Blue,44,6,3,2578,1590,4683,89
+789479058,Existing Customer,45,F,4,College,Divorced,$40K - $60K,Blue,37,5,3,1438.3,0,4459,66
+717862308,Existing Customer,45,F,2,College,Divorced,$40K - $60K,Blue,27,6,2,2901,2384,3835,78
+719881533,Attrited Customer,46,M,2,College,Married,$40K - $60K,Silver,34,5,4,16547,0,1561,41
+789637308,Attrited Customer,45,F,2,College,Divorced,$40K - $60K,Blue,39,4,4,3076,0,2580,50
+713503983,Existing Customer,55,F,3,College,Married,$40K - $60K,Blue,36,5,3,2240,1231,3623,71
+812653383,Existing Customer,55,F,1,College,Single,$40K - $60K,Blue,50,3,3,1843,1520,4729,92
+783573408,Existing Customer,42,F,4,College,Single,$40K - $60K,Blue,36,3,2,2575,2136,5267,83
+788805858,Existing Customer,49,M,3,College,Divorced,$40K - $60K,Blue,31,2,1,2181,1218,4997,89
+714080433,Existing Customer,40,F,5,College,Married,$40K - $60K,Blue,36,2,2,3144,1787,4758,67
+709065483,Existing Customer,40,F,3,College,Divorced,$40K - $60K,Blue,28,2,3,9243,2019,7841,82
+780349833,Existing Customer,36,M,2,College,Married,$40K - $60K,Gold,23,1,3,23981,0,15236,120
+716264358,Existing Customer,53,M,3,Uneducated,Married,$80K - $120K,Blue,42,2,2,26792,1836,2398,47
+713308683,Existing Customer,52,M,1,Uneducated,Single,$80K - $120K,Blue,37,5,2,2733,1306,1139,39
+711870333,Existing Customer,46,M,2,Uneducated,Divorced,$80K - $120K,Blue,36,6,3,34516,1597,1628,51
+711948333,Existing Customer,42,M,1,Uneducated,Married,$80K - $120K,Blue,36,6,2,9247,710,1190,30
+713490483,Existing Customer,61,M,0,Uneducated,Single,$80K - $120K,Blue,48,6,2,21740,0,1755,54
+779320983,Existing Customer,46,M,4,Uneducated,Single,$80K - $120K,Blue,28,4,2,19843,1178,1638,49
+823535133,Existing Customer,45,M,2,Uneducated,Unknown,$80K - $120K,Blue,41,6,2,23271,1262,1402,34
+771237933,Existing Customer,47,M,1,Uneducated,Unknown,$80K - $120K,Blue,34,4,3,20620,1085,1477,23
+711999783,Existing Customer,41,M,3,Uneducated,Married,$80K - $120K,Blue,31,4,2,4740,1348,1406,23
+772145658,Existing Customer,43,M,4,Uneducated,Single,$80K - $120K,Blue,32,4,3,16043,2036,1394,28
+709579383,Existing Customer,58,M,1,Uneducated,Married,$80K - $120K,Blue,50,5,2,6978,1148,1362,26
+718136283,Existing Customer,52,M,2,Uneducated,Single,$80K - $120K,Blue,36,3,4,22103,1515,1541,29
+789187908,Existing Customer,56,M,2,Uneducated,Married,$80K - $120K,Blue,45,4,2,11102,1946,1448,36
+819610908,Attrited Customer,38,M,2,Uneducated,Single,$80K - $120K,Blue,33,1,4,32938,2089,1137,26
+712933083,Existing Customer,37,M,1,Uneducated,Single,$80K - $120K,Blue,36,6,2,3127,2378,2292,49
+721485708,Existing Customer,58,M,2,Uneducated,Married,$80K - $120K,Blue,46,6,3,9149,1806,1220,36
+714120258,Existing Customer,37,M,2,Uneducated,Divorced,$80K - $120K,Blue,36,3,2,2281,1677,2735,58
+796170933,Existing Customer,57,M,2,Uneducated,Single,$80K - $120K,Blue,51,6,4,30622,0,3600,66
+713766183,Existing Customer,49,M,0,Uneducated,Single,$80K - $120K,Blue,36,5,4,16156,2517,4160,81
+716225433,Existing Customer,60,M,1,Uneducated,Single,$80K - $120K,Blue,51,6,4,26566,2517,3103,65
+802031583,Existing Customer,53,M,2,Uneducated,Single,$80K - $120K,Blue,47,6,1,22855,0,3711,83
+712287333,Existing Customer,39,M,1,Uneducated,Single,$80K - $120K,Blue,30,3,4,34516,2055,4048,74
+709137558,Existing Customer,52,M,0,Uneducated,Unknown,$80K - $120K,Blue,36,6,4,5395,2084,4689,69
+716931183,Existing Customer,45,M,5,Uneducated,Single,$80K - $120K,Blue,38,3,4,7560,788,4296,68
+708848208,Existing Customer,52,M,3,Uneducated,Single,$80K - $120K,Blue,40,6,2,34516,1757,4223,81
+809599158,Attrited Customer,48,M,4,Uneducated,Single,$80K - $120K,Silver,43,2,4,34516,0,1626,28
+789625383,Existing Customer,48,M,3,Uneducated,Married,$80K - $120K,Blue,42,4,3,9727,1626,3543,62
+712271958,Existing Customer,37,M,3,Uneducated,Unknown,$80K - $120K,Blue,36,4,3,9782,1793,3672,75
+711549408,Existing Customer,51,M,3,Uneducated,Married,$80K - $120K,Blue,42,5,3,1507,961,4126,90
+789182358,Existing Customer,56,M,1,Uneducated,Single,$80K - $120K,Blue,45,3,2,17628,1414,3991,76
+717016833,Existing Customer,39,M,4,Uneducated,Married,$80K - $120K,Blue,27,6,2,1438.3,0,4282,69
+778949133,Existing Customer,44,M,1,Uneducated,Married,$80K - $120K,Blue,29,4,3,13298,1694,3476,66
+708969633,Existing Customer,42,M,4,Uneducated,Unknown,$80K - $120K,Blue,36,6,1,2447,2195,4544,80
+714407058,Existing Customer,40,M,3,Uneducated,Divorced,$80K - $120K,Blue,29,3,1,30997,2330,3821,81
+771559158,Existing Customer,58,M,3,Uneducated,Unknown,$80K - $120K,Blue,46,3,3,2375,1163,4769,80
+712845258,Existing Customer,41,M,2,Uneducated,Married,$80K - $120K,Gold,33,5,2,34516,1642,4161,71
+822132858,Attrited Customer,41,M,4,Uneducated,Married,$80K - $120K,Blue,37,1,2,23250,0,2205,43
+711597183,Existing Customer,43,M,2,Uneducated,Divorced,$80K - $120K,Blue,34,5,2,1452,0,4571,72
+769892058,Existing Customer,40,M,3,Uneducated,Single,$80K - $120K,Blue,34,4,2,9124,2126,4564,65
+714075708,Existing Customer,48,M,4,Uneducated,Divorced,$80K - $120K,Gold,38,4,1,34516,1426,4814,71
+717972408,Existing Customer,44,M,2,Uneducated,Married,$80K - $120K,Blue,34,6,3,2558,2016,3792,78
+708559533,Existing Customer,40,M,1,Uneducated,Married,$80K - $120K,Blue,36,6,2,1770,584,4442,83
+816378033,Attrited Customer,46,M,4,Uneducated,Single,$80K - $120K,Gold,41,6,2,34516,1104,1989,47
+710284233,Attrited Customer,33,M,4,Uneducated,Married,$80K - $120K,Blue,36,5,4,1438.3,0,2439,43
+721124658,Attrited Customer,40,M,3,Uneducated,Single,$80K - $120K,Blue,27,4,3,3427,0,2625,63
+718153233,Existing Customer,46,M,3,Uneducated,Married,$80K - $120K,Blue,36,3,2,23512,1562,3764,60
+758367933,Existing Customer,56,M,2,Uneducated,Single,$80K - $120K,Blue,49,5,2,5466,0,4435,79
+721039308,Existing Customer,40,M,4,Uneducated,Single,$80K - $120K,Blue,36,4,2,32431,850,4400,71
+717947508,Existing Customer,47,M,3,Uneducated,Divorced,$80K - $120K,Blue,34,5,3,1626,1013,5262,83
+717722958,Existing Customer,43,M,3,Uneducated,Married,$80K - $120K,Blue,36,1,2,4654,1349,4277,71
+779018508,Existing Customer,45,M,4,Uneducated,Single,$80K - $120K,Blue,35,2,2,11318,2082,7179,93
+711082908,Existing Customer,44,M,4,Uneducated,Single,$80K - $120K,Blue,31,3,3,19719,1303,8385,97
+708968733,Existing Customer,47,M,3,Uneducated,Married,$80K - $120K,Blue,38,1,2,31987,0,7926,83
+714999483,Existing Customer,38,M,4,Uneducated,Unknown,$80K - $120K,Silver,36,2,2,34516,1132,9389,106
+768733533,Existing Customer,53,M,5,Uneducated,Unknown,$80K - $120K,Blue,47,2,2,2340,1612,8851,88
+718756533,Existing Customer,47,M,2,Uneducated,Married,$80K - $120K,Blue,41,1,1,13356,1497,8963,105
+713131158,Attrited Customer,58,M,2,Uneducated,Single,$80K - $120K,Blue,46,1,1,10286,0,8199,59
+716881683,Attrited Customer,45,M,5,Uneducated,Married,$80K - $120K,Blue,34,2,3,3435,2517,5567,51
+720535008,Existing Customer,46,M,4,Uneducated,Single,$80K - $120K,Blue,36,1,3,10492,1094,13764,104
+712895733,Attrited Customer,40,M,4,Uneducated,Single,$80K - $120K,Blue,36,6,2,34516,572,8659,81
+719094333,Existing Customer,46,M,4,Uneducated,Married,$80K - $120K,Blue,33,1,1,13490,1567,13159,105
+712025958,Existing Customer,42,M,4,Uneducated,Married,$80K - $120K,Silver,35,1,3,34516,1420,14672,110
+710535708,Existing Customer,49,M,2,Uneducated,Married,$80K - $120K,Blue,39,2,1,15894,1293,14256,118
+714912408,Existing Customer,45,M,2,Uneducated,Married,$80K - $120K,Blue,37,3,1,32275,1845,14917,88
+794530608,Existing Customer,52,M,2,Uneducated,Single,$80K - $120K,Blue,34,2,3,27229,0,13264,120
+715671183,Attrited Customer,43,M,3,Uneducated,Married,$80K - $120K,Blue,31,6,4,6824,2517,9045,67
+713833233,Existing Customer,49,M,5,Uneducated,Married,$80K - $120K,Silver,30,3,2,34516,1768,15134,124
+738406533,Existing Customer,59,M,1,Doctorate,Married,$40K - $60K,Blue,52,3,2,2548,2020,1719,27
+720336708,Existing Customer,53,M,3,Doctorate,Married,$40K - $60K,Blue,35,5,2,3789,1706,1609,42
+715708308,Existing Customer,54,F,3,Doctorate,Married,$40K - $60K,Blue,39,3,3,2112,1594,1338,29
+780581508,Existing Customer,58,F,1,Doctorate,Single,$40K - $60K,Silver,47,5,4,16677,1590,1410,37
+716362008,Existing Customer,37,M,2,Doctorate,Married,$40K - $60K,Blue,29,3,2,1808,1009,1744,35
+717189183,Existing Customer,35,M,1,Doctorate,Single,$40K - $60K,Blue,24,6,2,10467,1961,2665,65
+802243458,Attrited Customer,48,M,2,Doctorate,Single,$40K - $60K,Blue,42,6,2,2760,0,1759,34
+719267283,Existing Customer,35,F,2,Doctorate,Married,$40K - $60K,Blue,27,6,0,1953,1554,4598,71
+712364283,Existing Customer,54,F,2,Doctorate,Married,$40K - $60K,Blue,43,5,2,2222,1398,3960,79
+708997833,Existing Customer,49,F,4,Doctorate,Single,$40K - $60K,Blue,39,5,1,3255,603,4045,62
+714308283,Existing Customer,41,M,2,Doctorate,Married,$40K - $60K,Blue,32,5,3,6059,1171,4119,70
+794507133,Attrited Customer,37,F,2,Doctorate,Single,$40K - $60K,Blue,18,4,3,1900,0,2880,46
+712569408,Existing Customer,56,F,4,Doctorate,Single,$40K - $60K,Blue,44,4,3,3455,1385,4925,82
+716901858,Existing Customer,49,M,4,Doctorate,Married,$40K - $60K,Blue,39,5,2,1438.3,0,3691,77
+709365483,Existing Customer,45,F,2,Doctorate,Divorced,$40K - $60K,Blue,36,5,3,2788,1826,4437,67
+779577108,Existing Customer,49,F,1,Doctorate,Single,$40K - $60K,Blue,32,3,2,1438.3,0,4052,65
+710725383,Existing Customer,42,M,3,Doctorate,Divorced,$40K - $60K,Blue,36,3,1,2012,0,3282,66
+712593933,Attrited Customer,40,M,3,Doctorate,Married,$40K - $60K,Blue,36,3,4,2313,0,2249,42
+771061008,Attrited Customer,40,F,2,Doctorate,Married,$40K - $60K,Blue,27,4,3,2208,0,2659,56
+708753633,Existing Customer,45,F,3,Doctorate,Married,$40K - $60K,Blue,32,2,1,1438.3,0,4462,77
+816615633,Existing Customer,47,F,2,Doctorate,Married,$40K - $60K,Blue,42,2,1,3256,2035,7075,89
+709210833,Existing Customer,48,F,2,Doctorate,Married,$40K - $60K,Blue,36,1,2,9074,1648,14084,110
+719270358,Existing Customer,57,F,2,Doctorate,Divorced,$40K - $60K,Blue,48,2,2,4288,1678,15505,113
+712350858,Existing Customer,41,M,2,High School,Married,$80K - $120K,Blue,24,4,3,9366,1104,1303,39
+780106908,Existing Customer,53,M,1,High School,Single,$80K - $120K,Blue,38,6,2,8154,996,1379,26
+717648783,Existing Customer,63,M,2,High School,Married,$80K - $120K,Blue,51,4,3,6922,1704,1449,28
+721425558,Existing Customer,52,M,2,Graduate,Single,$120K +,Blue,37,2,2,14543,0,1536,37
+717028158,Existing Customer,53,M,3,Graduate,Married,$120K +,Blue,44,3,3,12163,2082,2649,56
+789198708,Existing Customer,58,M,3,Graduate,Married,$120K +,Blue,47,3,2,27088,0,1135,24
+789893808,Existing Customer,52,M,3,Graduate,Divorced,$120K +,Silver,42,6,3,34516,1230,2100,38
+771246708,Existing Customer,40,M,5,Graduate,Unknown,$120K +,Blue,27,5,3,31954,2297,4371,82
+708890958,Existing Customer,55,M,3,Graduate,Single,$120K +,Blue,42,3,2,31636,2517,4231,68
+715778358,Existing Customer,45,M,5,Graduate,Married,$120K +,Blue,26,6,2,34516,797,3643,59
+716007708,Existing Customer,48,M,2,Graduate,Married,$120K +,Blue,37,3,2,8956,1279,4814,73
+715515333,Existing Customer,51,M,3,Graduate,Married,$120K +,Blue,42,2,3,7932,2140,4024,92
+709615458,Existing Customer,54,M,3,Graduate,Married,$120K +,Blue,44,2,3,34516,862,15034,111
+789398733,Existing Customer,56,M,3,Graduate,Married,$120K +,Blue,46,3,2,5270,779,16179,105
+719819958,Existing Customer,34,M,2,Uneducated,Married,$40K - $60K,Blue,26,5,4,1438.3,708,2243,43
+711040758,Existing Customer,32,M,0,Uneducated,Single,$40K - $60K,Blue,36,4,3,7200,0,3006,83
+713453733,Existing Customer,45,F,2,Uneducated,Single,$40K - $60K,Blue,37,6,3,2529,1654,3428,84
+710842308,Existing Customer,41,F,5,Uneducated,Single,$40K - $60K,Blue,26,4,4,2264,928,4150,83
+714595983,Attrited Customer,49,F,1,Uneducated,Married,$40K - $60K,Blue,41,4,3,1438.3,522,2030,37
+716919633,Existing Customer,58,F,1,Uneducated,Unknown,$40K - $60K,Blue,39,5,1,2406,0,4450,73
+721122258,Existing Customer,38,F,3,Uneducated,Married,$40K - $60K,Blue,36,5,3,5293,1030,4377,62
+711516783,Existing Customer,47,F,4,Uneducated,Married,$40K - $60K,Blue,36,2,1,2155,1119,5441,91
+779509983,Existing Customer,53,M,2,Post-Graduate,Single,$120K +,Blue,36,6,2,34516,931,1022,21
+783561558,Existing Customer,57,M,4,Post-Graduate,Married,$120K +,Blue,51,4,3,16952,0,1918,61
+799000008,Existing Customer,57,M,2,Post-Graduate,Divorced,$120K +,Blue,51,4,1,26437,1472,1244,36
+708856983,Attrited Customer,36,M,3,Post-Graduate,Married,$120K +,Blue,27,2,2,13873,0,694,18
+720132258,Existing Customer,49,M,3,Post-Graduate,Single,$120K +,Silver,36,6,5,34516,1323,3422,78
+711679533,Existing Customer,54,M,2,Post-Graduate,Divorced,$120K +,Blue,43,3,2,5569,968,2600,60
+715165758,Existing Customer,44,M,3,Post-Graduate,Married,$120K +,Blue,35,3,1,27391,587,2862,56
+783625008,Existing Customer,51,M,2,Post-Graduate,Single,$120K +,Blue,45,4,2,22294,0,3444,71
+708155733,Existing Customer,53,M,2,High School,Single,$120K +,Blue,44,4,2,14734,1634,1289,23
+720272958,Attrited Customer,48,M,2,High School,Married,$120K +,Blue,36,3,3,27126,0,1000,25
+715192308,Existing Customer,48,M,2,High School,Married,$120K +,Blue,36,6,2,29963,2094,1205,28
+779713608,Existing Customer,52,M,2,High School,Married,$120K +,Blue,36,5,2,2981,1358,1648,30
+720998358,Existing Customer,52,M,0,High School,Married,$120K +,Silver,41,3,1,34516,1043,1489,38
+716996583,Existing Customer,50,M,3,High School,Divorced,$120K +,Blue,37,3,2,3073,1792,1734,35
+756727233,Existing Customer,49,M,2,High School,Single,$120K +,Blue,42,3,4,21144,1190,4895,66
+815851233,Attrited Customer,52,M,3,High School,Single,$120K +,Blue,47,6,3,19032,0,1726,42
+713056083,Existing Customer,52,M,2,High School,Single,$120K +,Blue,46,4,4,34516,0,4037,87
+768972558,Existing Customer,43,M,5,High School,Married,$120K +,Blue,37,4,4,11099,0,3980,77
+772728933,Attrited Customer,50,M,2,High School,Married,$120K +,Blue,40,6,3,13709,813,2511,40
+793736958,Existing Customer,49,M,3,High School,Single,$120K +,Blue,43,1,1,21680,1587,4410,86
+721212258,Existing Customer,48,M,4,High School,Single,$120K +,Blue,40,2,3,30210,1946,7403,88
+716212383,Attrited Customer,38,M,1,High School,Single,$120K +,Blue,30,5,3,10874,2415,4619,59
+716609433,Attrited Customer,55,M,2,High School,Divorced,$120K +,Blue,46,5,2,16828,2517,4939,63
+709066983,Existing Customer,50,M,4,High School,Married,$120K +,Blue,41,2,2,34516,2353,15214,129
+824160333,Existing Customer,56,M,2,High School,Unknown,$120K +,Blue,52,6,2,23362,1453,15399,116
+717664008,Attrited Customer,37,M,3,College,Married,$60K - $80K,Blue,19,2,4,3100,2517,694,12
+717030633,Existing Customer,46,M,4,College,Single,$60K - $80K,Blue,34,5,4,2369,1405,3034,51
+788838033,Attrited Customer,45,M,2,College,Single,$60K - $80K,Blue,29,3,4,3841,0,2832,48
+715233108,Existing Customer,38,M,1,College,Married,$60K - $80K,Blue,36,4,2,2836,862,4121,83
+757194408,Attrited Customer,43,M,3,College,Married,$60K - $80K,Blue,36,2,3,1438.3,0,1707,38
+712069008,Existing Customer,42,F,4,Uneducated,Married,Less than $40K,Blue,23,4,0,2260,1007,1614,33
+711569433,Existing Customer,51,F,2,Uneducated,Divorced,Less than $40K,Blue,38,4,2,9648,1926,1083,22
+715225458,Existing Customer,56,F,1,Uneducated,Married,Less than $40K,Blue,36,6,4,5991,1993,1867,53
+720462633,Existing Customer,43,F,3,Uneducated,Single,Less than $40K,Blue,29,3,3,4138,643,1827,49
+788971308,Existing Customer,62,F,1,Uneducated,Married,Less than $40K,Blue,49,5,2,2658,1158,1809,41
+716815308,Existing Customer,44,F,2,Uneducated,Married,Less than $40K,Blue,36,4,5,4396,1489,3942,69
+713271708,Existing Customer,46,M,3,Uneducated,Married,Less than $40K,Silver,33,5,2,12685,0,4454,74
+708722583,Existing Customer,39,F,4,Uneducated,Single,Less than $40K,Blue,36,5,1,2609,1656,3024,64
+712263258,Existing Customer,49,F,2,Uneducated,Married,Less than $40K,Blue,38,6,3,2468,0,3371,62
+711116133,Attrited Customer,50,F,1,Uneducated,Single,Less than $40K,Blue,37,3,4,1838,0,2461,47
+720491958,Existing Customer,34,F,3,Uneducated,Single,Less than $40K,Blue,36,4,3,1438.3,0,4302,74
+719671383,Existing Customer,40,F,3,Uneducated,Unknown,Less than $40K,Blue,30,2,2,2969,0,4109,70
+717975333,Existing Customer,50,M,2,Doctorate,Married,$80K - $120K,Blue,38,6,2,25300,1330,837,15
+719309958,Attrited Customer,55,M,3,Doctorate,Single,$80K - $120K,Blue,35,4,3,20865,0,837,25
+756013833,Existing Customer,57,M,3,Doctorate,Married,$80K - $120K,Blue,50,3,3,4522,1861,1806,38
+711048783,Existing Customer,41,M,4,Doctorate,Married,$80K - $120K,Blue,29,3,3,33405,0,1345,34
+716565258,Existing Customer,37,M,3,Doctorate,Single,$80K - $120K,Blue,36,5,4,12830,0,2526,54
+716529258,Existing Customer,42,M,4,Doctorate,Married,$80K - $120K,Blue,27,5,4,31864,0,1591,35
+819202533,Existing Customer,57,M,1,Doctorate,Married,$80K - $120K,Blue,52,3,3,10378,1540,1306,32
+765824058,Existing Customer,46,M,4,Doctorate,Married,$80K - $120K,Blue,39,3,1,5106,1539,3784,74
+773442258,Existing Customer,57,M,1,Doctorate,Married,$80K - $120K,Blue,51,5,2,8571,1616,1397,28
+778381608,Attrited Customer,48,M,4,Doctorate,Single,$80K - $120K,Blue,28,3,4,6572,417,1766,46
+796336833,Existing Customer,51,M,3,Doctorate,Married,$80K - $120K,Blue,45,5,4,32096,0,2619,69
+789338583,Existing Customer,42,M,2,Doctorate,Married,$80K - $120K,Blue,32,4,2,26222,1073,1988,30
+715992558,Existing Customer,52,M,2,Doctorate,Married,$80K - $120K,Blue,38,4,2,12878,1628,1968,59
+718785483,Existing Customer,38,M,1,Doctorate,Single,$80K - $120K,Silver,29,6,3,34516,1435,4238,85
+713532858,Existing Customer,42,M,2,Doctorate,Unknown,$80K - $120K,Blue,36,6,2,4728,1386,4077,70
+715682208,Existing Customer,49,M,3,Doctorate,Married,$80K - $120K,Blue,36,4,4,9549,0,4629,76
+717661908,Existing Customer,37,M,5,Doctorate,Single,$80K - $120K,Silver,36,4,1,34516,0,2681,55
+778180158,Existing Customer,44,M,4,Doctorate,Divorced,$80K - $120K,Blue,34,5,4,7150,1887,3636,69
+714485508,Existing Customer,45,M,3,Doctorate,Single,$80K - $120K,Blue,36,6,4,9086,1254,3906,81
+716989683,Existing Customer,56,M,2,Doctorate,Single,$80K - $120K,Blue,48,4,3,4480,2465,3331,74
+713818158,Existing Customer,50,M,1,Doctorate,Single,$80K - $120K,Blue,41,5,2,5068,991,5173,64
+721525758,Existing Customer,45,M,5,Doctorate,Married,$80K - $120K,Blue,35,2,2,2226,1229,4928,77
+799242033,Existing Customer,45,M,4,Doctorate,Married,$80K - $120K,Blue,39,2,2,1438.3,1162,4598,86
+717565233,Existing Customer,51,M,3,Doctorate,Single,$80K - $120K,Blue,38,2,2,31346,1318,13303,92
+719582058,Attrited Customer,41,M,3,Doctorate,Single,$80K - $120K,Blue,29,2,3,24001,1629,9102,75
+715550508,Existing Customer,45,F,3,Unknown,Married,Unknown,Blue,28,5,2,2535,2440,1312,20
+717916758,Existing Customer,67,F,0,Unknown,Married,Unknown,Blue,56,4,3,10509,2388,1365,34
+791839233,Existing Customer,42,F,4,Unknown,Divorced,Unknown,Blue,36,5,2,17536,1525,1411,28
+710736558,Existing Customer,39,F,2,Unknown,Married,Unknown,Blue,36,4,4,8096,1474,1794,41
+788699808,Existing Customer,38,F,4,Unknown,Single,Unknown,Blue,14,4,2,4394,0,1538,43
+714892533,Existing Customer,26,M,0,Unknown,Single,Unknown,Blue,16,5,2,3877,0,2473,33
+708590658,Existing Customer,65,F,1,Unknown,Married,Unknown,Blue,53,5,2,15965,2312,1619,40
+803124408,Attrited Customer,41,F,3,Unknown,Married,Unknown,Blue,35,2,5,11538,0,1926,53
+712685733,Existing Customer,57,F,3,Unknown,Single,Unknown,Silver,36,6,2,34516,1698,3498,68
+789616158,Existing Customer,33,M,3,Unknown,Divorced,Unknown,Blue,27,6,3,25045,0,3444,52
+712325433,Existing Customer,39,F,2,Unknown,Single,Unknown,Blue,28,6,2,1493,792,4131,80
+708798483,Attrited Customer,37,F,3,Unknown,Single,Unknown,Blue,24,2,2,2054,0,2567,43
+789477483,Existing Customer,40,F,5,Unknown,Single,Unknown,Blue,31,6,1,4433,1488,3847,76
+713163258,Attrited Customer,38,F,2,Unknown,Married,Unknown,Blue,33,4,3,3388,0,1959,52
+720218658,Existing Customer,40,F,1,Unknown,Married,Unknown,Blue,26,2,1,3369,756,4501,96
+717759783,Existing Customer,47,F,4,Unknown,Single,Unknown,Blue,34,1,2,5756,860,5298,72
+767093133,Existing Customer,52,F,2,Unknown,Married,Unknown,Blue,45,2,1,3192,0,4191,80
+713071383,Existing Customer,54,F,1,Unknown,Single,Unknown,Blue,36,1,3,3723,1728,8554,99
+756639708,Existing Customer,46,F,2,Unknown,Married,Unknown,Silver,39,1,2,32587,992,15958,113
+719329983,Existing Customer,42,F,3,Unknown,Unknown,Unknown,Blue,36,6,2,15648,0,13784,88
+802013583,Existing Customer,56,M,3,College,Married,$120K +,Blue,50,3,0,9689,2250,1158,19
+771075258,Existing Customer,55,M,2,College,Single,$120K +,Silver,42,2,2,34516,1527,1268,42
+709470858,Existing Customer,51,M,4,College,Married,$120K +,Silver,31,5,1,34516,1254,1366,25
+809951133,Attrited Customer,54,M,3,College,Single,$120K +,Blue,49,3,3,34516,0,2115,24
+718623783,Existing Customer,56,M,2,College,Married,$120K +,Blue,36,6,2,27157,1547,1535,38
+720812433,Existing Customer,54,M,2,College,Married,$120K +,Blue,46,6,2,28465,0,1693,37
+717837858,Existing Customer,47,M,5,College,Married,$120K +,Blue,34,3,2,17603,1063,2902,64
+719831958,Existing Customer,49,M,3,College,Single,$120K +,Blue,36,5,4,34516,0,1793,44
+720610008,Attrited Customer,59,M,1,College,Married,$120K +,Blue,50,1,4,15796,812,1339,23
+710496708,Existing Customer,41,M,2,College,Single,$120K +,Blue,32,6,2,5489,1513,4085,65
+789307833,Existing Customer,44,M,4,College,Unknown,$120K +,Blue,34,5,3,8874,1590,1849,56
+818294958,Existing Customer,52,M,2,College,Married,$120K +,Blue,47,3,2,27347,719,4040,77
+720075558,Existing Customer,50,M,4,College,Married,$120K +,Blue,36,6,4,7084,0,3838,66
+711831558,Existing Customer,49,M,4,College,Divorced,$120K +,Blue,41,3,1,7184,1207,3244,58
+807369708,Existing Customer,52,M,3,College,Married,$120K +,Blue,47,3,4,6355,0,4009,74
+779885358,Existing Customer,51,M,0,College,Married,$120K +,Silver,35,5,2,34516,2332,4587,82
+801783108,Existing Customer,46,M,3,College,Married,$120K +,Blue,40,6,3,1438.3,0,4833,69
+796544133,Existing Customer,54,M,1,College,Single,$120K +,Blue,48,1,1,2456,1654,4468,84
+820394733,Existing Customer,52,M,0,College,Married,$120K +,Gold,47,2,1,34516,1464,7690,87
+716247708,Existing Customer,51,M,4,College,Single,$120K +,Gold,33,2,2,34516,1848,14149,103
+719430483,Existing Customer,51,M,3,College,Married,$120K +,Blue,40,3,2,34516,1476,14145,119
+708564858,Attrited Customer,33,M,2,College,Married,$120K +,Gold,20,2,4,34516,0,9338,73
+718899708,Existing Customer,55,F,1,College,Married,Unknown,Blue,36,6,2,17642,1846,2148,54
+719293533,Existing Customer,30,M,1,College,Single,Unknown,Blue,13,3,3,21590,2517,2567,70
+713021208,Attrited Customer,55,F,2,College,Single,Unknown,Silver,36,2,3,34516,0,1353,40
+788810658,Existing Customer,37,F,1,College,Single,Unknown,Blue,20,3,5,9466,0,2503,70
+719415858,Existing Customer,29,M,0,College,Divorced,Unknown,Blue,15,6,2,3107,1720,2460,71
+718949433,Existing Customer,42,F,3,College,Single,Unknown,Silver,31,3,2,34516,919,3415,79
+713426358,Existing Customer,28,F,0,College,Married,Unknown,Blue,36,3,3,5685,0,2395,62
+824168808,Existing Customer,31,F,1,College,Divorced,Unknown,Blue,27,4,3,3647,1480,2271,60
+708314808,Existing Customer,53,F,2,College,Married,Unknown,Blue,41,5,3,5659,1393,1570,40
+720452508,Existing Customer,51,F,1,College,Married,Unknown,Blue,37,4,1,11167,0,3848,74
+714000108,Existing Customer,40,F,3,College,Divorced,Unknown,Blue,36,5,4,6772,0,3658,66
+716575758,Attrited Customer,50,F,2,College,Unknown,Unknown,Blue,39,2,2,1438.3,0,1859,41
+817616433,Existing Customer,55,F,2,College,Unknown,Unknown,Blue,41,6,2,7613,0,4268,69
+822961533,Existing Customer,65,F,0,College,Divorced,Unknown,Blue,56,5,3,13666,0,3998,70
+713253858,Attrited Customer,50,F,1,College,Married,Unknown,Blue,37,2,3,1461,0,2176,40
+778224858,Existing Customer,42,F,2,College,Unknown,Unknown,Blue,32,3,4,4035,1003,4589,89
+708442158,Existing Customer,51,F,1,College,Married,Unknown,Blue,38,3,4,6182,1516,3801,61
+709787733,Existing Customer,54,F,4,College,Single,Unknown,Blue,48,3,2,9723,1307,4043,76
+715109508,Existing Customer,44,F,3,College,Married,Unknown,Blue,36,3,4,8729,1427,5347,96
+826266483,Existing Customer,39,F,2,College,Single,Unknown,Blue,35,6,2,10600,598,4586,81
+715297908,Attrited Customer,41,F,4,College,Unknown,Unknown,Blue,22,4,3,1438.3,1125,2534,52
+709505808,Attrited Customer,45,F,3,College,Single,Unknown,Blue,33,5,4,4345,2198,1918,31
+711535158,Attrited Customer,46,F,1,College,Unknown,Unknown,Blue,35,5,3,2197,461,1955,42
+789599283,Existing Customer,44,F,3,College,Divorced,Unknown,Blue,38,5,2,2002,1448,3406,62
+714771708,Existing Customer,36,F,0,College,Unknown,Unknown,Blue,26,5,3,4692,0,4281,69
+788786208,Existing Customer,46,F,2,College,Married,Unknown,Blue,27,6,3,9881,1794,4725,85
+803805483,Existing Customer,46,F,3,College,Married,Unknown,Blue,40,3,3,10600,0,4697,67
+717903108,Existing Customer,57,F,1,College,Single,Unknown,Blue,46,6,1,4283,488,4689,65
+715821183,Existing Customer,42,F,4,College,Married,Unknown,Blue,23,3,2,7102,0,4083,68
+814586958,Existing Customer,43,F,2,College,Divorced,Unknown,Blue,38,4,2,3264,2042,4624,75
+712507758,Existing Customer,36,F,2,College,Unknown,Unknown,Blue,24,6,3,3448,1903,5471,87
+720644883,Existing Customer,53,F,1,College,Married,Unknown,Blue,40,3,1,4941,1867,5104,87
+789179583,Existing Customer,28,F,1,College,Divorced,Unknown,Blue,17,5,2,11881,1488,4865,87
+818901708,Existing Customer,41,F,4,College,Divorced,Unknown,Blue,36,3,1,1438.3,0,4539,90
+713850783,Existing Customer,56,F,1,College,Married,Unknown,Blue,36,6,2,4263,0,4876,70
+749571633,Existing Customer,44,F,2,College,Unknown,Unknown,Blue,37,4,3,5589,1336,4262,75
+721181883,Existing Customer,30,F,0,College,Single,Unknown,Blue,18,4,3,9641,0,4710,75
+710423358,Existing Customer,35,F,1,College,Unknown,Unknown,Blue,29,4,3,1438.3,966,5249,81
+712137033,Existing Customer,52,F,2,College,Married,Unknown,Blue,45,5,2,2737,1719,4725,63
+712613808,Existing Customer,45,F,5,College,Single,Unknown,Blue,32,3,3,5999,658,4283,69
+720482583,Existing Customer,52,F,1,College,Married,Unknown,Blue,43,3,1,10431,2163,4598,69
+718279983,Existing Customer,49,F,1,College,Married,Unknown,Blue,36,1,2,5039,2489,4770,74
+712662783,Attrited Customer,43,F,2,College,Married,Unknown,Blue,36,1,6,3793,2517,2577,57
+771594783,Attrited Customer,56,F,1,College,Married,Unknown,Blue,44,2,4,1438.3,0,2264,37
+708514383,Existing Customer,38,F,2,College,Married,Unknown,Blue,29,2,0,3809,1172,4314,81
+715534083,Existing Customer,46,F,2,College,Single,Unknown,Blue,33,2,1,2168,1334,4043,73
+789507408,Existing Customer,48,F,3,College,Unknown,Unknown,Blue,40,2,1,2337,0,5203,90
+799711833,Existing Customer,50,F,3,College,Married,Unknown,Blue,44,2,3,24735,2296,7910,95
+711736083,Attrited Customer,47,F,4,College,Divorced,Unknown,Blue,36,4,3,6769,274,4885,54
+719768658,Existing Customer,31,F,0,College,Married,Unknown,Silver,24,2,1,34516,2032,14544,104
+718496283,Existing Customer,42,F,1,College,Single,Unknown,Silver,31,6,3,30770,2228,15998,121
+708964683,Existing Customer,48,F,4,College,Unknown,Unknown,Blue,36,3,1,3310,0,14542,89
+710816358,Existing Customer,29,M,1,Post-Graduate,Married,Less than $40K,Blue,18,4,2,2963,1466,2523,48
+779100408,Existing Customer,33,F,1,Post-Graduate,Married,Less than $40K,Blue,15,6,0,1741,1328,2629,61
+769463433,Existing Customer,41,F,2,Post-Graduate,Single,Less than $40K,Blue,35,6,2,8666,0,3593,71
+713267133,Existing Customer,41,F,5,Post-Graduate,Married,Less than $40K,Blue,33,3,2,6519,851,3088,65
+720338658,Existing Customer,56,F,3,Post-Graduate,Single,Less than $40K,Blue,42,3,2,2490,1623,2998,60
+716177583,Existing Customer,58,F,1,Post-Graduate,Single,Less than $40K,Blue,36,6,4,1438.3,0,4722,89
+709627983,Existing Customer,56,F,3,Post-Graduate,Single,Less than $40K,Blue,36,4,0,2535,1699,4497,68
+708222558,Existing Customer,37,F,2,Post-Graduate,Married,Less than $40K,Blue,36,6,3,2310,1513,4191,77
+715725858,Existing Customer,43,F,3,Post-Graduate,Single,Less than $40K,Blue,26,6,2,2256,1346,4893,76
+720064158,Existing Customer,51,F,3,Post-Graduate,Married,Less than $40K,Blue,36,4,3,1438.3,0,4323,70
+713996283,Existing Customer,32,F,2,Post-Graduate,Single,Less than $40K,Blue,36,4,1,2352,2176,5209,93
+715328658,Attrited Customer,41,F,5,Post-Graduate,Married,Less than $40K,Blue,36,5,3,1495,0,2622,70
+794172033,Attrited Customer,58,F,1,Post-Graduate,Divorced,Less than $40K,Blue,52,4,3,1817,0,2347,45
+757643733,Existing Customer,42,F,2,Post-Graduate,Single,Less than $40K,Blue,35,6,2,3223,0,4916,79
+712855683,Existing Customer,50,F,2,Post-Graduate,Married,Less than $40K,Blue,36,1,2,3350,1335,4906,89
+713364783,Existing Customer,42,F,1,Post-Graduate,Single,Less than $40K,Blue,28,3,0,3453,1010,8108,85
+721445658,Existing Customer,52,F,2,Post-Graduate,Single,Less than $40K,Blue,34,3,3,6265,1677,8162,89
+718045008,Attrited Customer,31,M,0,Post-Graduate,Married,Less than $40K,Blue,21,1,2,3768,0,6639,71
+712912233,Existing Customer,50,F,0,Post-Graduate,Divorced,Less than $40K,Blue,36,3,1,3468,2221,14222,122
+772532208,Attrited Customer,51,F,2,Doctorate,Married,Less than $40K,Blue,41,2,3,6630,916,842,24
+804437658,Existing Customer,42,F,3,Doctorate,Married,Less than $40K,Blue,36,4,1,9778,2154,3413,66
+717733158,Existing Customer,43,F,3,Doctorate,Married,Less than $40K,Blue,29,4,3,3186,2517,4197,84
+713949858,Attrited Customer,39,F,2,Doctorate,Married,Less than $40K,Blue,36,4,4,1438.3,886,1674,42
+715893633,Existing Customer,47,F,4,Doctorate,Single,Less than $40K,Blue,36,4,2,2193,1084,4755,81
+710015733,Attrited Customer,41,F,1,Doctorate,Divorced,Less than $40K,Blue,30,3,1,2029,621,3142,37
+712987608,Existing Customer,51,F,2,Doctorate,Single,Less than $40K,Blue,40,3,3,1438.3,1153,4263,84
+817892208,Existing Customer,35,F,2,Doctorate,Single,Less than $40K,Blue,30,5,1,1438.3,0,4006,72
+793842558,Existing Customer,39,F,3,Doctorate,Married,Less than $40K,Blue,33,6,2,2001,1430,4509,69
+817337958,Existing Customer,48,F,5,Doctorate,Married,Less than $40K,Blue,33,2,3,5814,1176,3796,74
+713726958,Attrited Customer,40,F,3,Doctorate,Married,Less than $40K,Blue,21,5,2,1728,0,2191,38
+771752508,Existing Customer,40,F,3,Doctorate,Married,Less than $40K,Blue,29,1,1,4660,1844,8571,84
+780466533,Existing Customer,54,M,3,Doctorate,Married,$120K +,Blue,41,3,0,21592,1676,1873,52
+719459358,Existing Customer,52,M,1,Doctorate,Married,$120K +,Blue,41,4,2,33864,989,1751,48
+717090183,Existing Customer,60,M,1,Doctorate,Married,$120K +,Blue,50,6,2,21697,2144,2117,48
+710722908,Existing Customer,53,M,3,Doctorate,Single,$120K +,Blue,36,3,0,30883,1694,1267,23
+715127208,Existing Customer,48,M,3,Doctorate,Divorced,$120K +,Blue,36,4,2,34516,2517,1699,48
+789079758,Existing Customer,44,M,4,Doctorate,Unknown,$120K +,Blue,32,3,3,34516,1356,1531,48
+780094008,Existing Customer,55,M,3,Doctorate,Married,$120K +,Blue,40,4,1,12875,1119,1624,40
+809984133,Existing Customer,37,M,2,Doctorate,Single,$120K +,Blue,32,3,5,32056,1887,2730,68
+778148283,Existing Customer,48,M,2,Doctorate,Single,$120K +,Blue,41,5,1,20148,1084,3921,74
+714967233,Attrited Customer,52,M,2,Doctorate,Married,$120K +,Blue,34,3,3,11188,0,2109,47
+708849858,Existing Customer,44,M,3,Doctorate,Single,$120K +,Blue,35,4,5,14028,1435,3683,73
+714216033,Existing Customer,51,M,3,Doctorate,Married,$120K +,Blue,42,4,2,11600,738,3488,80
+719816583,Attrited Customer,46,M,3,Doctorate,Married,$120K +,Blue,38,3,2,8989,552,2309,49
+710445183,Existing Customer,44,M,5,Doctorate,Single,$120K +,Blue,31,5,2,7567,2496,4076,60
+780199233,Existing Customer,33,M,2,Doctorate,Single,$120K +,Blue,23,5,1,14914,1102,4478,87
+708710283,Existing Customer,45,M,5,Doctorate,Married,$120K +,Silver,36,6,4,34516,2038,4067,75
+709165533,Existing Customer,47,M,3,Doctorate,Unknown,$120K +,Blue,41,6,2,6143,1151,4330,72
+719556558,Existing Customer,46,M,2,Doctorate,Married,$120K +,Blue,34,6,1,3499,1759,3972,67
+818459733,Attrited Customer,41,M,3,Doctorate,Single,$120K +,Blue,26,3,2,9220,0,2276,32
+808747233,Attrited Customer,50,M,2,Doctorate,Married,$120K +,Silver,45,6,3,34516,0,2573,55
+717502083,Attrited Customer,41,M,3,Doctorate,Single,$120K +,Blue,28,4,3,6314,0,2718,44
+792098883,Existing Customer,37,M,2,Doctorate,Single,$120K +,Blue,31,2,3,2360,1204,3696,82
+708153558,Existing Customer,46,M,5,Doctorate,Divorced,$120K +,Blue,31,1,2,34516,1802,7936,101
+716704158,Existing Customer,50,M,1,Doctorate,Married,$120K +,Blue,39,2,2,34516,2517,8087,86
+709619433,Existing Customer,52,M,2,Doctorate,Married,$120K +,Blue,44,1,2,34516,1382,8604,108
+720086358,Existing Customer,58,M,2,Doctorate,Married,$120K +,Blue,48,2,1,12648,1604,14465,125
+758753283,Attrited Customer,52,M,3,Doctorate,Married,$120K +,Blue,45,1,3,34516,550,7341,71
+809608533,Existing Customer,49,F,4,Post-Graduate,Single,Unknown,Blue,44,6,2,18206,1586,1439,48
+719514783,Existing Customer,39,F,3,Post-Graduate,Unknown,Unknown,Blue,26,6,4,3209,2517,1292,37
+719628033,Existing Customer,33,F,1,Post-Graduate,Married,Unknown,Blue,36,5,3,4134,1130,2475,52
+806894133,Existing Customer,34,F,3,Post-Graduate,Single,Unknown,Blue,29,3,4,1617,1347,2546,55
+807275733,Existing Customer,27,M,0,Post-Graduate,Single,Unknown,Blue,22,5,2,7130,873,2498,37
+713745783,Existing Customer,29,F,0,Post-Graduate,Single,Unknown,Gold,36,4,4,34516,1452,2336,49
+721027083,Existing Customer,47,F,4,Post-Graduate,Single,Unknown,Blue,36,6,0,3054,1862,3543,87
+714931458,Existing Customer,52,F,2,Post-Graduate,Single,Unknown,Blue,42,3,3,1438.3,0,4102,78
+712450008,Attrited Customer,50,F,2,Post-Graduate,Married,Unknown,Blue,36,5,4,4045,0,2438,41
+714427608,Existing Customer,45,F,5,Post-Graduate,Married,Unknown,Blue,29,5,1,2555,681,4888,78
+716023533,Existing Customer,49,F,1,Post-Graduate,Single,Unknown,Blue,39,6,2,2880,1996,4334,81
+717094758,Existing Customer,40,F,4,Post-Graduate,Married,Unknown,Blue,29,5,1,8823,0,4453,84
+711363258,Existing Customer,49,F,1,Post-Graduate,Married,Unknown,Blue,39,6,1,4821,0,4680,77
+818699208,Attrited Customer,47,F,4,Post-Graduate,Married,Unknown,Blue,42,4,4,6451,0,2400,43
+717405408,Existing Customer,31,F,0,Post-Graduate,Single,Unknown,Blue,18,3,0,3934,1911,4143,82
+708128733,Existing Customer,50,F,3,Post-Graduate,Single,Unknown,Blue,36,5,3,1814,0,5014,99
+720563958,Existing Customer,48,F,3,Post-Graduate,Married,Unknown,Blue,38,6,3,4025,0,4445,92
+822127008,Existing Customer,50,F,1,Post-Graduate,Married,Unknown,Blue,46,2,1,19349,615,4351,79
+720033033,Existing Customer,53,F,2,Post-Graduate,Single,Unknown,Blue,41,2,3,15101,1396,13545,96
+709315383,Existing Customer,31,F,0,Post-Graduate,Single,Unknown,Blue,36,3,1,26423,0,13575,108
+711663858,Existing Customer,28,M,1,Post-Graduate,Single,Unknown,Blue,13,4,3,20030,1204,15862,127
+711551958,Attrited Customer,59,M,2,Post-Graduate,Married,$60K - $80K,Blue,46,3,3,1438.3,0,844,24
+720248208,Existing Customer,47,M,3,Post-Graduate,Divorced,$60K - $80K,Blue,37,6,0,5731,1577,1554,26
+757266933,Existing Customer,52,M,2,Post-Graduate,Married,$60K - $80K,Blue,45,4,4,11819,929,2431,46
+799498158,Existing Customer,31,M,1,Post-Graduate,Married,$60K - $80K,Blue,22,5,3,2685,1580,1642,36
+713983308,Existing Customer,60,M,0,Post-Graduate,Married,$60K - $80K,Blue,49,5,4,3182,1928,1233,35
+719320833,Existing Customer,39,M,2,Post-Graduate,Married,$60K - $80K,Blue,36,6,2,5471,2056,1992,46
+772669833,Existing Customer,43,M,3,Post-Graduate,Single,$60K - $80K,Blue,33,4,2,16037,0,3048,70
+770778108,Existing Customer,49,M,4,Post-Graduate,Married,$60K - $80K,Blue,35,4,3,2527,1419,3585,68
+819363708,Existing Customer,43,M,1,Post-Graduate,Single,$60K - $80K,Blue,38,4,3,2387,1482,3909,67
+709127808,Existing Customer,48,M,3,Post-Graduate,Divorced,$60K - $80K,Blue,35,5,1,6243,1331,3502,57
+779363283,Existing Customer,48,M,3,Post-Graduate,Single,$60K - $80K,Blue,34,4,2,12391,784,4376,86
+713334483,Attrited Customer,46,M,1,Post-Graduate,Single,$60K - $80K,Blue,32,5,3,8766,0,2263,35
+716570958,Attrited Customer,50,M,3,Post-Graduate,Divorced,$60K - $80K,Blue,36,3,3,14409,511,2351,39
+709621008,Existing Customer,48,M,5,Post-Graduate,Single,$60K - $80K,Blue,30,6,2,5826,1482,4135,76
+713953383,Attrited Customer,50,M,1,Post-Graduate,Single,$60K - $80K,Blue,36,4,2,2317,0,2214,41
+720518283,Existing Customer,50,M,2,Post-Graduate,Single,$60K - $80K,Blue,36,1,2,2296,1371,5483,77
+720962208,Attrited Customer,42,M,2,Post-Graduate,Married,$60K - $80K,Blue,27,2,2,2476,2250,4659,48
+719714658,Attrited Customer,61,M,0,Post-Graduate,Single,$60K - $80K,Blue,43,5,2,12218,0,5272,62
+708873183,Existing Customer,47,M,2,Post-Graduate,Single,$60K - $80K,Blue,39,1,2,17575,618,15473,128
+716987358,Attrited Customer,29,M,0,Post-Graduate,Divorced,$60K - $80K,Blue,15,2,3,8022,0,5660,59
+715311183,Existing Customer,35,M,2,Post-Graduate,Single,$60K - $80K,Blue,24,2,1,3388,1659,13557,100
+789237333,Existing Customer,47,M,4,Post-Graduate,Divorced,$60K - $80K,Blue,36,4,5,20237,1593,15041,102
+778867533,Attrited Customer,59,F,0,Post-Graduate,Married,$40K - $60K,Blue,40,1,1,1438.3,0,689,23
+712459233,Existing Customer,59,F,1,Post-Graduate,Married,$40K - $60K,Blue,46,5,3,1944,1346,1960,57
+716829483,Existing Customer,39,F,3,Post-Graduate,Married,$40K - $60K,Blue,28,4,2,3249,2217,1988,36
+785114808,Existing Customer,46,M,2,Post-Graduate,Single,$40K - $60K,Silver,40,4,2,15459,0,1419,30
+719863758,Existing Customer,49,F,3,Post-Graduate,Married,$40K - $60K,Blue,41,6,2,1869,758,1549,34
+720484908,Existing Customer,65,F,1,Post-Graduate,Married,$40K - $60K,Blue,52,5,3,2155,0,1655,27
+716198358,Existing Customer,33,F,4,Post-Graduate,Married,$40K - $60K,Blue,36,4,3,2372,1887,1852,55
+715511658,Existing Customer,49,F,5,Post-Graduate,Unknown,$40K - $60K,Blue,39,3,4,4568,0,1431,27
+770769483,Existing Customer,35,M,2,Post-Graduate,Married,$40K - $60K,Blue,21,3,3,2256,775,1749,33
+755953308,Existing Customer,62,F,0,Post-Graduate,Married,$40K - $60K,Blue,55,6,4,2644,2207,1194,30
+716757033,Existing Customer,37,M,4,Post-Graduate,Married,$40K - $60K,Blue,27,5,4,6859,1766,3045,56
+751450008,Existing Customer,41,M,1,Post-Graduate,Single,$40K - $60K,Blue,32,3,4,10266,1390,1720,42
+717138558,Existing Customer,28,M,0,Post-Graduate,Married,$40K - $60K,Blue,16,5,3,3665,0,1813,31
+720706008,Existing Customer,30,M,2,Post-Graduate,Single,$40K - $60K,Blue,16,5,5,4533,1977,2679,69
+789597408,Existing Customer,39,F,1,Post-Graduate,Single,$40K - $60K,Silver,32,5,3,17814,0,4712,76
+721268133,Existing Customer,44,M,3,Post-Graduate,Married,$40K - $60K,Blue,36,5,2,11366,2109,3495,70
+720753183,Existing Customer,48,M,2,Post-Graduate,Married,$40K - $60K,Blue,36,4,2,9617,2035,4247,76
+719301258,Existing Customer,61,M,0,Post-Graduate,Single,$40K - $60K,Silver,42,4,2,15939,0,3982,68
+787532808,Existing Customer,41,M,4,Post-Graduate,Married,$40K - $60K,Silver,30,6,3,16386,2236,3293,66
+711423558,Existing Customer,60,F,1,Post-Graduate,Single,$40K - $60K,Blue,50,4,2,4606,0,4181,63
+710863308,Existing Customer,48,M,4,Post-Graduate,Married,$40K - $60K,Blue,29,6,2,2916,1074,4020,84
+721276383,Existing Customer,47,F,2,Post-Graduate,Divorced,$40K - $60K,Blue,33,6,3,5624,1216,3843,66
+717575958,Attrited Customer,50,F,1,Post-Graduate,Married,$40K - $60K,Blue,41,6,3,1694,479,2349,42
+715954158,Attrited Customer,48,M,3,Post-Graduate,Married,$40K - $60K,Blue,36,3,4,2954,931,2433,29
+715315008,Existing Customer,40,M,4,Post-Graduate,Single,$40K - $60K,Blue,30,6,2,4640,1555,3870,70
+713394858,Existing Customer,48,M,2,Post-Graduate,Married,$40K - $60K,Blue,34,4,2,4776,0,4581,60
+708499608,Existing Customer,49,M,5,Post-Graduate,Single,$40K - $60K,Silver,36,6,2,15525,1299,4042,78
+714667608,Existing Customer,47,M,5,Post-Graduate,Married,$40K - $60K,Blue,36,4,2,6043,0,4256,78
+711428733,Existing Customer,50,F,3,Post-Graduate,Divorced,$40K - $60K,Blue,39,3,2,3028,1339,4144,64
+715784808,Existing Customer,57,F,4,Post-Graduate,Single,$40K - $60K,Blue,48,4,1,2576,1678,3913,86
+769883733,Attrited Customer,46,M,3,Post-Graduate,Single,$40K - $60K,Blue,40,3,2,2344,0,2098,31
+803197833,Existing Customer,49,F,1,Post-Graduate,Divorced,$40K - $60K,Blue,44,6,2,2597,1871,3637,69
+787558683,Existing Customer,45,F,4,Post-Graduate,Single,$40K - $60K,Blue,35,3,2,1850,621,4234,74
+721317333,Existing Customer,40,F,4,Post-Graduate,Single,$40K - $60K,Blue,31,4,1,2383,1828,4759,75
+713709258,Existing Customer,43,M,3,Post-Graduate,Single,$40K - $60K,Blue,32,3,2,2142,1369,4424,88
+809127858,Existing Customer,51,F,1,Post-Graduate,Single,$40K - $60K,Blue,46,4,3,2275,1219,4807,72
+772415808,Existing Customer,48,F,5,Post-Graduate,Married,$40K - $60K,Blue,38,3,1,2926,716,4219,78
+789347133,Existing Customer,38,F,2,Post-Graduate,Married,$40K - $60K,Blue,28,2,1,4468,2395,4690,79
+716315508,Attrited Customer,37,F,3,Post-Graduate,Married,$40K - $60K,Blue,36,2,5,3233,2517,1339,32
+823149483,Existing Customer,52,F,1,Post-Graduate,Single,$40K - $60K,Blue,48,1,3,1766,0,4643,76
+711333933,Existing Customer,56,F,3,Post-Graduate,Single,$40K - $60K,Blue,36,2,1,3005,1660,4586,72
+794540883,Existing Customer,56,F,1,Post-Graduate,Married,$40K - $60K,Blue,38,1,1,3485,1465,4776,87
+711856683,Existing Customer,51,M,3,Post-Graduate,Married,$40K - $60K,Blue,36,2,3,1590,1273,7352,80
+709893858,Attrited Customer,43,M,3,Post-Graduate,Married,$40K - $60K,Blue,36,6,2,9422,2108,4633,58
+779315508,Attrited Customer,43,M,4,Post-Graduate,Single,$40K - $60K,Blue,25,1,2,9043,1974,4638,48
+711559008,Existing Customer,40,F,4,Post-Graduate,Single,$40K - $60K,Blue,28,2,2,11642,1501,9137,92
+710192283,Existing Customer,46,M,4,Post-Graduate,Married,$40K - $60K,Blue,36,1,2,2219,1180,8686,91
+712833633,Existing Customer,41,M,2,Post-Graduate,Married,$40K - $60K,Blue,36,2,3,10688,653,13866,98
+712532058,Existing Customer,44,M,3,Post-Graduate,Married,$40K - $60K,Blue,36,1,2,12552,1405,15508,95
+793456983,Existing Customer,43,M,0,Post-Graduate,Single,$40K - $60K,Blue,37,1,3,7872,989,13746,104
+713398158,Existing Customer,45,M,3,Post-Graduate,Married,$40K - $60K,Blue,30,2,2,3821,1673,15005,89
+769667583,Attrited Customer,34,M,3,Post-Graduate,Single,$40K - $60K,Blue,28,2,2,3744,0,8202,69
+717214158,Existing Customer,41,M,4,Post-Graduate,Married,$40K - $60K,Blue,28,5,3,9815,0,15475,94
+789937683,Existing Customer,37,M,3,Post-Graduate,Married,$40K - $60K,Blue,28,4,2,3645,701,15559,120
+714684108,Attrited Customer,31,M,1,Post-Graduate,Single,$40K - $60K,Blue,24,4,4,4169,534,8565,70
+718621608,Attrited Customer,54,F,2,High School,Married,Unknown,Blue,44,3,1,6094,0,909,14
+710572458,Existing Customer,36,F,3,High School,Married,Unknown,Blue,24,4,1,15439,0,2069,43
+802002858,Attrited Customer,62,F,1,High School,Married,Unknown,Blue,56,2,2,8990,0,747,19
+709854483,Existing Customer,35,F,1,High School,Married,Unknown,Blue,17,5,3,4588,2517,2442,62
+714278958,Existing Customer,39,F,2,High School,Married,Unknown,Blue,27,6,3,9347,1988,2201,46
+788784258,Existing Customer,60,M,2,High School,Married,Unknown,Blue,41,5,4,3007,1664,1475,31
+717914808,Existing Customer,65,M,1,High School,Single,Unknown,Blue,36,4,5,4465,703,4044,66
+711334983,Attrited Customer,41,F,3,High School,Married,Unknown,Blue,32,1,4,26229,0,2077,46
+808743558,Existing Customer,42,F,3,High School,Married,Unknown,Blue,37,3,3,4540,2517,4804,66
+710962308,Existing Customer,57,F,4,High School,Single,Unknown,Blue,36,3,3,4396,834,4826,88
+797410983,Existing Customer,45,F,3,High School,Married,Unknown,Blue,39,1,2,1438.3,745,5020,83
+771630783,Existing Customer,42,F,3,High School,Married,Unknown,Blue,30,1,2,1821,935,4786,87
+770762133,Existing Customer,52,F,3,High School,Married,Unknown,Blue,38,2,2,3505,2517,5034,79
+712884408,Existing Customer,43,F,1,High School,Single,Unknown,Blue,30,3,0,5700,1904,7939,95
+719595708,Existing Customer,53,F,2,High School,Married,Unknown,Blue,47,3,1,7469,1294,15212,124
