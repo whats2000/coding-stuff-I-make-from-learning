@@ -33,9 +33,7 @@ void main() {
     shortestpath(v, cost, distance, n, found);
 }
 
-int last_path_to[MAX_ERXTICES] = {0};
-
-void print_path_to_v(int v) {
+void print_path_to_v(int v, int last_path_to[]) {
     // 如果沒有變更路徑代表到達起點，終止遞迴
     if (last_path_to[v] == -1) {
         printf("4");
@@ -44,7 +42,7 @@ void print_path_to_v(int v) {
 
     // 否，則輸出當前位置，並找尋當前位值的前個最後變更位置
     printf("%d <- ", last_path_to[v]);
-    print_path_to_v(last_path_to[v]);
+    print_path_to_v(last_path_to[v], last_path_to);
 }
 
 void shortestpath(int v,
@@ -65,6 +63,8 @@ void shortestpath(int v,
     Hint: Using For-loop to set the array.
     Finish your code below.
     ---------------------------------------------------*/
+    int last_path_to[MAX_ERXTICES] = {0};
+
     for (int i = 0; i < n; i++) {
         last_path_to[i] = -1;
     }
@@ -97,7 +97,7 @@ void shortestpath(int v,
     // 輸出起時點並遞迴前面變更位置，最後輸出花費
     for (int i = 0; i < n; i++) {
         printf("%d <- ", i);
-        print_path_to_v(i);
+        print_path_to_v(i, last_path_to);
         printf(" %d\n", distance[i]);
     }
 }
